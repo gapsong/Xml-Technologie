@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="stylesheet.css"?>
+
 <!-- das ist ein Kommentar -->
 <!DOCTYPE gedicht SYSTEM "file:/Users/Longsuperman/Desktop/XML%20Praktikum/gedicht.dtd">
 <gedicht>
@@ -10,7 +12,7 @@
     <strophe xml:id="erste-strophe">
         <zeile>bla bla</zeile>
         <zeile>blbslbls blsabl</zeile>
-        
+
     </strophe>
     <strophe xml:id="zweite-strophe">
         <zeile> </zeile>
