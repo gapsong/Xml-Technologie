@@ -1,0 +1,20 @@
+gedicht {
+    background-color: lightblue;
+}
+
+kopf {
+    color: white;
+    text-align: center;
+}
+
+titel {
+    font-family: verdana;
+    font-size: 20px;
+}
+
+strophe {
+    width: 300px;
+    border: 25px solid white;
+    padding: 25px;
+    margin: 25px;
+}

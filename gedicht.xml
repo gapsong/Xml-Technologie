@@ -2,19 +2,23 @@
 <?xml-stylesheet type="text/css" href="stylesheet.css"?>
 
 <!-- das ist ein Kommentar -->
-<!DOCTYPE gedicht SYSTEM "file:/Users/Longsuperman/Desktop/XML%20Praktikum/gedicht.dtd">
-<gedicht>
-    <kopf>
-        <titel>Als ich die Universität bezog</titel>
-        <autor>Rainer Maria Rilke</autor>
-        <jahr>1895</jahr>
-    </kopf>
-    <strophe xml:id="erste-strophe">
-        <zeile>bla bla</zeile>
-        <zeile>blbslbls blsabl</zeile>
 
-    </strophe>
-    <strophe xml:id="zweite-strophe">
-        <zeile> </zeile>
-    </strophe>
-</gedicht>
+<!DOCTYPE gedichtsammlung SYSTEM "file:/Users/Longsuperman/Desktop/XML%20Praktikum/gedicht.dtd">
+<gedichtsammlung>
+    <gedicht>
+        <kopf>
+            <titel>Als ich die Universität bezog</titel>
+            <autor>Rainer Maria Rilke</autor>
+            <jahr>1895</jahr>
+        </kopf>
+        <strophe xml:id="erste-strophe">
+            <zeile>bla bla</zeile>
+            <zeile>blbslbls blsabl</zeile>
+
+        </strophe>
+        <strophe xml:id="zweite-strophe">
+            <zeile> </zeile>
+        </strophe>
+    </gedicht>
+</gedichtsammlung>
+>>>>>>> 7db8fbdcf9f499493de53c4843ac2b16ad27a3b4
