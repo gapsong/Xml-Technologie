@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT gedicht (kopf, strophe+ ) >
+<!ELEMENT kopf (titel , autor, jahr ) >
+<!ELEMENT strophe (zeile+) >
+<!ATTLIST strophe xml:id ID #IMPLIED >
+<!ELEMENT titel (#PCDATA) >
+<!ELEMENT autor (#PCDATA) >
+<!ELEMENT jahr (#PCDATA) >
+<!ELEMENT zeile (#PCDATA) >
