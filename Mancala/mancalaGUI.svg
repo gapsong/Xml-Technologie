@@ -22,67 +22,66 @@
             </feMerge>
         </filter>
         <!-- Store -->
-        <ellipse id="store" rx="5.5%" ry="29%" stroke-width="5" />
+        <ellipse id="store" rx="6%" ry="29%" stroke-width="3" />
         <!-- House player 1 -->
-        <circle id="house-p1" cy="17.5%" r="7%" stroke="orange" stroke-width="5" fill="lightyellow" style="filter:url(#glow)" />
+        <rect id="house-p1" rx="20" ry="20" y="10.5%" height="18%" width="9%" stroke="orange" stroke-width="3" fill="white" style="filter:url(#glow)" />
         <!-- House player 2 -->
-        <circle id="house-p2" cy="52.5%" r="7%" stroke="blue" stroke-width="5" fill="lightblue" />
+        <rect id="house-p2" rx="20" ry="20" y="45.5%" height="18%" width="9%" stroke="blue" stroke-width="3" fill="white" />
         <!-- Button -->
-        <rect id="button" y="32%" rx="20" ry="20" width="15%" height="6%" stroke="green" stroke-width="5" fill="lightgreen" />
+        <rect id="button" y="85%" rx="20" ry="20" width="15%" height="6%" stroke="green" stroke-width="5" fill="green"  />
     </defs>
 
-    <!--Wood texture -->
-    <defs>
-        <pattern id="pattern1" height="100%" width="100%" patternContentUnits="objectBoundingBox">
-            <image height="1" width="1" preserveAspectRatio="none" xlink:href="https://static1.squarespace.com/static/5006e72724ac70f8fbc68c5e/t/55db539fe4b021265feca69f/1440437156435/" />
-        </pattern>
-    </defs>
     
     <!-- Background -->
     <svg>
-        <rect rx="20" ry="20" width="100%" height="70%" fill="url(#pattern1)" stroke="black" stroke-width="3" fill-opacity="1"/>
+        <rect rx="20" ry="20" x="2%" width="96%" height="75%" fill="lightblue" stroke="grey" stroke-width="3" fill-opacity="1"/>
     </svg>
     <svg>
-        <text x="50%" y="37%" font-size="50" fill="green" text-anchor="middle" >MANCALA</text>
+        <text x="50%" y="39.5%" font-size="50" font-family="monospace" fill="black" text-anchor="middle" >Player 1's turn</text>
     </svg>
     <g>
         <use id="btn-newgame" xlink:href="#button" x="22.5%" />
-        <text x="30%" y="36%" font-size="25" fill="darkgreen" text-anchor="middle" >NEW GAME</text>
+        <text x="30%" y="89.25%" font-size="25" font-family="monospace" fill="white" text-anchor="middle" >NEW GAME</text>
     </g>
     <g>
         <use id="btn-help" xlink:href="#button" x="62.5%" />
-        <text x="70%" y="36%" font-size="25" fill="darkgreen" text-anchor="middle" >HELP</text>
+        <text x="70%" y="89.25%" font-size="25" font-family="monospace" fill="white" text-anchor="middle" >RULE</text>
     </g>
     
     <!-- Stores -->
-    <use id="store-p1" xlink:href="#store" x="7%" y="35%" stroke="orange" fill="lightyellow" style="filter:url(#glow)" />
-    <use id="store-p2" xlink:href="#store" x="93%" y="35%" stroke="blue" fill="lightblue" />
+    <use id="store-p1" xlink:href="#store" x="9%" y="37%" stroke="orange" fill="white" style="filter:url(#glow)" />
+    <use id="store-p2" xlink:href="#store" x="91%" y="37%" stroke="blue" fill="white" />
     
     <!-- Houses -->
-    <use id="house-p1-1" xlink:href="#house-p1" x="18.75%" />
-    <use id="house-p1-2" xlink:href="#house-p1" x="31.25%" />
-    <use id="house-p1-3" xlink:href="#house-p1" x="43.75%" />
-    <use id="house-p1-4" xlink:href="#house-p1" x="56.25%" />
-    <use id="house-p1-5" xlink:href="#house-p1" x="68.75%" />
-    <use id="house-p1-6" xlink:href="#house-p1" x="81.25%" />
+    <use id="house-p1-1" xlink:href="#house-p1" x="15.5%" />
+    <use id="house-p1-2" xlink:href="#house-p1" x="27.5%" />
+    <use id="house-p1-3" xlink:href="#house-p1" x="39.5%" />
+    <use id="house-p1-4" xlink:href="#house-p1" x="51.5%" />
+    <use id="house-p1-5" xlink:href="#house-p1" x="63.5%" />
+    <use id="house-p1-6" xlink:href="#house-p1" x="75.5%" />
     
-    <use id="house-p2-1" xlink:href="#house-p2" x="18.75%" />
-    <use id="house-p2-2" xlink:href="#house-p2" x="31.25%" />
-    <use id="house-p2-3" xlink:href="#house-p2" x="43.75%" />
-    <use id="house-p2-4" xlink:href="#house-p2" x="56.25%" />
-    <use id="house-p2-5" xlink:href="#house-p2" x="68.75%" />
-    <use id="house-p2-6" xlink:href="#house-p2" x="81.25%" />
+    <use id="house-p2-1" xlink:href="#house-p2" x="15.5%" />
+    <use id="house-p2-2" xlink:href="#house-p2" x="27.5%" />
+    <use id="house-p2-3" xlink:href="#house-p2" x="39.5%" />
+    <use id="house-p2-4" xlink:href="#house-p2" x="51.5%" />
+    <use id="house-p2-5" xlink:href="#house-p2" x="63.5%" />
+    <use id="house-p2-6" xlink:href="#house-p2" x="75.5%" />
     
     <!-- Example seeds -->
     <!-- Number of seeds in stores represented as numbers -->
     <svg id="store-p1-score">
-        <text x="7%" y="36%" font-size="50" fill="black" text-anchor="middle" >16</text>
+        <text x="9%" y="40%" font-size="60" font-family="monospace" fill="orange" text-anchor="middle" >16</text>
     </svg>
     <svg id="store-p2-score">
-        <text x="93%" y="36%" font-size="50" fill="black" text-anchor="middle" >0</text>
+        <text x="91%" y="40%" font-size="60" font-family="monospace" fill="blue" text-anchor="middle" >0</text>
     </svg>
     <!-- Number of seeds in houses represented as black dots -->
     <svg id="seed">
-        <circle cx="18.75%" cy="17.5%" r="1%" fill="black" />
+        <circle cx="17%" cy="26%" r="0.7%" fill="black" />
+        <circle cx="19%" cy="26%" r="0.7%" fill="black" />
+        <circle cx="21%" cy="26%" r="0.7%" fill="black" />
+        <circle cx="23%" cy="26%" r="0.7%" fill="black" />
+        <circle cx="17%" cy="23%" r="0.7%" fill="black" />
+        
     </svg>
 </svg>
