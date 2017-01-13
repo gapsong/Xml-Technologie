@@ -2,7 +2,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg xmlns="http://www.w3.org/2000/svg"
     xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="100%" height="100%">
+    width="100%" height="100%" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet">
     
     <title>Kalah Mancala</title>
     <desc>The GUI playground for the Kalah Mancala game</desc>
@@ -22,13 +22,13 @@
             </feMerge>
         </filter>
         <!-- Store -->
-        <ellipse id="store" rx="6%" ry="29%" stroke-width="3" />
+        <ellipse id="store" rx="6%" ry="29%" stroke-width="0.3%" />
         <!-- House player 1 -->
-        <rect id="house-p1" rx="20" ry="20" y="10.5%" height="18%" width="9%" stroke="orange" stroke-width="3" fill="white" style="filter:url(#glow)" />
+        <rect id="house-p1" rx="20" ry="20" y="10.5%" height="18%" width="9%" stroke="orange" stroke-width="0.3%" fill="white" style="filter:url(#glow)" />
         <!-- House player 2 -->
-        <rect id="house-p2" rx="20" ry="20" y="45.5%" height="18%" width="9%" stroke="blue" stroke-width="3" fill="white" />
+        <rect id="house-p2" rx="20" ry="20" y="45.5%" height="18%" width="9%" stroke="blue" stroke-width="0.3%" fill="white" />
         <!-- Button -->
-        <rect id="button" y="85%" rx="20" ry="20" width="15%" height="6%" stroke="green" stroke-width="5" fill="green"  />
+        <rect id="button" y="85%" rx="20" ry="20" width="15%" height="6%" stroke="green" stroke-width="0.3%" fill="green"  />
     </defs>
 
     
@@ -37,7 +37,7 @@
         <rect rx="20" ry="20" x="2%" width="96%" height="75%" fill="lightblue" stroke="grey" stroke-width="3" fill-opacity="1"/>
     </svg>
     <svg>
-        <text x="50%" y="39.5%" font-size="50" font-family="monospace" fill="black" text-anchor="middle" >Player 1's turn</text>
+        <text x="50%" y="39.5%" font-size="50" font-family="monospace" fill="orange" text-anchor="middle" >Player 1's turn</text>
     </svg>
     <g>
         <use id="btn-newgame" xlink:href="#button" x="22.5%" />
