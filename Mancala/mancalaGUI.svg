@@ -4,8 +4,7 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     width="100%" height="100%" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet">
     
-    <title>Kalah Mancala</title>
-    <desc>The GUI playground for the Kalah Mancala game</desc>
+    <title>Mancala</title>
     
     <defs>
         <!-- Red glow, that marks the players turn -->
@@ -23,55 +22,64 @@
         </filter>
         <!-- Store -->
         <ellipse id="store" rx="6%" ry="29%" stroke-width="0.3%" />
-        <!-- House player 1 -->
-        <rect id="house-p1" rx="20" ry="20" y="10.5%" height="18%" width="9%" stroke="orange" stroke-width="0.3%" fill="white" style="filter:url(#glow)" />
-        <!-- House player 2 -->
-        <rect id="house-p2" rx="20" ry="20" y="45.5%" height="18%" width="9%" stroke="blue" stroke-width="0.3%" fill="white" />
+        <!-- Hole of player 1 -->
+        <rect id="hole-p1" rx="20" ry="20" y="10.5%" height="18%" width="9%" stroke="orange" stroke-width="0.3%" fill="white" style="filter:url(#glow)" />
+        <!-- Hole of player 2-->
+        <rect id="hole-p2" rx="20" ry="20" y="45.5%" height="18%" width="9%" stroke="blue" stroke-width="0.3%" fill="white" />
         <!-- Button -->
         <rect id="button" y="85%" rx="20" ry="20" width="15%" height="6%" stroke="green" stroke-width="0.3%" fill="green"  />
     </defs>
 
     
-    <!-- Background -->
+    <!-- The board -->
     <svg>
         <rect rx="20" ry="20" x="2%" width="96%" height="75%" fill="lightblue" stroke="grey" stroke-width="3" fill-opacity="1"/>
     </svg>
+    
+    <!-- shows which player is on turn or which player won -->
     <svg>
         <text x="50%" y="39.5%" font-size="50" font-family="monospace" fill="orange" text-anchor="middle" >Player 1's turn</text>
     </svg>
+    
+    <!-- New game button -->
     <g>
         <use id="btn-newgame" xlink:href="#button" x="22.5%" />
         <text x="30%" y="89.25%" font-size="25" font-family="monospace" fill="white" text-anchor="middle" >NEW GAME</text>
     </g>
+
+    <!-- shows the rule of the Mancala game -->
     <g>
         <use id="btn-help" xlink:href="#button" x="62.5%" />
         <text x="70%" y="89.25%" font-size="25" font-family="monospace" fill="white" text-anchor="middle" >RULE</text>
     </g>
     
-    <!-- Stores -->
+    <!-- Store of player 1 -->
     <use id="store-p1" xlink:href="#store" x="9%" y="37%" stroke="orange" fill="white" style="filter:url(#glow)" />
+     <!-- Store of player 2 -->
     <use id="store-p2" xlink:href="#store" x="91%" y="37%" stroke="blue" fill="white" />
     
-    <!-- Houses -->
-    <use id="house-p1-1" xlink:href="#house-p1" x="15.5%" />
-    <use id="house-p1-2" xlink:href="#house-p1" x="27.5%" />
-    <use id="house-p1-3" xlink:href="#house-p1" x="39.5%" />
-    <use id="house-p1-4" xlink:href="#house-p1" x="51.5%" />
-    <use id="house-p1-5" xlink:href="#house-p1" x="63.5%" />
-    <use id="house-p1-6" xlink:href="#house-p1" x="75.5%" />
-    
-    <use id="house-p2-1" xlink:href="#house-p2" x="15.5%" />
-    <use id="house-p2-2" xlink:href="#house-p2" x="27.5%" />
-    <use id="house-p2-3" xlink:href="#house-p2" x="39.5%" />
-    <use id="house-p2-4" xlink:href="#house-p2" x="51.5%" />
-    <use id="house-p2-5" xlink:href="#house-p2" x="63.5%" />
-    <use id="house-p2-6" xlink:href="#house-p2" x="75.5%" />
+    <!-- Holes of Player 1-->
+    <use id="hole-p1-1" xlink:href="#hole-p1" x="15.5%" />
+    <use id="hole-p1-2" xlink:href="#hole-p1" x="27.5%" />
+    <use id="hole-p1-3" xlink:href="#hole-p1" x="39.5%" />
+    <use id="hole-p1-4" xlink:href="#hole-p1" x="51.5%" />
+    <use id="hole-p1-5" xlink:href="#hole-p1" x="63.5%" />
+    <use id="hole-p1-6" xlink:href="#hole-p1" x="75.5%" />
+    <!-- Holes of Player 2-->
+    <use id="hole-p2-1" xlink:href="#hole-p2" x="15.5%" />
+    <use id="hole-p2-2" xlink:href="#hole-p2" x="27.5%" />
+    <use id="hole-p2-3" xlink:href="#hole-p2" x="39.5%" />
+    <use id="hole-p2-4" xlink:href="#hole-p2" x="51.5%" />
+    <use id="hole-p2-5" xlink:href="#hole-p2" x="63.5%" />
+    <use id="hole-p2-6" xlink:href="#hole-p2" x="75.5%" />
     
     <!-- Example seeds -->
     <!-- Number of seeds in stores represented as numbers -->
+    <!-- Score of player 1 -->
     <svg id="store-p1-score">
         <text x="9%" y="40%" font-size="60" font-family="monospace" fill="orange" text-anchor="middle" >16</text>
     </svg>
+    <!-- Score of player 2 -->
     <svg id="store-p2-score">
         <text x="91%" y="40%" font-size="60" font-family="monospace" fill="blue" text-anchor="middle" >0</text>
     </svg>
