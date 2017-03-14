@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="xml_stylesheet.css"?>
+<!DOCTYPE gameslibrary SYSTEM "gamelibrary.dtd">
+<!-- Ralf Baun, Georg Bonczek,Ivan Chimeno, Ferdinand Gruber -->
+<gameslibrary>
+    <boardgame id="0">
+        <title>Monopoly</title>
+        <isbn>3010005699984</isbn>
+        <publisher>Parker</publisher>
+        <players min="2" max="8"/>
+        <age>8</age>
+        <duration>120</duration>
+    </boardgame>
+
+    <boardgame id="1">
+        <title>Tikal</title>
+        <isbn>4005556261710</isbn>
+        <publisher>Ravensburger</publisher>
+        <players min="2" max="4"/>
+        <age>10</age>
+        <duration>120</duration>
+    </boardgame>
+    <videogame id="2">
+        <title>Warcraft: Orcs and Humans</title>
+        <publisher>Blizzard</publisher>
+        <players min="1" max="6"/>
+        <age>12</age>
+        <platforms>
+            <platform isbn="5030917069437">Windows</platform>
+        </platforms>
+    </videogame>	
+    <videogame id="3">
+        <title>Wolfenstein</title>
+        <publisher>id Software</publisher>
+        <players min="1" max="1"/>
+        <age>18</age>
+        <platforms>
+            <platform isbn="5030917069437">Windows</platform>
+            <platform>Playstation 3</platform>
+            <platform>Xbox 360</platform>
+        </platforms>
+    </videogame>
+    <videogame id="4">
+        <title>Halo 3</title>
+        <publisher>Microsoft Game Studios</publisher>
+        <players min="1" max="16"/>
+        <age>18</age>
+        <platforms>
+            <platform isbn="0761560726">Xbox 360</platform>
+        </platforms>
+    </videogame>
+    <videogame id="5">
+        <title>Fight Night Round 3</title>
+        <publisher>Electronic Arts</publisher>
+        <players min="1" max="3"/>
+        <age>16</age>
+        <platforms>
+            <platform>Playstation 2</platform>
+            <platform>Playstation 3</platform>
+            <platform>Xbox</platform>
+            <platform>Xbox 360</platform>
+            <platform>Playstation Portable</platform>
+        </platforms>
+    </videogame>
+   <videogame id="6">
+        <title>Age of Empires</title>
+        <publisher>Microsoft Studios</publisher>
+        <players min="1" max="8"/>
+        <age>6</age>
+        <platforms>
+            <platform isbn="5030917123456">Windows</platform>
+        </platforms>
+    </videogame>
+   <videogame id="7">
+        <title>Anno 1602</title>
+        <publisher>BlueBytes</publisher>
+        <players min="1" max="4"/>
+        <age>6</age>
+        <platforms>
+            <platform isbn="5030917615243">Windows</platform>
+        </platforms>
+    </videogame>
+   <videogame id="8">
+        <title>Anno 1403</title>
+        <publisher>Bluebytes</publisher>
+        <players min="1" max="4"/>
+        <age>6</age>
+        <platforms>
+            <platform isbn="1234917069437">Windows</platform>
+        </platforms>
+    </videogame>
+   <videogame id="9">
+        <title>Dragon Age</title>
+        <publisher>Bioshock</publisher>
+        <players min="1" max="1"/>
+        <age>18</age>
+        <platforms>
+            <platform isbn="5030912369489">Windows</platform>
+        </platforms>
+    </videogame>
+   <videogame id="10">
+        <title>Advance Wars</title>
+        <publisher>Nintendo</publisher>
+        <players min="1" max="4"/>
+        <age>6</age>
+        <platforms>
+            <platform isbn="5030917069437">GameBoy Advance</platform>
+        </platforms>
+    </videogame>
+   <videogame id="11">
+        <title>World of Warcraft</title>
+        <publisher>Blizzard</publisher>
+        <players min="1" max="9999"/>
+        <age>12</age>
+        <platforms>
+            <platform isbn="5030834945783">Windows</platform>
+        </platforms>
+    </videogame>
+    <boardgame id="12">
+        <title>Das Schwarze Auge</title>
+        <isbn>5030913971437</isbn>
+        <publisher>Ulisses Spiele</publisher>
+        <players min="3" max="8"/>
+        <age>12</age>
+        <duration>420</duration>
+    </boardgame>
+    <boardgame id="13">
+        <title>World of Warcraft: Allicance Player Book</title>
+        <isbn>5030845934859</isbn>
+        <publisher>Swordgames</publisher>
+        <players min="3" max="8"/>
+        <age>12</age>
+        <duration>420</duration>
+    </boardgame>
+    <boardgame id="14">
+        <title>World of Warcraft: Corebook Second Edition</title>
+        <isbn>3210845498127</isbn>
+        <publisher>Swordgames</publisher>
+        <players min="3" max="8"/>
+        <age>12</age>
+        <duration>420</duration>
+    </boardgame>
+	<videogame id="15">
+        <title>Mass Effect</title>
+        <publisher>Bioware</publisher>
+        <players min="1" max="1"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="5030834896512">Windows</platform>
+	    <platform>Playstation 3</platform>
+            <platform>Xbox 360</platform>
+        </platforms>
+    </videogame>
+	<videogame id="16">
+        <title>Mass Effect 2</title>
+        <publisher>Bioware</publisher>
+        <players min="1" max="1"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="5030834865678">Windows</platform>
+	    <platform>Playstation 3</platform>
+            <platform>Xbox 360</platform>
+        </platforms>
+    </videogame>
+	<videogame id="17">
+        <title>Mass Effect 3</title>
+        <publisher>Bioware</publisher>
+        <players min="1" max="4"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="5030834865645">Windows</platform>
+	    <platform>Playstation 3</platform>
+            <platform>Xbox 360</platform>
+        </platforms>
+    </videogame>
+	<videogame id="18">
+        <title>Dragon Age: Inquisition</title>
+        <publisher>Bioware</publisher>
+        <players min="1" max="4"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="1320834867654">Windows</platform>
+        </platforms>
+    </videogame>
+	<videogame id="19">
+        <title>SuddenStrike</title>
+        <publisher>Fireglow</publisher>
+        <players min="1" max="4"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="5030123455645">Windows</platform>
+        </platforms>
+    </videogame>
+	<videogame id="20">
+        <title>SuddenStrike: Forever</title>
+        <publisher>Fireglow</publisher>
+        <players min="1" max="4"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="5030123453456">Windows</platform>
+        </platforms>
+    </videogame>
+	<videogame id="21">
+        <title>SuddenStrike: Resource War</title>
+        <publisher>Fireglow</publisher>
+        <players min="1" max="4"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="5030123476890">Windows</platform>
+        </platforms>
+    </videogame>
+	<videogame id="22">
+        <title>SuddenStrike II</title>
+        <publisher>Fireglow</publisher>
+        <players min="1" max="4"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="5030123478963">Windows</platform>
+        </platforms>
+    </videogame>
+    <videogame id="23">
+        <title>Company of Heroes</title>
+        <publisher>Relic</publisher>
+        <players min="1" max="8"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="5030123123781">Windows</platform>
+        </platforms>
+    </videogame>
+	<videogame id="24">
+        <title>Company of Heroes: OF</title>
+        <publisher>Relic</publisher>
+        <players min="1" max="8"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="5030123123782">Windows</platform>
+        </platforms>
+    </videogame>
+	<boardgame id="25">
+        <title>World of Warcraft: Monopoly</title>
+        <isbn>3450845409876</isbn>
+        <publisher>Parker</publisher>
+        <players min="2" max="8"/>
+        <age>0</age>
+        <duration>120</duration>
+    </boardgame>
+	<boardgame id="26">
+        <title>Das verrückte Labyrinth</title>
+        <isbn>3210845445896</isbn>
+        <publisher>Ravensburger</publisher>
+        <players min="2" max="4"/>
+        <age>0</age>
+        <duration>30</duration>
+    </boardgame>
+	<videogame id="27">
+        <title>GTA II</title>
+        <publisher>Rockstar North</publisher>
+        <players min="1" max="1"/>
+        <age>18</age>
+        <platforms>
+            <platform isbn="5030123987654">Windows</platform>
+        </platforms>
+    </videogame>
+	<videogame id="28">
+        <title>GTA: San Andreas</title>
+        <publisher>Rockstar</publisher>
+        <players min="1" max="1"/>
+        <age>18</age>
+        <platforms>
+            <platform isbn="7890123145678">Windows</platform>
+        </platforms>
+    </videogame>
+	<videogame id="29">
+        <title>Hearthstone</title>
+        <publisher>Blizzard</publisher>
+        <players min="2" max="2"/>
+        <age>0</age>
+        <platforms>
+            <platform isbn="5030123145671">Windows</platform>
+	    <platform>Android</platform>
+	    <platform>iOS</platform>
+        </platforms>
+    </videogame>
+    <videogame id="30">
+        <title>Diablo 3</title>
+        <publisher>Blizzard</publisher>
+        <players min="1" max="1"/>
+        <age>16</age>
+        <platforms>
+            <platform isbn="7896123145678">Windows</platform>
+            <platform>Playstation 3</platform>
+            <platform>Xbox 360</platform>
+        </platforms>
+    </videogame>
+</gameslibrary>

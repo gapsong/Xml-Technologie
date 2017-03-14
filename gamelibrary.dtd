@@ -1,0 +1,20 @@
+<!-- Ralf Baun, Georg Bonczek,Ivan Chimeno, Ferdinand Gruber -->
+
+<!ELEMENT gameslibrary (boardgame|videogame)*>
+        <!ELEMENT boardgame (title,isbn?,publisher?,players?,age?,duration?)>
+        <!ELEMENT videogame (title,publisher?,players?,age?,platforms?)>
+
+        <!ELEMENT title (#PCDATA)>
+        <!ELEMENT isbn (#PCDATA)>
+        <!ELEMENT publisher (#PCDATA)>
+        <!ELEMENT age (#PCDATA)>
+        <!ELEMENT players (#PCDATA)>
+        <!ELEMENT platforms (platform)*>
+        <!ELEMENT platform (#PCDATA)>
+        <!ELEMENT duration (#PCDATA)>
+
+        <!ATTLIST boardgame id CDATA "">
+        <!ATTLIST videogame id CDATA "">
+        <!ATTLIST platform isbn CDATA "">
+        <!ATTLIST players min CDATA #REQUIRED max CDATA #REQUIRED>
+

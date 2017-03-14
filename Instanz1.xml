@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="xml_stylesheet.css"?>
+<!DOCTYPE gameslibrary SYSTEM "gamelibrary.dtd">
+<!-- Ralf Baun, Georg Bonczek,Ivan Chimeno, Ferdinand Gruber -->
+<gameslibrary>
+    <boardgame id="0">
+        <title>Monopoly</title>
+        <isbn>3010005699984</isbn>
+        <publisher>Parker</publisher>
+        <players min="2" max="8"/>
+        <age>8</age>
+        <duration>120</duration>
+    </boardgame>
+
+    <boardgame id="1">
+        <title>Tikal</title>
+        <isbn>4005556261710</isbn>
+        <publisher>Ravensburger</publisher>
+        <players min="2" max="4"/>
+        <age>10</age>
+        <duration>120</duration>
+    </boardgame>
+
+    <videogame id="3">
+        <title>Wolfenstein</title>
+        <publisher>id Software</publisher>
+        <players min="1" max="1"/>
+        <age>18</age>
+        <platforms>
+            <platform isbn="5030917069437">Windows</platform>
+            <platform>Playstation 3</platform>
+            <platform>Xbox 360</platform>
+        </platforms>
+    </videogame>
+
+    <videogame id="4">
+        <title>Halo 3</title>
+        <publisher>Microsoft Game Studios</publisher>
+        <players min="1" max="16"/>
+        <age>18</age>
+        <platforms>
+            <platform isbn="0761560726">Xbox 360</platform>
+        </platforms>
+    </videogame>
+
+    <videogame id="5">
+        <title>Fight Night Round 3</title>
+        <publisher>Electronic Arts</publisher>
+        <players min="1" max="3"/>
+        <age>16</age>
+        <platforms>
+            <platform>Playstation 2</platform>
+            <platform>Playstation 3</platform>
+            <platform>Xbox</platform>
+            <platform>Xbox 360</platform>
+            <platform>Playstation Portable</platform>
+        </platforms>
+    </videogame>
+</gameslibrary>
