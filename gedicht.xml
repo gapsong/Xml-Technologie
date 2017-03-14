@@ -14,10 +14,9 @@
         <strophe xml:id="erste-strophe">
             <zeile>bla bla</zeile>
             <zeile>blbslbls blsabl</zeile>
-
         </strophe>
         <strophe xml:id="zweite-strophe">
-            <zeile> </zeile>
+            <zeile>asdasdasdsa </zeile>
         </strophe>
     </gedicht>
 </gedichtsammlung>

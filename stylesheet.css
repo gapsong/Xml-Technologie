@@ -1,5 +1,6 @@
-gedicht {
+gedichtsammlung {
     background-color: lightblue;
+    width: 500px;
 }
 
 kopf {
@@ -13,8 +14,10 @@ titel {
 }
 
 strophe {
-    width: 300px;
-    border: 25px solid white;
-    padding: 25px;
-    margin: 25px;
+    border: 2px solid green;
+}
+
+zeile {
+    padding: 10px;
+    margin: 30px;
 }
