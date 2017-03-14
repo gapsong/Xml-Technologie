@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE spielfeld SYSTEM "spielzustand.dtd">
+
+<spielfeld>
+    <spiel>
+        <gewonnen>nein</gewonnen>
+        <istAmZug>spieler1</istAmZug>
+    </spiel>
+    
+    <mulde  besitzer="1" id="1">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    <mulde  besitzer="1" id="2">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    <mulde  besitzer="1" id="3">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    <mulde  besitzer="1" id="4">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    <mulde  besitzer="1" id="5">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    <mulde  besitzer="1" id="6">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    
+    <mulde  besitzer="2" id="1">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    <mulde  besitzer="2" id="2">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    <mulde  besitzer="2" id="3">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    <mulde  besitzer="2" id="4">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    <mulde  besitzer="2" id="5">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    <mulde  besitzer="2" id="6">
+        <anzahlSteine> 4 </anzahlSteine>    
+    </mulde>
+    
+    <haus besitzer="1">
+        <anzahlSteineimHaus> 0 </anzahlSteineimHaus>
+    </haus>
+    
+    <haus besitzer="2">
+        <anzahlSteineimHaus> 0 </anzahlSteineimHaus>
+    </haus>
+</spielfeld>
