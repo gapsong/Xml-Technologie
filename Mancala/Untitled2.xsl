@@ -18,7 +18,7 @@
             width="100%" height="100%" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid meet">
                        
             <svg>
-                <text x="50%" y="50%" font-size="50" font-family="monospace" fill="orange" text-anchor="middle" > dasdad</text>
+                <text x="50%" y="50%" font-size="50" font-family="monospace" fill="orange" text-anchor="middle" > <xsl:value-of select="spielfeld/mulde/@besitzer"/> </text>
             </svg>
             
            
