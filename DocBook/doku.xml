@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://docbook.org/xml/5.0/rng/docbook.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<book xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink" version="5.0">
+    <info>
+        <title>XML DTD - Mancala Projekt Dokumentation</title>
+        <author>
+            <personname>Ton That, Khiem</personname>
+        </author>
+        <author>
+            <personname>Trinh, Phi Long</personname>
+        </author>
+        <author>
+            <personname>Tran Trung, An</personname>
+        </author>
+        <author>
+            <personname>Goldberg, Viktor</personname>
+        </author>
+    </info>
+    <chapter>
+        <title>Einleitung</title>
+        <sect1>
+            <title>Motivation</title>
+            <para>Servus</para>
+        </sect1>
+        <sect1>
+            <title>Vorbereitung</title>
+            <para></para>
+        </sect1>        
+    </chapter>
+    <chapter>
+        <title>Design und Architektur</title>
+        <sect1>
+            <title>Mancala Spielregeln</title>
+            <para>Mancala ist ein antikes Brettspiel, welches in verschiedenen Varianten gespielt
+                wird. In dieser Implementierung wird das Augenmerk auf das sogenannte zweistufige
+                Mancala - besser bekannt als "Kalah" - gelegt.</para>
+            <sect2>
+                <title>Mulden und Häuser</title>
+                <para>Die Mulden eines jeweiligen Spielers befinden sich unten bzw. auf der rechten Seite. Das Haus des Nutzers ist das große Element auf der rechten Seite bzw. in der oberen Ecke. </para>
+            </sect2>
+            <sect2>
+                <title>Aussähung der Steine</title>
+                <para>Der Spieler wählt eine seiner Mulden aus, aus der die Steine ausgesäht werden
+                    sollen. Die Aussähung findet gegen den Uhrzeigersinn statt, wobei in jede Mulde
+                    ein Stein gelegt wird, bis alle Steine ausgesäht sind. </para>
+            </sect2>
+            <sect2>
+                <title>Das Haus</title>
+                <para>Wird bei der Aussähung das eigene Haus passiert, so wird ein Stein abgelegt. Wird beim Durchlauf das Haus des Gegners passiert, überspringt man es.</para>
+            </sect2>
+            <sect2>
+                <title>Freier Zug</title>
+                <para>Fällt der letzte Stein in das eigene Haus, so hat der Spieler einen freien Zug.</para>
+            </sect2>
+            <sect2>
+                <title>Fangen</title>
+                <para>Fällt der letzte Stein auf eine leere Mulde des Spielers, so werden die Steine dieser Mulde und der direkt gegenüberliegenden Mulde des Gegners gefangen und im eigenen Haus abgelegt..</para>
+            </sect2>
+            <sect2>
+                <title>Ende</title>
+                <para>Das Spiel ist beendet, wenn alle sechs Mulden auf der Seite eines Spielers leer sind. Der Spieler, der dann immer noch Steine auf seiner Seite liegen hat, fängt diese.</para>
+            </sect2>
+            <sect2>
+                <title>Sieg</title>
+                <para>Die Steine in beiden Häusern werden gezählt. Der Spieler mit der größeren Anzahl an Steinen gewinnt. </para>
+            </sect2>
+        </sect1>
+        <sect1>
+            <title>Konzept und Entwurf</title>
+            <para></para>
+            <sect2>
+                <title>UML-Klassendiagramm</title>
+                <figure>
+                    <title>UML-Klassendiagramm</title>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref=""
+                        </imageobject>
+                    </mediaobject>
+                </figure>
+                <para></para>
+            </sect2>
+            <sect2>
+                <title>Graphical User Interface (GUI)</title>
+                <para></para>
+            </sect2>
+            <sect2>
+                <title>Client/Server Modell</title>
+                <para></para>
+            </sect2>
+        </sect1>
+        <sect1>
+            <title>Projektplanung</title>
+            <sect2>
+                <title>Timeline</title>
+                <para></para>
+            </sect2>
+            <sect2>
+                <title>Vorgehensweise zur Ausarbeitung</title>
+                <para></para>
+            </sect2>
+        </sect1>
+    </chapter>
+    <chapter>
+        <title>Implementierung</title>
+        <sect1>
+            <title>Datenverwaltung mittels XML und DTD </title>
+            <para></para>
+        </sect1>
+        <sect1>
+            <title>Datenverarbeitung mittels XSLT und XQuery</title>
+            <para></para>
+        </sect1>
+        <sect1>
+            <title>GUI mit SVG, CSS, XForms und HTML</title>
+            <para></para>
+        </sect1>
+        <sect1>
+            <title>Backend Anbinudng und Client/Server Interaktion</title>
+            <para></para>
+        </sect1>
+    </chapter>
+    <chapter>
+        <title>Deployment und Inbetriebnahme</title>
+        <sect1>
+            <title>Webserver Hosting</title>
+            <para></para>
+        </sect1>
+    </chapter>
+</book>
