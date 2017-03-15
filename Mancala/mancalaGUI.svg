@@ -77,19 +77,19 @@
     <!-- Number of seeds in stores represented as numbers -->
     <!-- Score of player 1 -->
     <svg id="store-p1-score">
-        <text x="9%" y="40%" font-size="60" font-family="monospace" fill="orange" text-anchor="middle" >16</text>
+        <text x="9%" y="40%" font-size="60" font-family="monospace" fill="orange" text-anchor="middle" >0</text>
     </svg>
     <!-- Score of player 2 -->
     <svg id="store-p2-score">
         <text x="91%" y="40%" font-size="60" font-family="monospace" fill="blue" text-anchor="middle" >0</text>
     </svg>
     <!-- Number of seeds in houses represented as black dots -->
-    <svg id="seed">
+    <!--<svg id="seed">
         <circle cx="17%" cy="26%" r="0.7%" fill="black" />
         <circle cx="19%" cy="26%" r="0.7%" fill="black" />
         <circle cx="21%" cy="26%" r="0.7%" fill="black" />
         <circle cx="23%" cy="26%" r="0.7%" fill="black" />
         <circle cx="17%" cy="23%" r="0.7%" fill="black" />
         
-    </svg>
+    </svg> -->
 </svg>

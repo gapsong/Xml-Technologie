@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE spielfeld SYSTEM "unsermancala.dtd">
+<!DOCTYPE spielfeld SYSTEM "spielzustand.dtd">
 
 <spielfeld>
     <spiel>
