@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE spielfeld SYSTEM "spielzustand.dtd">
+<?xml-stylesheet type="text/xsl" href="Untitled2.xsl"?>
 
 <spielfeld>
     <spiel>

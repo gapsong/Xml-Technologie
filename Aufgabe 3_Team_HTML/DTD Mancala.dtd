@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  Dyatlova, Yekaterina, Tadevosyan, Hasmik, Arhuata Meza, Carla -->
+
+<!--- Elementdeklaration: Wurzelelement spiel Mancala besteht aus Elementen 
+snSpiel, Grube, Stein. -->
+<!ELEMENT spielMancala (spiel, (grube)*)>
+
+<!--- Attributdeklaration: Attribute von einem Spiel sind 
+Gewinner, Anzahl Steine und wer von Spielern am Zug ist -->
+<!ELEMENT spiel (#PCDATA)>
+<!ATTLIST spiel
+    gewinner CDATA #REQUIRED
+    anzahl_steine CDATA #REQUIRED
+    istAmZugSpieler1 CDATA #REQUIRED
+  >
+  
+<!--- Attributdeklaration: Attribute von einer Grube sind ID (von 1 bis 14), 
+Typ (Mancala oder Kalaha) und die Zugehörigkeit zum Spieler (Spieler 1 oder 2) -->
+<!ELEMENT grube ((stein)*)>
+<!ATTLIST grube
+    id CDATA #REQUIRED
+    type CDATA #REQUIRED
+    gehörtZuSpieler CDATA #REQUIRED
+  >
+
+<!--- Attributdeklaration: Attribut von einem Stein ist die Farbe -->
+<!ELEMENT stein (#PCDATA)>
+<!ATTLIST stein
+    color CDATA #REQUIRED
+  >

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--  Dyatlova, Yekaterina, Tadevosyan, Hasmik, Arhuata Meza, Carla -->
+
+<!--  <!DOCTYPE spielMancala SYSTEM "DTD Mancala.dtd"> -->
+ <?xml-stylesheet type="text/xsl" href="pull.xsl"?>
+
+<spielMancala>
+    <spiel gewinner="Spieler 2" anzahl_steine="36" istAmZugSpieler1="false"> </spiel>
+    <!-- Spieler1-->
+
+    <grube id="1" type="mulde" gehörtZuSpieler="1" xCor="200" yCor="80">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="2" type="mulde" gehörtZuSpieler="1" xCor="320" yCor="80">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="3" type="mulde" gehörtZuSpieler="1" xCor="440" yCor="80">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="4" type="mulde" gehörtZuSpieler="1" xCor="560" yCor="80">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="5" type="mulde" gehörtZuSpieler="1" xCor="680" yCor="80">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="6" type="mulde" gehörtZuSpieler="1" xCor="800" yCor="80">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="7" type="kalaha" gehörtZuSpieler="1" xCor="930" yCor="150"> </grube>
+
+    <!-- Spieler2-->
+    <grube id="8" type="mulde" gehörtZuSpieler="2" xCor="800" yCor="220">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="9" type="mulde" gehörtZuSpieler="2" xCor="680" yCor="220">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="10" type="mulde" gehörtZuSpieler="2" xCor="560" yCor="220">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="11" type="mulde" gehörtZuSpieler="2" xCor="440" yCor="220">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="12" type="mulde" gehörtZuSpieler="2" xCor="320" yCor="220">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+    </grube>
+    <grube id="13" type="mulde" gehörtZuSpieler="2" xCor="200" yCor="220">
+        <stein color="#0000ff"/>
+        <stein color="#ff0000"/>
+        <stein color="#adff2f"/>
+       
+    </grube>
+    <grube id="14" type="kalaha" gehörtZuSpieler="2" xCor="70" yCor="150">
+   
+    </grube>
+
+</spielMancala>
