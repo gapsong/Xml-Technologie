@@ -139,13 +139,13 @@
     </svg>
 <!--  change the text which player is on turn-->
     <xsl:for-each select="spielfeld/spiel">
-        <xsl:if test="istAmZug = 'spieler1'"> 
+        <xsl:if test="istAmZug = 'spieler1'">
             <svg>
                 <text x="50%" y="8%" font-size="60" font-family="monospace" fill="blue" text-anchor="middle">Player 1's turn
                 </text>
             </svg>
         </xsl:if>
-        <xsl:if test="istAmZug = 'spieler2'"> 
+        <xsl:if test="istAmZug = 'spieler2'">
             <svg>
                 <text x="50%" y="8%" font-size="60" font-family="monospace" fill="blue" text-anchor="middle">Player 2's turn
                 </text>
@@ -155,6 +155,8 @@
 <!--  change the display of the stones in each player's "mulde"    -->
     <xsl:for-each select="spielfeld/mulde">
         <xsl:choose>
+            <xsl:when test="anzahlSteine = 0">
+            </xsl:when>
             <xsl:when test="anzahlSteine = 1">
                 <image x="{self::node()/posX}" y="{self::node()/posY}" width="12%" height="12%" xlink:href="steine/1-stein.svg"></image>
             </xsl:when>
@@ -191,6 +193,9 @@
             <xsl:when test="anzahlSteine = 12">
                 <image x="{self::node()/posX}" y="{self::node()/posY}" width="12%" height="12%" xlink:href="steine/12-steine.svg"></image>
             </xsl:when>
+            <xsl:otherwise>
+                <image x="{self::node()/posX}" y="{self::node()/posY}" width="12%" height="12%" xlink:href="steine/12-steine.svg"></image>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:for-each>
     <!--<image xlink:href="steine/12-steine.svg" x="20.5%" y="23%" width="12%" height="12%"></image>-->
