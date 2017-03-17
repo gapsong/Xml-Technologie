@@ -8,7 +8,7 @@
     </spiel>
 
     <mulde besitzer="1" id="6">
-        <anzahlSteine> 13 </anzahlSteine>
+        <anzahlSteine> 6 </anzahlSteine>
         <posX>20.5%</posX>
         <posY>23%</posY>
     </mulde>
@@ -49,17 +49,17 @@
         <posY>65%</posY>
     </mulde>
     <mulde besitzer="2" id="4">
-        <anzahlSteine> 4 </anzahlSteine>
+        <anzahlSteine> 10 </anzahlSteine>
         <posX>49%</posX>
         <posY>65%</posY>
     </mulde>
     <mulde besitzer="2" id="3">
-        <anzahlSteine> 4 </anzahlSteine>
+        <anzahlSteine> 12 </anzahlSteine>
         <posX>39.5%</posX>
         <posY>65%</posY>
     </mulde>
     <mulde besitzer="2" id="2">
-        <anzahlSteine> 4 </anzahlSteine>
+        <anzahlSteine> 12 </anzahlSteine>
         <posX>30%</posX>
         <posY>65%</posY>
     </mulde>
