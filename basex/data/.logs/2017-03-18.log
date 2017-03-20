@@ -1,0 +1,606 @@
+16:22:37.313	127.0.0.1:48086	admin	REQUEST	[GET] http://localhost:8984/
+16:22:39.729	127.0.0.1:48086	admin	200		2445.97 ms
+16:22:40.703	127.0.0.1:48086	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+16:22:40.783	127.0.0.1:48086	admin	404	No function found that matches the request.	80.62 ms
+16:29:18.456	127.0.0.1:48264	admin	REQUEST	[GET] http://localhost:8984/
+16:29:18.520	127.0.0.1:48264	admin	200		64.11 ms
+16:29:33.592	127.0.0.1:48264	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:29:33.831	127.0.0.1:48264	admin	200		239.3 ms
+16:29:33.920	127.0.0.1:48264	admin	REQUEST	[GET] http://localhost:8984/test.svg
+16:29:33.962	127.0.0.1:48264	admin	404	No function found that matches the request.	41.95 ms
+16:30:17.354	127.0.0.1:48264	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:30:17.425	127.0.0.1:48264	admin	200		70.67 ms
+16:30:17.499	127.0.0.1:48264	admin	REQUEST	[GET] http://localhost:8984/spielzustand.xsl
+16:30:17.547	127.0.0.1:48264	admin	404	No function found that matches the request.	48.59 ms
+16:30:19.029	127.0.0.1:48264	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:30:19.077	127.0.0.1:48264	admin	200		48.17 ms
+16:30:19.144	127.0.0.1:48264	admin	REQUEST	[GET] http://localhost:8984/spielzustand.xsl
+16:30:19.195	127.0.0.1:48264	admin	404	No function found that matches the request.	51.5 ms
+16:31:48.568	SERVER	admin	OK	Server was stopped (port: 1984).
+16:31:48.568	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+16:31:51.689	SERVER	admin	OK	Server was started (port: 1984).
+16:31:51.827	SERVER	admin	OK	HTTP Server was started (port: 8984).
+16:31:52.394	127.0.0.1:48348	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:31:54.051	127.0.0.1:48348	admin	200		1658.97 ms
+16:31:54.167	127.0.0.1:48348	admin	REQUEST	[GET] http://localhost:8984/spielzustand.xsl
+16:31:54.274	127.0.0.1:48348	admin	404	No function found that matches the request.	107.38 ms
+16:35:29.172	SERVER	admin	OK	Server was stopped (port: 1984).
+16:35:29.173	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+16:35:31.008	SERVER	admin	OK	Server was started (port: 1984).
+16:35:31.078	SERVER	admin	OK	HTTP Server was started (port: 8984).
+16:35:34.496	127.0.0.1:48450	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:35:36.028	127.0.0.1:48450	admin	200		1534.47 ms
+16:35:36.145	127.0.0.1:48450	admin	REQUEST	[GET] http://localhost:8984/test.svg
+16:35:36.208	127.0.0.1:48450	admin	404	No function found that matches the request.	63.58 ms
+16:38:06.005	127.0.0.1:48466	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:38:06.075	127.0.0.1:48466	admin	200		70.1 ms
+16:38:06.155	127.0.0.1:48466	admin	REQUEST	[GET] http://localhost:8984/test.svg
+16:38:06.208	127.0.0.1:48466	admin	404	No function found that matches the request.	53.62 ms
+16:38:07.781	127.0.0.1:48466	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:38:07.834	127.0.0.1:48466	admin	200		53.5 ms
+16:38:07.905	127.0.0.1:48466	admin	REQUEST	[GET] http://localhost:8984/test.svg
+16:38:07.958	127.0.0.1:48466	admin	404	No function found that matches the request.	52.55 ms
+16:38:19.019	127.0.0.1:48466	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:38:19.090	127.0.0.1:48466	admin	200		71.11 ms
+16:38:38.755	127.0.0.1:48466	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:38:38.911	127.0.0.1:48466	admin	200		155.66 ms
+16:38:38.984	127.0.0.1:48466	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+16:38:39.002	127.0.0.1:48538	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+16:38:39.012	127.0.0.1:48540	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+16:38:39.031	127.0.0.1:48542	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+16:38:39.042	127.0.0.1:48544	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+16:38:39.054	127.0.0.1:48466	admin	404	No function found that matches the request.	69.4 ms
+16:38:39.072	127.0.0.1:48466	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+16:38:39.073	127.0.0.1:48546	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+16:38:39.107	127.0.0.1:48544	admin	404	No function found that matches the request.	65.31 ms
+16:38:39.116	127.0.0.1:48544	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+16:38:39.138	127.0.0.1:48542	admin	404	No function found that matches the request.	106.99 ms
+16:38:39.141	127.0.0.1:48542	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+16:38:39.189	127.0.0.1:48540	admin	404	No function found that matches the request.	177.13 ms
+16:38:39.205	127.0.0.1:48540	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+16:38:39.265	127.0.0.1:48538	admin	404	No function found that matches the request.	263.78 ms
+16:38:39.271	127.0.0.1:48538	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+16:38:39.316	127.0.0.1:48538	admin	404	No function found that matches the request.	46.42 ms
+16:38:39.326	127.0.0.1:48538	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+16:38:39.345	127.0.0.1:48540	admin	404	No function found that matches the request.	139.78 ms
+16:38:39.364	127.0.0.1:48542	admin	404	No function found that matches the request.	223.94 ms
+16:38:39.394	127.0.0.1:48544	admin	404	No function found that matches the request.	277.39 ms
+16:38:39.442	127.0.0.1:48546	admin	404	No function found that matches the request.	369.25 ms
+16:38:39.458	127.0.0.1:48466	admin	404	No function found that matches the request.	386.38 ms
+16:38:39.490	127.0.0.1:48538	admin	404	No function found that matches the request.	164.56 ms
+16:42:32.014	SERVER	admin	OK	Server was stopped (port: 1984).
+16:42:32.014	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+16:48:41.221	SERVER	admin	OK	Server was started (port: 1984).
+16:48:41.322	SERVER	admin	OK	HTTP Server was started (port: 8984).
+16:48:49.657	127.0.0.1:48570	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:48:51.405	127.0.0.1:48570	admin	200		1750.48 ms
+16:48:51.490	127.0.0.1:48570	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+16:48:51.517	127.0.0.1:48572	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+16:48:51.520	127.0.0.1:48574	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+16:48:51.530	127.0.0.1:48576	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+16:48:51.539	127.0.0.1:48578	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+16:48:51.578	127.0.0.1:48580	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+16:48:51.592	127.0.0.1:48570	admin	404	No function found that matches the request.	111.48 ms
+16:48:51.603	127.0.0.1:48578	admin	404	No function found that matches the request.	64.86 ms
+16:48:51.607	127.0.0.1:48578	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+16:48:51.631	127.0.0.1:48570	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+16:48:51.673	127.0.0.1:48576	admin	404	No function found that matches the request.	142.7 ms
+16:48:51.681	127.0.0.1:48576	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+16:48:51.699	127.0.0.1:48574	admin	404	No function found that matches the request.	179.91 ms
+16:48:51.707	127.0.0.1:48574	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+16:48:51.757	127.0.0.1:48572	admin	404	No function found that matches the request.	240.77 ms
+16:48:51.762	127.0.0.1:48572	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+16:48:51.793	127.0.0.1:48574	admin	404	No function found that matches the request.	90.85 ms
+16:48:51.802	127.0.0.1:48574	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+16:48:51.840	127.0.0.1:48576	admin	404	No function found that matches the request.	158.5 ms
+16:48:51.877	127.0.0.1:48570	admin	404	No function found that matches the request.	246.7 ms
+16:48:51.932	127.0.0.1:48578	admin	404	No function found that matches the request.	325.64 ms
+16:48:51.985	127.0.0.1:48580	admin	404	No function found that matches the request.	406.97 ms
+16:48:52.016	127.0.0.1:48574	admin	404	No function found that matches the request.	214.18 ms
+16:48:52.056	127.0.0.1:48572	admin	404	No function found that matches the request.	293.94 ms
+16:50:54.105	127.0.0.1:48582	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:50:54.262	127.0.0.1:48582	admin	200		157.42 ms
+16:50:54.377	127.0.0.1:48582	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+16:50:54.405	127.0.0.1:48582	admin	404	No function found that matches the request.	28.64 ms
+16:50:54.452	127.0.0.1:48582	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+16:50:54.486	127.0.0.1:48584	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+16:50:54.489	127.0.0.1:48582	admin	404	No function found that matches the request.	36.55 ms
+16:50:54.505	127.0.0.1:48582	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+16:50:54.526	127.0.0.1:48586	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+16:50:54.583	127.0.0.1:48584	admin	404	No function found that matches the request.	97.19 ms
+16:50:54.590	127.0.0.1:48584	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+16:50:54.597	127.0.0.1:48588	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+16:50:54.598	127.0.0.1:48592	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+16:50:54.599	127.0.0.1:48590	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+16:50:54.630	127.0.0.1:48586	admin	404	No function found that matches the request.	104.54 ms
+16:50:54.632	127.0.0.1:48586	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+16:50:54.664	127.0.0.1:48582	admin	404	No function found that matches the request.	159.54 ms
+16:50:54.669	127.0.0.1:48582	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+16:50:54.680	127.0.0.1:48586	admin	404	No function found that matches the request.	48.82 ms
+16:50:54.686	127.0.0.1:48586	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+16:50:54.710	127.0.0.1:48590	admin	404	No function found that matches the request.	113.35 ms
+16:50:54.756	127.0.0.1:48592	admin	404	No function found that matches the request.	158.99 ms
+16:50:54.775	127.0.0.1:48588	admin	404	No function found that matches the request.	185.68 ms
+16:50:54.827	127.0.0.1:48584	admin	404	No function found that matches the request.	237.69 ms
+16:50:54.849	127.0.0.1:48586	admin	404	No function found that matches the request.	163.09 ms
+16:50:54.880	127.0.0.1:48582	admin	404	No function found that matches the request.	210.75 ms
+16:58:12.623	127.0.0.1:48686	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:58:12.767	127.0.0.1:48686	admin	200		143.44 ms
+16:58:12.865	127.0.0.1:48686	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+16:58:12.875	127.0.0.1:48688	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+16:58:12.890	127.0.0.1:48690	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+16:58:12.901	127.0.0.1:48692	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+16:58:12.909	127.0.0.1:48694	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+16:58:12.919	127.0.0.1:48686	admin	404	No function found that matches the request.	54.17 ms
+16:58:12.923	127.0.0.1:48686	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+16:58:12.944	127.0.0.1:48696	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+16:58:12.958	127.0.0.1:48692	admin	404	No function found that matches the request.	57.8 ms
+16:58:12.963	127.0.0.1:48692	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+16:58:12.993	127.0.0.1:48690	admin	404	No function found that matches the request.	103.93 ms
+16:58:12.998	127.0.0.1:48690	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+16:58:13.034	127.0.0.1:48688	admin	404	No function found that matches the request.	158.4 ms
+16:58:13.035	127.0.0.1:48688	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+16:58:13.078	127.0.0.1:48690	admin	404	No function found that matches the request.	80.89 ms
+16:58:13.091	127.0.0.1:48690	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+16:58:13.140	127.0.0.1:48692	admin	404	No function found that matches the request.	177.62 ms
+16:58:13.148	127.0.0.1:48692	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+16:58:13.167	127.0.0.1:48696	admin	404	No function found that matches the request.	223.1 ms
+16:58:13.218	127.0.0.1:48686	admin	404	No function found that matches the request.	294.76 ms
+16:58:13.243	127.0.0.1:48694	admin	404	No function found that matches the request.	334.51 ms
+16:58:13.302	127.0.0.1:48692	admin	404	No function found that matches the request.	153.39 ms
+16:58:13.334	127.0.0.1:48690	admin	404	No function found that matches the request.	242.72 ms
+16:58:13.366	127.0.0.1:48688	admin	404	No function found that matches the request.	331.65 ms
+16:58:33.104	SERVER	admin	OK	Server was stopped (port: 1984).
+16:58:33.104	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+16:58:34.340	SERVER	admin	OK	Server was started (port: 1984).
+16:58:34.387	SERVER	admin	OK	HTTP Server was started (port: 8984).
+16:58:43.205	127.0.0.1:48700	admin	REQUEST	[GET] http://localhost:8984/showgame
+16:58:44.845	127.0.0.1:48700	admin	200		1642.51 ms
+16:58:44.934	127.0.0.1:48700	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+16:58:44.958	127.0.0.1:48702	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+16:58:44.966	127.0.0.1:48704	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+16:58:44.969	127.0.0.1:48706	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+16:58:44.986	127.0.0.1:48708	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+16:58:45.006	127.0.0.1:48710	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+16:58:45.029	127.0.0.1:48700	admin	404	No function found that matches the request.	94.92 ms
+16:58:45.053	127.0.0.1:48700	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+16:58:45.079	127.0.0.1:48710	admin	404	No function found that matches the request.	73.2 ms
+16:58:45.083	127.0.0.1:48710	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+16:58:45.106	127.0.0.1:48708	admin	404	No function found that matches the request.	120.21 ms
+16:58:45.118	127.0.0.1:48708	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+16:58:45.163	127.0.0.1:48706	admin	404	No function found that matches the request.	193.8 ms
+16:58:45.165	127.0.0.1:48706	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+16:58:45.195	127.0.0.1:48704	admin	404	No function found that matches the request.	232.5 ms
+16:58:45.200	127.0.0.1:48704	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+16:58:45.227	127.0.0.1:48702	admin	404	No function found that matches the request.	269.03 ms
+16:58:45.234	127.0.0.1:48702	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+16:58:45.258	127.0.0.1:48704	admin	404	No function found that matches the request.	58.87 ms
+16:58:45.294	127.0.0.1:48706	admin	404	No function found that matches the request.	129.55 ms
+16:58:45.330	127.0.0.1:48708	admin	404	No function found that matches the request.	212.23 ms
+16:58:45.366	127.0.0.1:48710	admin	404	No function found that matches the request.	283.75 ms
+16:58:45.413	127.0.0.1:48700	admin	404	No function found that matches the request.	360.66 ms
+16:58:45.438	127.0.0.1:48702	admin	404	No function found that matches the request.	203.48 ms
+17:00:00.369	127.0.0.1:48714	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:00:00.533	127.0.0.1:48714	admin	200		164.4 ms
+17:00:00.638	127.0.0.1:48714	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+17:00:00.652	127.0.0.1:48716	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+17:00:00.666	127.0.0.1:48718	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+17:00:00.673	127.0.0.1:48720	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+17:00:00.682	127.0.0.1:48722	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+17:00:00.702	127.0.0.1:48724	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+17:00:00.707	127.0.0.1:48714	admin	404	No function found that matches the request.	69.13 ms
+17:00:00.715	127.0.0.1:48714	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+17:00:00.742	127.0.0.1:48722	admin	404	No function found that matches the request.	60.19 ms
+17:00:00.762	127.0.0.1:48722	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+17:00:00.806	127.0.0.1:48720	admin	404	No function found that matches the request.	132.97 ms
+17:00:00.810	127.0.0.1:48720	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+17:00:00.842	127.0.0.1:48718	admin	404	No function found that matches the request.	177.12 ms
+17:00:00.849	127.0.0.1:48718	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+17:00:00.889	127.0.0.1:48716	admin	404	No function found that matches the request.	237.18 ms
+17:00:00.896	127.0.0.1:48716	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+17:00:00.908	127.0.0.1:48718	admin	404	No function found that matches the request.	58.54 ms
+17:00:00.916	127.0.0.1:48718	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+17:00:00.954	127.0.0.1:48720	admin	404	No function found that matches the request.	144.98 ms
+17:00:01.006	127.0.0.1:48722	admin	404	No function found that matches the request.	244.5 ms
+17:00:01.034	127.0.0.1:48714	admin	404	No function found that matches the request.	320.03 ms
+17:00:01.066	127.0.0.1:48724	admin	404	No function found that matches the request.	363.93 ms
+17:00:01.083	127.0.0.1:48718	admin	404	No function found that matches the request.	167.01 ms
+17:00:01.121	127.0.0.1:48716	admin	404	No function found that matches the request.	225.87 ms
+17:03:26.861	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:03:26.861	SERVER	admin	OK	Server was stopped (port: 1984).
+17:03:28.233	SERVER	admin	OK	Server was started (port: 1984).
+17:03:28.278	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:03:38.290	127.0.0.1:48916	admin	REQUEST	[GET] http://localhost:8984/init
+17:03:39.725	127.0.0.1:48916	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 143/32: [XPST0017] Unknown function: Q{http://basex.org/modules/web-page}_highscore.	1437.53 ms
+17:04:34.878	127.0.0.1:48916	admin	REQUEST	[GET] http://localhost:8984/init
+17:04:35.809	127.0.0.1:48916	admin	200		932.13 ms
+17:04:35.830	127.0.0.1:48916	admin	REQUEST	[GET] http://localhost:8984/
+17:04:35.940	127.0.0.1:48916	admin	200		110.57 ms
+17:04:46.343	127.0.0.1:48916	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:04:46.493	127.0.0.1:48916	admin	200		150.08 ms
+17:04:46.709	127.0.0.1:48916	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+17:04:46.728	127.0.0.1:48974	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+17:04:46.749	127.0.0.1:48976	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+17:04:46.768	127.0.0.1:48916	admin	404	No function found that matches the request.	59.19 ms
+17:04:46.782	127.0.0.1:48978	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+17:04:46.804	127.0.0.1:48916	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+17:04:46.822	127.0.0.1:48980	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+17:04:46.828	127.0.0.1:48976	admin	404	No function found that matches the request.	79.89 ms
+17:04:46.846	127.0.0.1:48976	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+17:04:46.861	127.0.0.1:48974	admin	404	No function found that matches the request.	133.1 ms
+17:04:46.867	127.0.0.1:48982	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+17:04:46.873	127.0.0.1:48974	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+17:04:46.917	127.0.0.1:48980	admin	404	No function found that matches the request.	95.33 ms
+17:04:46.925	127.0.0.1:48916	admin	404	No function found that matches the request.	123.89 ms
+17:04:46.927	127.0.0.1:48980	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+17:04:46.939	127.0.0.1:48916	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+17:04:46.990	127.0.0.1:48978	admin	404	No function found that matches the request.	209.55 ms
+17:04:47.000	127.0.0.1:48978	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+17:04:47.035	127.0.0.1:48916	admin	404	No function found that matches the request.	96.75 ms
+17:04:47.048	127.0.0.1:48980	admin	404	No function found that matches the request.	121.45 ms
+17:04:47.079	127.0.0.1:48974	admin	404	No function found that matches the request.	207.01 ms
+17:04:47.114	127.0.0.1:48982	admin	404	No function found that matches the request.	246.47 ms
+17:04:47.146	127.0.0.1:48976	admin	404	No function found that matches the request.	299.88 ms
+17:04:47.198	127.0.0.1:48978	admin	404	No function found that matches the request.	198.24 ms
+17:05:58.020	127.0.0.1:49046	admin	REQUEST	[GET] http://localhost:8984/gamestate/
+17:05:58.061	127.0.0.1:49046	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	41.63 ms
+17:05:58.426	127.0.0.1:49046	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+17:05:58.455	127.0.0.1:49046	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	30.36 ms
+17:06:27.347	127.0.0.1:49046	admin	REQUEST	[GET] http://localhost:8984/gamestate/
+17:06:27.376	127.0.0.1:49046	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	29.64 ms
+17:06:27.721	127.0.0.1:49046	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+17:06:27.773	127.0.0.1:49046	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	51.47 ms
+17:06:42.688	127.0.0.1:49046	admin	REQUEST	[GET] http://localhost:8984/gamestate/
+17:06:42.720	127.0.0.1:49046	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	31.91 ms
+17:06:43.147	127.0.0.1:49046	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+17:06:43.174	127.0.0.1:49046	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	28.01 ms
+17:06:44.576	127.0.0.1:49046	admin	REQUEST	[GET] http://localhost:8984/gamestate/
+17:06:44.604	127.0.0.1:49046	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	28.28 ms
+17:06:44.750	127.0.0.1:49046	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+17:06:44.779	127.0.0.1:49046	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	30.73 ms
+17:07:48.281	127.0.0.1:49116	admin	REQUEST	[GET] http://localhost:8984/gamestate/
+17:07:48.300	127.0.0.1:49116	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	19.35 ms
+17:07:48.494	127.0.0.1:49116	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+17:07:48.531	127.0.0.1:49116	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	37.1 ms
+17:07:54.591	SERVER	admin	OK	Server was stopped (port: 1984).
+17:07:54.591	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:07:56.073	SERVER	admin	OK	Server was started (port: 1984).
+17:07:56.126	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:08:00.289	127.0.0.1:49120	admin	REQUEST	[GET] http://localhost:8984/gamestate/
+17:08:01.926	127.0.0.1:49120	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	1643.37 ms
+17:08:02.166	127.0.0.1:49120	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+17:08:02.652	127.0.0.1:49120	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	486.28 ms
+17:08:25.917	127.0.0.1:49120	admin	REQUEST	[GET] http://localhost:8984/gamestate/
+17:08:26.616	127.0.0.1:49120	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	699.08 ms
+17:08:27.028	127.0.0.1:49120	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+17:08:27.390	127.0.0.1:49120	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	361.88 ms
+20:17:06.780	SERVER	admin	OK	Server was stopped (port: 1984).
+20:17:06.828	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+20:19:30.638	SERVER	admin	OK	Server was started (port: 1984).
+20:19:30.679	SERVER	admin	OK	HTTP Server was started (port: 8984).
+20:19:34.651	127.0.0.1:49984	admin	REQUEST	[GET] http://localhost:8984/showgame
+20:20:08.002	127.0.0.1:49986	admin	REQUEST	[GET] http://localhost:8984/showgame
+20:20:13.578	127.0.0.1:49988	admin	REQUEST	[GET] http://localhost:8984/
+20:20:13.708	127.0.0.1:49988	admin	200		129.79 ms
+20:20:16.126	SERVER	admin	OK	Server was stopped (port: 1984).
+20:20:16.134	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+20:20:16.341	127.0.0.1:49984	admin	410	Interrupted.	41690.9 ms
+20:20:16.446	127.0.0.1:49986	admin	410	Interrupted.	8444.39 ms
+20:20:17.840	SERVER	admin	OK	Server was started (port: 1984).
+20:20:17.901	SERVER	admin	OK	HTTP Server was started (port: 8984).
+20:20:22.727	127.0.0.1:49990	admin	REQUEST	[GET] http://localhost:8984/init
+20:20:24.438	127.0.0.1:49990	admin	200		1712.11 ms
+20:20:24.523	127.0.0.1:49990	admin	REQUEST	[GET] http://localhost:8984/
+20:20:24.673	127.0.0.1:49990	admin	200		150.48 ms
+20:20:28.608	127.0.0.1:49990	admin	REQUEST	[GET] http://localhost:8984/shogame
+20:20:28.645	127.0.0.1:49990	admin	404	No function found that matches the request.	37.53 ms
+20:20:31.716	127.0.0.1:49990	admin	REQUEST	[GET] http://localhost:8984/showgame
+20:20:31.980	127.0.0.1:49990	admin	200		263.38 ms
+20:20:32.189	127.0.0.1:49990	admin	REQUEST	[GET] http://localhost:8984/showgame
+20:20:32.363	127.0.0.1:49992	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+20:20:32.400	127.0.0.1:49994	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+20:20:32.453	127.0.0.1:49992	admin	404	No function found that matches the request.	89.78 ms
+20:20:32.455	127.0.0.1:49990	admin	200		265.89 ms
+20:20:32.461	127.0.0.1:49996	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+20:20:32.477	127.0.0.1:49990	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+20:20:32.497	127.0.0.1:49994	admin	404	No function found that matches the request.	97.12 ms
+20:20:32.509	127.0.0.1:49992	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+20:20:32.526	127.0.0.1:49994	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+20:20:32.562	127.0.0.1:49990	admin	404	No function found that matches the request.	85.3 ms
+20:20:32.601	127.0.0.1:49996	admin	404	No function found that matches the request.	140.09 ms
+20:20:32.616	127.0.0.1:49990	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+20:20:32.642	127.0.0.1:49994	admin	404	No function found that matches the request.	116.1 ms
+20:20:32.692	127.0.0.1:49996	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+20:20:32.701	127.0.0.1:49992	admin	404	No function found that matches the request.	191.74 ms
+20:20:32.721	127.0.0.1:49994	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+20:20:32.787	127.0.0.1:49992	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+20:20:32.802	127.0.0.1:49998	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+20:20:32.810	127.0.0.1:49990	admin	404	No function found that matches the request.	194.47 ms
+20:20:32.832	127.0.0.1:50000	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+20:20:32.859	127.0.0.1:49998	admin	404	No function found that matches the request.	57.25 ms
+20:20:32.916	127.0.0.1:49992	admin	404	No function found that matches the request.	129.17 ms
+20:20:32.936	127.0.0.1:49994	admin	404	No function found that matches the request.	215.51 ms
+20:20:32.982	127.0.0.1:49996	admin	404	No function found that matches the request.	290.18 ms
+20:20:33.003	127.0.0.1:50000	admin	404	No function found that matches the request.	171.56 ms
+20:20:33.762	127.0.0.1:49990	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+20:20:33.794	127.0.0.1:49990	admin	404	No function found that matches the request.	33.59 ms
+20:20:33.799	127.0.0.1:49998	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+20:20:33.846	127.0.0.1:49998	admin	404	No function found that matches the request.	48.03 ms
+20:20:33.858	127.0.0.1:49990	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+20:20:33.897	127.0.0.1:49992	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+20:20:33.914	127.0.0.1:50000	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+20:20:33.920	127.0.0.1:49990	admin	404	No function found that matches the request.	62.03 ms
+20:20:33.922	127.0.0.1:49998	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+20:20:33.949	127.0.0.1:49992	admin	404	No function found that matches the request.	52.35 ms
+20:20:33.965	127.0.0.1:49990	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+20:20:34.011	127.0.0.1:49998	admin	404	No function found that matches the request.	88.98 ms
+20:20:34.052	127.0.0.1:50000	admin	404	No function found that matches the request.	138.39 ms
+20:20:34.067	127.0.0.1:49990	admin	404	No function found that matches the request.	102.14 ms
+22:28:05.928	SERVER	admin	OK	Server was stopped (port: 1984).
+22:28:05.929	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+22:28:07.073	SERVER	admin	OK	Server was started (port: 1984).
+22:28:07.122	SERVER	admin	OK	HTTP Server was started (port: 8984).
+22:28:12.854	127.0.0.1:50318	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:28:14.455	127.0.0.1:50318	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 128/21: [FODC0002] "/home/gap/Dokumente/basex/webapp/static/mancala.xml" (Line 187): The element type "xsl:variable" must be terminated by the matching end-tag "</xsl:variable>".	1603.67 ms
+22:30:35.046	SERVER	admin	OK	Server was stopped (port: 1984).
+22:30:35.048	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+22:30:36.332	SERVER	admin	OK	Server was started (port: 1984).
+22:30:36.378	SERVER	admin	OK	HTTP Server was started (port: 8984).
+22:30:38.387	127.0.0.1:50322	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:30:39.977	127.0.0.1:50322	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 128/21: [FODC0002] "/home/gap/Dokumente/basex/webapp/static/mancala.xml" (Line 113): The element type "xsl:variable" must be terminated by the matching end-tag "</xsl:variable>".	1591.88 ms
+22:31:25.887	127.0.0.1:50322	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:31:26.163	127.0.0.1:50322	admin	200		276.26 ms
+22:31:26.214	127.0.0.1:50322	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:31:26.341	127.0.0.1:50324	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+22:31:26.363	127.0.0.1:50326	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+22:31:26.379	127.0.0.1:50328	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+22:31:26.412	127.0.0.1:50324	admin	404	No function found that matches the request.	71.38 ms
+22:31:26.441	127.0.0.1:50330	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+22:31:26.447	127.0.0.1:50332	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+22:31:26.450	127.0.0.1:50324	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+22:31:26.489	127.0.0.1:50322	admin	200		275.12 ms
+22:31:26.491	127.0.0.1:50322	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+22:31:26.492	127.0.0.1:50328	admin	404	No function found that matches the request.	113.82 ms
+22:31:26.516	127.0.0.1:50328	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+22:31:26.549	127.0.0.1:50326	admin	404	No function found that matches the request.	186.08 ms
+22:31:26.552	127.0.0.1:50326	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+22:31:26.565	127.0.0.1:50328	admin	404	No function found that matches the request.	50.23 ms
+22:31:26.568	127.0.0.1:50328	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+22:31:26.646	127.0.0.1:50322	admin	404	No function found that matches the request.	155.03 ms
+22:31:26.653	127.0.0.1:50322	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+22:31:26.675	127.0.0.1:50324	admin	404	No function found that matches the request.	226.24 ms
+22:31:26.684	127.0.0.1:50324	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+22:31:26.709	127.0.0.1:50332	admin	404	No function found that matches the request.	262.56 ms
+22:31:26.800	127.0.0.1:50330	admin	404	No function found that matches the request.	359.39 ms
+22:31:26.837	127.0.0.1:50324	admin	404	No function found that matches the request.	153.96 ms
+22:31:26.913	127.0.0.1:50322	admin	404	No function found that matches the request.	261.04 ms
+22:31:26.994	127.0.0.1:50328	admin	404	No function found that matches the request.	426.06 ms
+22:31:27.045	127.0.0.1:50326	admin	404	No function found that matches the request.	494.17 ms
+22:31:44.509	127.0.0.1:50322	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:31:44.614	127.0.0.1:50322	admin	200		105.9 ms
+22:31:44.720	127.0.0.1:50322	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:31:44.806	127.0.0.1:50322	admin	200		86.29 ms
+22:31:44.835	127.0.0.1:50322	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+22:31:44.865	127.0.0.1:50324	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+22:31:44.884	127.0.0.1:50328	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+22:31:44.890	127.0.0.1:50322	admin	404	No function found that matches the request.	55.1 ms
+22:31:44.905	127.0.0.1:50322	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+22:31:44.910	127.0.0.1:50324	admin	404	No function found that matches the request.	46.1 ms
+22:31:44.931	127.0.0.1:50328	admin	404	No function found that matches the request.	47.16 ms
+22:31:44.955	127.0.0.1:50324	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+22:31:44.975	127.0.0.1:50328	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+22:31:44.985	127.0.0.1:50322	admin	404	No function found that matches the request.	80.44 ms
+22:31:44.992	127.0.0.1:50322	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+22:31:45.005	127.0.0.1:50332	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+22:31:45.019	127.0.0.1:50330	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+22:31:45.026	127.0.0.1:50324	admin	404	No function found that matches the request.	71.54 ms
+22:31:45.047	127.0.0.1:50324	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+22:31:45.062	127.0.0.1:50330	admin	404	No function found that matches the request.	42.91 ms
+22:31:45.070	127.0.0.1:50326	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+22:31:45.096	127.0.0.1:50332	admin	404	No function found that matches the request.	91.24 ms
+22:31:45.098	127.0.0.1:50330	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+22:31:45.115	127.0.0.1:50322	admin	404	No function found that matches the request.	122.56 ms
+22:31:45.144	127.0.0.1:50328	admin	404	No function found that matches the request.	169.81 ms
+22:31:45.167	127.0.0.1:50330	admin	404	No function found that matches the request.	68.92 ms
+22:31:45.206	127.0.0.1:50326	admin	404	No function found that matches the request.	136.31 ms
+22:31:45.229	127.0.0.1:50324	admin	404	No function found that matches the request.	182.91 ms
+22:33:00.579	127.0.0.1:50342	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:33:00.649	127.0.0.1:50342	admin	200		70.15 ms
+22:33:00.752	127.0.0.1:50342	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:33:00.838	127.0.0.1:50342	admin	200		86.24 ms
+22:33:00.864	127.0.0.1:50342	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+22:33:00.898	127.0.0.1:50344	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+22:33:00.917	127.0.0.1:50346	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+22:33:00.922	127.0.0.1:50342	admin	404	No function found that matches the request.	57.97 ms
+22:33:00.938	127.0.0.1:50342	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+22:33:00.956	127.0.0.1:50344	admin	404	No function found that matches the request.	58.37 ms
+22:33:00.962	127.0.0.1:50348	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+22:33:00.991	127.0.0.1:50344	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+22:33:00.994	127.0.0.1:50342	admin	404	No function found that matches the request.	55.96 ms
+22:33:01.005	127.0.0.1:50342	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+22:33:01.019	127.0.0.1:50346	admin	404	No function found that matches the request.	101.85 ms
+22:33:01.030	127.0.0.1:50344	admin	404	No function found that matches the request.	39.44 ms
+22:33:01.045	127.0.0.1:50346	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+22:33:01.057	127.0.0.1:50348	admin	404	No function found that matches the request.	95.28 ms
+22:33:01.071	127.0.0.1:50344	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+22:33:01.090	127.0.0.1:50348	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+22:33:01.102	127.0.0.1:50346	admin	404	No function found that matches the request.	65.45 ms
+22:33:01.142	127.0.0.1:50342	admin	404	No function found that matches the request.	137.44 ms
+22:33:01.164	127.0.0.1:50352	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+22:33:01.169	127.0.0.1:50350	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+22:33:01.176	127.0.0.1:50348	admin	404	No function found that matches the request.	86.82 ms
+22:33:01.205	127.0.0.1:50344	admin	404	No function found that matches the request.	133.92 ms
+22:33:01.248	127.0.0.1:50350	admin	404	No function found that matches the request.	79.84 ms
+22:33:01.265	127.0.0.1:50352	admin	404	No function found that matches the request.	100.7 ms
+22:33:05.345	SERVER	admin	OK	Server was stopped (port: 1984).
+22:33:05.345	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+22:33:06.756	SERVER	admin	OK	Server was started (port: 1984).
+22:33:06.801	SERVER	admin	OK	HTTP Server was started (port: 8984).
+22:33:08.908	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:33:10.946	127.0.0.1:50354	admin	200		2039.47 ms
+22:33:11.033	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:33:11.149	127.0.0.1:50356	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+22:33:11.174	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+22:33:11.183	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+22:33:11.245	127.0.0.1:50362	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+22:33:11.273	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+22:33:11.292	127.0.0.1:50356	admin	404	No function found that matches the request.	143.39 ms
+22:33:11.316	127.0.0.1:50356	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+22:33:11.366	127.0.0.1:50362	admin	404	No function found that matches the request.	121.45 ms
+22:33:11.369	127.0.0.1:50362	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+22:33:11.390	127.0.0.1:50354	admin	200		357.0 ms
+22:33:11.392	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+22:33:11.411	127.0.0.1:50360	admin	404	No function found that matches the request.	229.38 ms
+22:33:11.414	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+22:33:11.473	127.0.0.1:50358	admin	404	No function found that matches the request.	299.85 ms
+22:33:11.484	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+22:33:11.529	127.0.0.1:50360	admin	404	No function found that matches the request.	115.79 ms
+22:33:11.532	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+22:33:11.571	127.0.0.1:50354	admin	404	No function found that matches the request.	178.68 ms
+22:33:11.592	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+22:33:11.673	127.0.0.1:50362	admin	404	No function found that matches the request.	304.25 ms
+22:33:11.718	127.0.0.1:50356	admin	404	No function found that matches the request.	402.49 ms
+22:33:11.758	127.0.0.1:50364	admin	404	No function found that matches the request.	485.72 ms
+22:33:11.811	127.0.0.1:50354	admin	404	No function found that matches the request.	219.86 ms
+22:33:11.887	127.0.0.1:50360	admin	404	No function found that matches the request.	357.8 ms
+22:33:11.947	127.0.0.1:50358	admin	404	No function found that matches the request.	462.97 ms
+22:33:29.493	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:33:29.662	127.0.0.1:50354	admin	200		168.73 ms
+22:33:29.770	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:33:29.888	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+22:33:29.914	127.0.0.1:50354	admin	200		144.69 ms
+22:33:29.924	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+22:33:29.944	127.0.0.1:50360	admin	404	No function found that matches the request.	55.99 ms
+22:33:29.955	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+22:33:29.989	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+22:33:29.989	127.0.0.1:50354	admin	404	No function found that matches the request.	65.48 ms
+22:33:30.019	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+22:33:30.029	127.0.0.1:50362	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+22:33:30.037	127.0.0.1:50358	admin	404	No function found that matches the request.	82.21 ms
+22:33:30.056	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+22:33:30.062	127.0.0.1:50356	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+22:33:30.070	127.0.0.1:50354	admin	404	No function found that matches the request.	51.31 ms
+22:33:30.073	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+22:33:30.095	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+22:33:30.125	127.0.0.1:50360	admin	404	No function found that matches the request.	137.03 ms
+22:33:30.131	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+22:33:30.170	127.0.0.1:50364	admin	404	No function found that matches the request.	76.12 ms
+22:33:30.175	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+22:33:30.220	127.0.0.1:50354	admin	404	No function found that matches the request.	147.92 ms
+22:33:30.245	127.0.0.1:50356	admin	404	No function found that matches the request.	183.47 ms
+22:33:30.298	127.0.0.1:50358	admin	404	No function found that matches the request.	242.43 ms
+22:33:30.314	127.0.0.1:50362	admin	404	No function found that matches the request.	285.14 ms
+22:33:30.358	127.0.0.1:50364	admin	404	No function found that matches the request.	192.07 ms
+22:33:30.399	127.0.0.1:50360	admin	404	No function found that matches the request.	267.61 ms
+22:34:12.517	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:34:12.650	127.0.0.1:50354	admin	200		133.27 ms
+22:34:12.746	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:34:12.872	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+22:34:12.895	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+22:34:12.904	127.0.0.1:50354	admin	200		157.78 ms
+22:34:12.924	127.0.0.1:50358	admin	404	No function found that matches the request.	52.14 ms
+22:34:12.936	127.0.0.1:50364	admin	404	No function found that matches the request.	41.47 ms
+22:34:12.974	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+22:34:12.978	127.0.0.1:50356	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+22:34:12.978	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+22:34:13.014	127.0.0.1:50360	admin	404	No function found that matches the request.	39.87 ms
+22:34:13.031	127.0.0.1:50354	admin	404	No function found that matches the request.	54.04 ms
+22:34:13.046	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+22:34:13.048	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+22:34:13.070	127.0.0.1:50356	admin	404	No function found that matches the request.	92.1 ms
+22:34:13.113	127.0.0.1:50358	admin	404	No function found that matches the request.	66.33 ms
+22:34:13.133	127.0.0.1:50364	admin	404	No function found that matches the request.	87.47 ms
+22:34:13.162	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+22:34:13.162	127.0.0.1:50362	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+22:34:13.163	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+22:34:13.209	127.0.0.1:50354	admin	404	No function found that matches the request.	47.07 ms
+22:34:13.228	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+22:34:13.241	127.0.0.1:50360	admin	404	No function found that matches the request.	77.71 ms
+22:34:13.277	127.0.0.1:50362	admin	404	No function found that matches the request.	115.43 ms
+22:34:13.298	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+22:34:13.334	127.0.0.1:50358	admin	404	No function found that matches the request.	105.53 ms
+22:34:13.384	127.0.0.1:50354	admin	404	No function found that matches the request.	86.34 ms
+22:34:25.761	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:34:25.835	127.0.0.1:50354	admin	200		74.08 ms
+22:34:25.939	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:34:26.032	127.0.0.1:50354	admin	200		93.45 ms
+22:34:26.065	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+22:34:26.090	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+22:34:26.108	127.0.0.1:50354	admin	404	No function found that matches the request.	43.74 ms
+22:34:26.112	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+22:34:26.147	127.0.0.1:50364	admin	404	No function found that matches the request.	56.87 ms
+22:34:26.159	127.0.0.1:50360	admin	404	No function found that matches the request.	46.74 ms
+22:34:26.217	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+22:34:26.258	127.0.0.1:50354	admin	404	No function found that matches the request.	41.05 ms
+22:34:26.260	127.0.0.1:50362	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+22:34:26.277	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+22:34:26.324	127.0.0.1:50362	admin	404	No function found that matches the request.	64.15 ms
+22:34:26.343	127.0.0.1:50358	admin	404	No function found that matches the request.	66.55 ms
+22:34:26.373	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+22:34:26.376	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+22:34:26.414	127.0.0.1:50360	admin	404	No function found that matches the request.	41.76 ms
+22:34:26.428	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+22:34:26.432	127.0.0.1:50354	admin	404	No function found that matches the request.	56.52 ms
+22:34:26.458	127.0.0.1:50364	admin	404	No function found that matches the request.	29.77 ms
+22:34:26.469	127.0.0.1:50362	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+22:34:26.512	127.0.0.1:50362	admin	404	No function found that matches the request.	44.1 ms
+22:34:26.536	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+22:34:26.584	127.0.0.1:50354	admin	404	No function found that matches the request.	48.63 ms
+22:34:26.597	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+22:34:26.623	127.0.0.1:50358	admin	404	No function found that matches the request.	26.14 ms
+22:34:33.018	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:34:33.102	127.0.0.1:50354	admin	200		84.68 ms
+22:34:33.223	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:34:33.327	127.0.0.1:50354	admin	200		103.95 ms
+22:34:33.363	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+22:34:33.369	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+22:34:33.388	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+22:34:33.392	127.0.0.1:50362	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+22:34:33.401	127.0.0.1:50354	admin	404	No function found that matches the request.	39.17 ms
+22:34:33.463	127.0.0.1:50362	admin	404	No function found that matches the request.	71.37 ms
+22:34:33.476	127.0.0.1:50356	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+22:34:33.477	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+22:34:33.478	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+22:34:33.504	127.0.0.1:50364	admin	404	No function found that matches the request.	121.36 ms
+22:34:33.517	127.0.0.1:50362	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+22:34:33.518	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+22:34:33.542	127.0.0.1:50360	admin	404	No function found that matches the request.	173.72 ms
+22:34:33.593	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+22:34:33.601	127.0.0.1:50364	admin	404	No function found that matches the request.	83.44 ms
+22:34:33.630	127.0.0.1:50362	admin	404	No function found that matches the request.	113.17 ms
+22:34:33.694	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+22:34:33.694	127.0.0.1:50354	admin	404	No function found that matches the request.	217.07 ms
+22:34:33.694	127.0.0.1:50362	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+22:34:33.725	127.0.0.1:50358	admin	404	No function found that matches the request.	247.61 ms
+22:34:33.770	127.0.0.1:50356	admin	404	No function found that matches the request.	294.12 ms
+22:34:33.788	127.0.0.1:50362	admin	404	No function found that matches the request.	94.28 ms
+22:34:33.817	127.0.0.1:50364	admin	404	No function found that matches the request.	123.07 ms
+22:34:33.835	127.0.0.1:50360	admin	404	No function found that matches the request.	242.27 ms
+22:35:23.184	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:35:23.247	127.0.0.1:50354	admin	200		64.08 ms
+22:35:23.360	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/showgame
+22:35:23.423	127.0.0.1:50354	admin	200		63.33 ms
+22:35:23.476	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+22:35:23.499	127.0.0.1:50354	admin	404	No function found that matches the request.	23.03 ms
+22:35:23.509	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+22:35:23.540	127.0.0.1:50358	admin	404	No function found that matches the request.	31.33 ms
+22:35:23.566	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+22:35:23.568	127.0.0.1:50362	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+22:35:23.571	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+22:35:23.591	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+22:35:23.604	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+22:35:23.608	127.0.0.1:50354	admin	404	No function found that matches the request.	42.46 ms
+22:35:23.655	127.0.0.1:50358	admin	404	No function found that matches the request.	50.9 ms
+22:35:23.663	127.0.0.1:50358	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+22:35:23.663	127.0.0.1:50356	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+22:35:23.688	127.0.0.1:50360	admin	404	No function found that matches the request.	97.17 ms
+22:35:23.690	127.0.0.1:50354	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+22:35:23.704	127.0.0.1:50360	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+22:35:23.725	127.0.0.1:50364	admin	404	No function found that matches the request.	154.83 ms
+22:35:23.733	127.0.0.1:50364	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+22:35:23.756	127.0.0.1:50362	admin	404	No function found that matches the request.	188.2 ms
+22:35:23.774	127.0.0.1:50364	admin	404	No function found that matches the request.	41.65 ms
+22:35:23.797	127.0.0.1:50360	admin	404	No function found that matches the request.	93.28 ms
+22:35:23.841	127.0.0.1:50354	admin	404	No function found that matches the request.	151.41 ms
+22:35:23.872	127.0.0.1:50356	admin	404	No function found that matches the request.	209.95 ms
+22:35:23.877	127.0.0.1:50358	admin	404	No function found that matches the request.	214.83 ms

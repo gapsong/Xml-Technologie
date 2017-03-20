@@ -1,0 +1,406 @@
+10:22:34.196	127.0.0.1:35914	admin	REQUEST	[GET] http://localhost:8984/
+10:22:34.290	127.0.0.1:35914	admin	200		93.99 ms
+10:22:34.435	127.0.0.1:35914	admin	REQUEST	[GET] http://localhost:8984/db/create
+10:22:34.620	127.0.0.1:35914	admin	200		184.95 ms
+10:22:35.224	127.0.0.1:35914	admin	REQUEST	[GET] http://localhost:8984/game/11
+10:22:35.415	127.0.0.1:35914	admin	200		191.25 ms
+10:22:35.891	127.0.0.1:35914	admin	REQUEST	[GET] http://localhost:8984/game/11
+10:22:36.112	127.0.0.1:35914	admin	200		221.32 ms
+10:22:36.464	127.0.0.1:35914	admin	REQUEST	[GET] http://localhost:8984/gamestate/11
+10:22:36.605	127.0.0.1:35914	admin	200		141.26 ms
+11:50:16.789	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/
+11:50:16.861	127.0.0.1:36308	admin	200		72.38 ms
+11:50:16.886	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/db/create
+11:50:16.958	127.0.0.1:36308	admin	200		72.11 ms
+11:50:16.972	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/game/12
+11:50:17.052	127.0.0.1:36308	admin	200		80.55 ms
+11:50:17.168	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/game/12
+11:50:17.260	127.0.0.1:36308	admin	200		91.99 ms
+11:50:17.617	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/gamestate/12
+11:50:17.680	127.0.0.1:36308	admin	200		64.31 ms
+11:50:18.016	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+11:50:18.057	127.0.0.1:36308	admin	404	No function found that matches the request.	42.17 ms
+11:50:18.068	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+11:50:18.111	127.0.0.1:36308	admin	404	No function found that matches the request.	42.95 ms
+11:50:26.408	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/clicked/12/6
+11:50:26.506	127.0.0.1:36308	admin	200		97.98 ms
+11:50:26.531	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/updategamefinished/12
+11:50:26.619	127.0.0.1:36308	admin	200		88.03 ms
+11:50:26.646	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/game/12
+11:50:26.722	127.0.0.1:36308	admin	200		76.18 ms
+11:50:26.837	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/game/12
+11:50:26.895	127.0.0.1:36308	admin	200		58.2 ms
+11:50:27.064	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/gamestate/12
+11:50:27.108	127.0.0.1:36308	admin	200		43.58 ms
+11:58:15.266	127.0.0.1:36382	admin	REQUEST	[GET] http://localhost:8984/degub/update
+11:58:15.312	127.0.0.1:36382	admin	404	No function found that matches the request.	46.46 ms
+11:58:23.408	127.0.0.1:36382	admin	REQUEST	[GET] http://localhost:8984/debug/update
+11:58:23.451	127.0.0.1:36382	admin	200		42.52 ms
+11:58:37.049	127.0.0.1:36382	admin	REQUEST	[GET] http://localhost:8984/debug/get
+11:58:37.095	127.0.0.1:36382	admin	200		46.49 ms
+12:18:08.527	127.0.0.1:36680	admin	REQUEST	[GET] http://localhost:8984/
+12:18:08.579	127.0.0.1:36680	admin	200		54.09 ms
+12:18:08.598	127.0.0.1:36680	admin	REQUEST	[GET] http://localhost:8984/db/create
+12:18:08.664	127.0.0.1:36680	admin	200		66.08 ms
+12:18:08.671	127.0.0.1:36680	admin	REQUEST	[GET] http://localhost:8984/game/13
+12:18:08.735	127.0.0.1:36680	admin	200		64.8 ms
+12:18:08.806	127.0.0.1:36680	admin	REQUEST	[GET] http://localhost:8984/game/13
+12:18:08.892	127.0.0.1:36680	admin	200		86.31 ms
+12:18:09.277	127.0.0.1:36680	admin	REQUEST	[GET] http://localhost:8984/gamestate/13
+12:18:09.327	127.0.0.1:36680	admin	200		49.75 ms
+12:18:15.842	SERVER	admin	OK	Server was stopped (port: 1984).
+12:18:15.843	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:23:05.224	SERVER	admin	OK	Server was started (port: 1984).
+12:23:05.267	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:23:08.071	127.0.0.1:36798	admin	REQUEST	[GET] http://localhost:8984/
+12:23:09.733	127.0.0.1:36798	admin	200		1663.21 ms
+12:23:09.742	127.0.0.1:36798	admin	REQUEST	[GET] http://localhost:8984/db/create
+12:23:10.116	127.0.0.1:36798	admin	200		373.53 ms
+12:23:10.125	127.0.0.1:36798	admin	REQUEST	[GET] http://localhost:8984/game/14
+12:23:10.317	127.0.0.1:36798	admin	200		192.55 ms
+12:23:10.387	127.0.0.1:36798	admin	REQUEST	[GET] http://localhost:8984/game/14
+12:23:10.576	127.0.0.1:36798	admin	200		189.04 ms
+12:23:10.637	127.0.0.1:36798	admin	REQUEST	[GET] http://localhost:8984/gamestate/14
+12:23:10.749	127.0.0.1:36798	admin	200		111.95 ms
+12:23:45.015	SERVER	admin	OK	Server was stopped (port: 1984).
+12:23:45.036	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:25:16.801	SERVER	admin	OK	Server was started (port: 1984).
+12:25:16.849	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:25:26.133	127.0.0.1:36846	admin	REQUEST	[GET] http://localhost:8984/
+12:25:27.490	127.0.0.1:36846	admin	200		1359.3 ms
+12:25:48.014	127.0.0.1:36850	admin	REQUEST	[GET] http://localhost:8984/hello/world
+12:25:48.162	127.0.0.1:36850	admin	200		148.01 ms
+12:28:50.714	127.0.0.1:36934	admin	REQUEST	[GET] http://localhost:8984/
+12:28:50.756	127.0.0.1:36934	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 63/10: [XQST0118] Different start and end tag: <img>...</html>.	41.98 ms
+12:29:06.118	127.0.0.1:36934	admin	REQUEST	[GET] http://localhost:8984/
+12:29:06.151	127.0.0.1:36934	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 63/12: [XQST0118] Different start and end tag: <img>...</body>.	33.15 ms
+12:29:13.117	SERVER	admin	OK	Server was stopped (port: 1984).
+12:29:13.118	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:29:14.669	SERVER	admin	OK	Server was started (port: 1984).
+12:29:14.711	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:29:21.352	127.0.0.1:36952	admin	REQUEST	[GET] http://localhost:8984/
+12:29:22.748	127.0.0.1:36952	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 63/12: [XQST0118] Different start and end tag: <img>...</body>.	1398.0 ms
+12:29:52.828	SERVER	admin	OK	Server was stopped (port: 1984).
+12:29:52.829	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:29:54.249	SERVER	admin	OK	Server was started (port: 1984).
+12:29:54.312	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:30:05.984	127.0.0.1:36982	admin	REQUEST	[GET] http://localhost:8984/
+12:30:07.391	127.0.0.1:36982	admin	200		1409.61 ms
+12:30:44.603	127.0.0.1:36982	admin	REQUEST	[GET] http://localhost:8984/
+12:30:44.652	127.0.0.1:36982	admin	200		48.95 ms
+12:31:02.096	127.0.0.1:36982	admin	REQUEST	[GET] http://localhost:8984/
+12:31:02.133	127.0.0.1:36982	admin	200		37.55 ms
+12:34:26.545	127.0.0.1:37170	admin	REQUEST	[GET] http://localhost:8984/wasgeht
+12:34:26.601	127.0.0.1:37170	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 78/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	56.55 ms
+12:35:34.089	SERVER	admin	OK	Server was stopped (port: 1984).
+12:35:34.089	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:35:35.529	SERVER	admin	OK	Server was started (port: 1984).
+12:35:35.582	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:35:37.216	127.0.0.1:37212	admin	REQUEST	[GET] http://localhost:8984/wasgeht
+12:35:38.586	127.0.0.1:37212	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 78/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	1371.27 ms
+12:35:51.842	SERVER	admin	OK	Server was stopped (port: 1984).
+12:35:51.843	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:35:53.208	SERVER	admin	OK	Server was started (port: 1984).
+12:35:53.259	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:35:55.912	127.0.0.1:37222	admin	REQUEST	[GET] http://localhost:8984/wasgeht
+12:35:57.192	127.0.0.1:37222	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 78/6: [XPST0003] Expecting 'modify', found 'r'.	1281.46 ms
+12:37:14.083	SERVER	admin	OK	Server was stopped (port: 1984).
+12:37:14.084	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:37:15.522	SERVER	admin	OK	Server was started (port: 1984).
+12:37:15.575	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:37:26.804	127.0.0.1:37294	admin	REQUEST	[GET] http://localhost:8984/getstatic/1
+12:37:28.133	127.0.0.1:37294	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 78/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	1330.93 ms
+12:37:51.980	127.0.0.1:37294	admin	REQUEST	[GET] http://localhost:8984/getstatic/1
+12:37:52.330	127.0.0.1:37294	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 78/38: [XPST0081] No namespace declared for 'xsl:stylesheet'.	350.97 ms
+12:57:31.822	SERVER	admin	OK	Server was stopped (port: 1984).
+12:57:31.824	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:57:33.142	SERVER	admin	OK	Server was started (port: 1984).
+12:57:33.188	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:57:38.558	127.0.0.1:37696	admin	REQUEST	[GET] http://localhost:8984/
+12:57:39.995	127.0.0.1:37696	admin	200		1438.77 ms
+12:57:40.135	127.0.0.1:37696	admin	REQUEST	[GET] http://localhost:8984/mancalaGUI.svg
+12:57:40.204	127.0.0.1:37696	admin	404	No function found that matches the request.	69.14 ms
+12:57:51.712	SERVER	admin	OK	Server was stopped (port: 1984).
+12:57:51.713	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:57:52.953	SERVER	admin	OK	Server was started (port: 1984).
+12:57:52.998	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:57:59.191	127.0.0.1:37710	admin	REQUEST	[GET] http://localhost:8984/
+12:58:00.573	127.0.0.1:37710	admin	200		1383.77 ms
+12:58:00.655	127.0.0.1:37710	admin	REQUEST	[GET] http://localhost:8984/mancalaGUI.svg
+12:58:00.715	127.0.0.1:37710	admin	404	No function found that matches the request.	60.34 ms
+12:58:18.369	SERVER	admin	OK	Server was stopped (port: 1984).
+12:58:18.369	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:58:20.014	SERVER	admin	OK	Server was started (port: 1984).
+12:58:20.060	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:58:29.814	127.0.0.1:37712	admin	REQUEST	[GET] http://localhost:8984/
+12:58:31.375	127.0.0.1:37712	admin	200		1562.56 ms
+12:58:31.554	127.0.0.1:37712	admin	REQUEST	[GET] http://localhost:8984/mancalaGUI.svg
+12:58:31.621	127.0.0.1:37712	admin	404	No function found that matches the request.	67.24 ms
+12:58:51.387	SERVER	admin	OK	Server was stopped (port: 1984).
+12:58:51.388	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:58:53.014	SERVER	admin	OK	Server was started (port: 1984).
+12:58:53.060	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:58:59.183	127.0.0.1:37730	admin	REQUEST	[GET] http://localhost:8984/
+12:59:00.540	127.0.0.1:37730	admin	200		1358.85 ms
+13:01:11.133	SERVER	admin	OK	Server was stopped (port: 1984).
+13:01:11.133	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+13:01:12.575	SERVER	admin	OK	Server was started (port: 1984).
+13:01:12.620	SERVER	admin	OK	HTTP Server was started (port: 8984).
+13:01:16.883	127.0.0.1:37776	admin	REQUEST	[GET] http://localhost:8984/
+13:01:18.257	127.0.0.1:37776	admin	200		1375.24 ms
+13:01:20.460	127.0.0.1:37776	admin	REQUEST	[GET] http://localhost:8984/
+13:01:20.501	127.0.0.1:37776	admin	200		41.32 ms
+13:02:25.148	127.0.0.1:37838	admin	REQUEST	[GET] http://localhost:8984/
+13:02:25.196	127.0.0.1:37838	admin	200		48.31 ms
+13:02:28.390	SERVER	admin	OK	Server was stopped (port: 1984).
+13:02:28.391	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+13:02:29.591	SERVER	admin	OK	Server was started (port: 1984).
+13:02:29.635	SERVER	admin	OK	HTTP Server was started (port: 8984).
+13:02:32.431	127.0.0.1:37840	admin	REQUEST	[GET] http://localhost:8984/
+13:02:33.782	127.0.0.1:37840	admin	200		1352.06 ms
+13:02:43.203	127.0.0.1:37840	admin	REQUEST	[GET] http://localhost:8984/
+13:02:43.239	127.0.0.1:37840	admin	200		36.47 ms
+13:04:44.387	SERVER	admin	OK	Server was stopped (port: 1984).
+13:04:44.388	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+13:04:45.889	SERVER	admin	OK	Server was started (port: 1984).
+13:04:45.945	SERVER	admin	OK	HTTP Server was started (port: 8984).
+13:06:39.664	SERVER	admin	OK	Server was stopped (port: 1984).
+13:06:39.665	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+14:43:28.039	SERVER	admin	OK	Server was started (port: 1984).
+14:43:28.090	SERVER	admin	OK	HTTP Server was started (port: 8984).
+14:43:31.877	127.0.0.1:38262	admin	REQUEST	[GET] http://localhost:8984/hello/world
+14:43:33.267	127.0.0.1:38262	admin	200		1391.78 ms
+14:44:05.291	127.0.0.1:38262	admin	REQUEST	[GET] http://localhost:8984/hello/world
+14:44:05.335	127.0.0.1:38262	admin	200		44.41 ms
+14:44:35.550	127.0.0.1:38262	admin	REQUEST	[GET] http://localhost:8984/hello/world
+14:44:35.590	127.0.0.1:38262	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 77/19: [XPST0003] Expecting '}', found '>'.	40.24 ms
+14:45:31.634	SERVER	admin	OK	Server was stopped (port: 1984).
+14:45:31.635	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+14:45:32.979	SERVER	admin	OK	Server was started (port: 1984).
+14:45:33.026	SERVER	admin	OK	HTTP Server was started (port: 8984).
+14:45:35.499	127.0.0.1:38470	admin	REQUEST	[GET] http://localhost:8984/hello/world
+14:45:36.804	127.0.0.1:38470	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 76/1: [XPST0003] Expecting '{', found 'r'.	1307.21 ms
+14:45:44.381	127.0.0.1:38470	admin	REQUEST	[GET] http://localhost:8984/hello/world
+14:45:44.813	127.0.0.1:38470	admin	200		431.82 ms
+15:05:33.713	127.0.0.1:39344	admin	REQUEST	[GET] http://localhost:8984/init
+15:05:33.769	127.0.0.1:39344	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 91/33: [XPST0017] Unknown function: Q{http://basex.org/modules/web-page}_redirect.	55.94 ms
+15:06:07.384	SERVER	admin	OK	Server was stopped (port: 1984).
+15:06:07.385	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+15:06:09.016	SERVER	admin	OK	Server was started (port: 1984).
+15:06:09.074	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:06:12.793	127.0.0.1:39354	admin	REQUEST	[GET] http://localhost:8984/init
+15:06:14.345	127.0.0.1:39354	admin	200		1554.78 ms
+15:08:07.580	127.0.0.1:39356	admin	REQUEST	[GET] http://localhost:8984/init
+15:08:07.675	127.0.0.1:39356	admin	200		95.11 ms
+15:09:02.834	SERVER	admin	OK	Server was stopped (port: 1984).
+15:09:02.835	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+15:09:04.778	SERVER	admin	OK	Server was started (port: 1984).
+15:09:04.841	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:09:09.282	127.0.0.1:39358	admin	REQUEST	[GET] http://localhost:8984/init
+15:09:10.799	127.0.0.1:39358	admin	200		1518.95 ms
+15:15:53.166	SERVER	admin	OK	Server was stopped (port: 1984).
+15:15:53.167	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+15:15:54.952	SERVER	admin	OK	Server was started (port: 1984).
+15:15:55.001	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:15:58.247	127.0.0.1:39388	admin	REQUEST	[GET] http://localhost:8984/init
+15:15:59.577	127.0.0.1:39388	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 91/33: [XPST0017] Unknown function: Q{http://basex.org/modules/web-page}_redirect.	1332.23 ms
+15:16:14.716	SERVER	admin	OK	Server was stopped (port: 1984).
+15:16:14.716	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+15:16:16.308	SERVER	admin	OK	Server was started (port: 1984).
+15:16:16.355	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:16:19.140	127.0.0.1:39406	admin	REQUEST	[GET] http://localhost:8984/init
+15:16:20.482	127.0.0.1:39406	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 91/33: [XPST0017] Unknown function: Q{http://basex.org/modules/web-page}_redirect.	1344.01 ms
+15:16:27.392	SERVER	admin	OK	Server was stopped (port: 1984).
+15:16:27.392	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+15:16:28.945	SERVER	admin	OK	Server was started (port: 1984).
+15:16:28.995	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:16:34.744	127.0.0.1:39408	admin	REQUEST	[GET] http://localhost:8984/init
+15:16:35.997	127.0.0.1:39408	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 91/33: [XPST0017] Unknown function: Q{http://basex.org/modules/web-page}_redirect.	1254.79 ms
+15:17:03.013	SERVER	admin	OK	Server was stopped (port: 1984).
+15:17:03.013	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+15:17:04.364	SERVER	admin	OK	Server was started (port: 1984).
+15:17:04.430	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:17:07.089	127.0.0.1:39438	admin	REQUEST	[GET] http://localhost:8984/init
+15:17:08.519	127.0.0.1:39438	admin	200		1432.24 ms
+15:17:49.403	SERVER	admin	OK	Server was stopped (port: 1984).
+15:17:49.403	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+15:17:50.824	SERVER	admin	OK	Server was started (port: 1984).
+15:17:50.865	SERVER	admin	OK	HTTP Server was started (port: 8984).
+15:17:52.184	127.0.0.1:39456	admin	REQUEST	[GET] http://localhost:8984/init
+15:17:53.712	127.0.0.1:39456	admin	200		1529.79 ms
+15:17:53.724	127.0.0.1:39456	admin	REQUEST	[GET] http://localhost:8984/
+15:17:53.793	127.0.0.1:39456	admin	200		69.64 ms
+15:53:56.379	127.0.0.1:39696	admin	REQUEST	[GET] http://localhost:8984/hello/world
+15:53:56.421	127.0.0.1:39696	admin	200		41.54 ms
+16:09:02.989	SERVER	admin	OK	Server was stopped (port: 1984).
+16:09:02.989	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+16:09:04.217	SERVER	admin	OK	Server was started (port: 1984).
+16:09:04.269	SERVER	admin	OK	HTTP Server was started (port: 8984).
+16:09:17.667	127.0.0.1:40084	admin	REQUEST	[GET] http://localhost:8984/test
+16:09:19.150	127.0.0.1:40084	admin	200		1484.34 ms
+16:09:44.349	127.0.0.1:40084	admin	REQUEST	[GET] http://localhost:8984/init
+16:09:44.497	127.0.0.1:40084	admin	200		148.25 ms
+16:09:44.512	127.0.0.1:40084	admin	REQUEST	[GET] http://localhost:8984/
+16:09:44.567	127.0.0.1:40084	admin	200		54.96 ms
+16:14:42.682	127.0.0.1:40146	admin	REQUEST	[GET] http://localhost:8984/
+16:14:42.729	127.0.0.1:40146	admin	200		47.35 ms
+16:14:46.907	127.0.0.1:40146	admin	REQUEST	[GET] http://localhost:8984/test
+16:14:46.939	127.0.0.1:40146	admin	200		32.03 ms
+16:14:46.950	127.0.0.1:40146	admin	REQUEST	[GET] http://localhost:8984/
+16:14:47.008	127.0.0.1:40146	admin	200		59.1 ms
+16:20:11.126	127.0.0.1:40224	admin	REQUEST	[GET] http://localhost:8984/
+16:20:11.155	127.0.0.1:40224	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 104/5: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	28.95 ms
+16:23:49.118	127.0.0.1:40680	admin	REQUEST	[GET] http://localhost:8984/
+16:23:49.161	127.0.0.1:40680	admin	200		42.88 ms
+16:25:19.461	127.0.0.1:40714	admin	REQUEST	[GET] http://localhost:8984/init
+16:25:19.488	127.0.0.1:40714	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 107/9: [XPST0003] Expecting ')', found 'd'.	26.72 ms
+16:26:01.232	127.0.0.1:40714	admin	REQUEST	[GET] http://localhost:8984/init
+16:26:01.259	127.0.0.1:40714	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 107/9: [XPST0003] Expecting ')', found 'd'.	26.91 ms
+16:27:18.595	127.0.0.1:40752	admin	REQUEST	[GET] http://localhost:8984/init
+16:27:18.618	127.0.0.1:40752	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 107/9: [XPST0003] Expecting ')', found 'd'.	23.99 ms
+16:33:43.045	SERVER	admin	OK	Server was stopped (port: 1984).
+16:33:43.046	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+16:33:44.293	SERVER	admin	OK	Server was started (port: 1984).
+16:33:44.372	SERVER	admin	OK	HTTP Server was started (port: 8984).
+16:33:46.482	127.0.0.1:41242	admin	REQUEST	[GET] http://localhost:8984/init
+16:33:47.818	127.0.0.1:41242	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 105/14: [XUST0001] fn:trace(value[,label]): no updating expression allowed.	1336.96 ms
+16:34:43.481	127.0.0.1:41242	admin	REQUEST	[GET] http://localhost:8984/test
+16:34:43.896	127.0.0.1:41242	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 105/14: [XUST0001] fn:trace(value[,label]): no updating expression allowed.	414.97 ms
+16:34:47.182	SERVER	admin	OK	Server was stopped (port: 1984).
+16:34:47.183	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+16:34:48.494	SERVER	admin	OK	Server was started (port: 1984).
+16:34:48.545	SERVER	admin	OK	HTTP Server was started (port: 8984).
+16:34:53.794	127.0.0.1:41246	admin	REQUEST	[GET] http://localhost:8984/init
+16:34:55.080	127.0.0.1:41246	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 105/14: [XUST0001] fn:trace(value[,label]): no updating expression allowed.	1288.15 ms
+16:35:05.240	127.0.0.1:41246	admin	REQUEST	[GET] http://localhost:8984/init
+16:35:05.797	127.0.0.1:41246	admin	200		557.52 ms
+16:35:05.815	127.0.0.1:41246	admin	REQUEST	[GET] http://localhost:8984/
+16:35:05.881	127.0.0.1:41246	admin	200		66.23 ms
+16:35:11.536	127.0.0.1:41246	admin	REQUEST	[GET] http://localhost:8984/test
+16:35:11.597	127.0.0.1:41246	admin	200		62.07 ms
+16:35:11.608	127.0.0.1:41246	admin	REQUEST	[GET] http://localhost:8984/
+16:35:11.646	127.0.0.1:41246	admin	200		37.55 ms
+16:37:19.177	127.0.0.1:41300	admin	REQUEST	[GET] http://localhost:8984/debug/get
+16:37:19.215	127.0.0.1:41300	admin	200		37.7 ms
+16:37:40.485	127.0.0.1:41300	admin	REQUEST	[GET] http://localhost:8984/debug/get
+16:37:40.516	127.0.0.1:41300	admin	200		31.03 ms
+16:37:44.829	127.0.0.1:41300	admin	REQUEST	[GET] http://localhost:8984/test
+16:37:44.875	127.0.0.1:41300	admin	200		46.17 ms
+16:37:44.884	127.0.0.1:41300	admin	REQUEST	[GET] http://localhost:8984/
+16:37:44.923	127.0.0.1:41300	admin	200		39.62 ms
+16:37:52.754	127.0.0.1:41300	admin	REQUEST	[GET] http://localhost:8984/debug/get
+16:37:52.783	127.0.0.1:41300	admin	200		29.27 ms
+17:11:01.693	SERVER	admin	OK	Server was stopped (port: 1984).
+17:11:01.694	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:11:03.032	SERVER	admin	OK	Server was started (port: 1984).
+17:11:03.080	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:11:08.162	127.0.0.1:41564	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:11:09.478	127.0.0.1:41564	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 130/5: [XPST0003] Expecting 'modify', found 'r'.	1317.69 ms
+17:12:15.135	SERVER	admin	OK	Server was stopped (port: 1984).
+17:12:15.136	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:12:17.067	SERVER	admin	OK	Server was started (port: 1984).
+17:12:17.111	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:12:19.115	127.0.0.1:41582	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:12:20.404	127.0.0.1:41582	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 126/10: [bxerr:BASX0003] Variable $gameID is not assigned by the annotations.	1291.45 ms
+17:12:37.499	127.0.0.1:41582	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:12:38.058	127.0.0.1:41582	admin	200		559.18 ms
+17:12:38.127	127.0.0.1:41582	admin	REQUEST	[GET] http://localhost:8984/test.svg
+17:12:38.184	127.0.0.1:41582	admin	404	No function found that matches the request.	57.54 ms
+17:12:42.913	SERVER	admin	OK	Server was stopped (port: 1984).
+17:12:42.914	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:12:44.155	SERVER	admin	OK	Server was started (port: 1984).
+17:12:44.208	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:13:14.256	SERVER	admin	OK	Server was stopped (port: 1984).
+17:13:14.257	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:13:15.555	SERVER	admin	OK	Server was started (port: 1984).
+17:13:15.602	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:13:20.823	127.0.0.1:41592	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:13:22.259	127.0.0.1:41592	admin	200		1438.62 ms
+17:13:22.308	127.0.0.1:41592	admin	REQUEST	[GET] http://localhost:8984/test.svg
+17:13:22.356	127.0.0.1:41592	admin	404	No function found that matches the request.	47.86 ms
+17:19:34.548	SERVER	admin	OK	Server was stopped (port: 1984).
+17:19:34.548	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:19:37.121	SERVER	admin	OK	Server was started (port: 1984).
+17:19:37.179	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:19:39.886	127.0.0.1:41774	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:19:41.376	127.0.0.1:41774	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 128/21: [FODC0002] "/home/gap/Dokumente/basex/webapp/static/unsermancala.xml" (Line 5): The processing instruction target matching "[xX][mM][lL]" is not allowed.	1492.38 ms
+17:20:10.991	SERVER	admin	OK	Server was stopped (port: 1984).
+17:20:10.992	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:20:12.495	SERVER	admin	OK	Server was started (port: 1984).
+17:20:12.544	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:20:17.371	127.0.0.1:41776	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:20:18.954	127.0.0.1:41776	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 128/21: [FODC0002] "/home/gap/Dokumente/basex/webapp/static/unsermancala.xml" (Line 209): The processing instruction target matching "[xX][mM][lL]" is not allowed.	1584.54 ms
+17:20:41.518	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:20:41.519	SERVER	admin	OK	Server was stopped (port: 1984).
+17:20:42.846	SERVER	admin	OK	Server was started (port: 1984).
+17:20:42.889	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:20:47.785	127.0.0.1:41778	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:20:49.358	127.0.0.1:41778	admin	200		1574.94 ms
+17:20:49.500	127.0.0.1:41778	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+17:20:49.536	127.0.0.1:41780	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+17:20:49.539	127.0.0.1:41782	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+17:20:49.545	127.0.0.1:41784	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+17:20:49.584	127.0.0.1:41786	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+17:20:49.595	127.0.0.1:41788	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+17:20:49.608	127.0.0.1:41778	admin	404	No function found that matches the request.	108.17 ms
+17:20:49.614	127.0.0.1:41778	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+17:20:49.641	127.0.0.1:41786	admin	404	No function found that matches the request.	56.99 ms
+17:20:49.645	127.0.0.1:41786	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+17:20:49.693	127.0.0.1:41784	admin	404	No function found that matches the request.	148.05 ms
+17:20:49.700	127.0.0.1:41784	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+17:20:49.741	127.0.0.1:41782	admin	404	No function found that matches the request.	202.64 ms
+17:20:49.747	127.0.0.1:41782	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+17:20:49.776	127.0.0.1:41780	admin	404	No function found that matches the request.	240.21 ms
+17:20:49.780	127.0.0.1:41780	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+17:20:49.791	127.0.0.1:41782	admin	404	No function found that matches the request.	51.67 ms
+17:20:49.801	127.0.0.1:41782	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+17:20:49.836	127.0.0.1:41784	admin	404	No function found that matches the request.	136.09 ms
+17:20:49.849	127.0.0.1:41786	admin	404	No function found that matches the request.	204.15 ms
+17:20:49.887	127.0.0.1:41778	admin	404	No function found that matches the request.	272.76 ms
+17:20:49.929	127.0.0.1:41788	admin	404	No function found that matches the request.	334.42 ms
+17:20:49.973	127.0.0.1:41782	admin	404	No function found that matches the request.	172.19 ms
+17:20:50.013	127.0.0.1:41780	admin	404	No function found that matches the request.	233.83 ms
+17:25:20.265	SERVER	admin	OK	Server was stopped (port: 1984).
+17:25:20.266	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:25:21.716	SERVER	admin	OK	Server was started (port: 1984).
+17:25:21.780	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:25:25.729	127.0.0.1:41796	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:25:27.340	127.0.0.1:41796	admin	200		1612.75 ms
+17:25:27.373	127.0.0.1:41796	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:25:27.518	127.0.0.1:41798	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+17:25:27.537	127.0.0.1:41800	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+17:25:27.561	127.0.0.1:41802	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+17:25:27.621	127.0.0.1:41804	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+17:25:27.635	127.0.0.1:41806	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+17:25:27.635	127.0.0.1:41798	admin	404	No function found that matches the request.	117.56 ms
+17:25:27.641	127.0.0.1:41798	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+17:25:27.658	127.0.0.1:41796	admin	200		284.68 ms
+17:25:27.669	127.0.0.1:41796	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+17:25:27.680	127.0.0.1:41802	admin	404	No function found that matches the request.	119.53 ms
+17:25:27.688	127.0.0.1:41802	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+17:25:27.708	127.0.0.1:41800	admin	404	No function found that matches the request.	171.15 ms
+17:25:27.741	127.0.0.1:41800	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+17:25:27.758	127.0.0.1:41802	admin	404	No function found that matches the request.	69.61 ms
+17:25:27.761	127.0.0.1:41802	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+17:25:27.780	127.0.0.1:41796	admin	404	No function found that matches the request.	111.07 ms
+17:25:27.787	127.0.0.1:41796	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+17:25:27.810	127.0.0.1:41798	admin	404	No function found that matches the request.	169.13 ms
+17:25:27.819	127.0.0.1:41798	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+17:25:27.843	127.0.0.1:41806	admin	404	No function found that matches the request.	208.07 ms
+17:25:27.878	127.0.0.1:41804	admin	404	No function found that matches the request.	257.76 ms
+17:25:27.912	127.0.0.1:41798	admin	404	No function found that matches the request.	93.16 ms
+17:25:27.937	127.0.0.1:41796	admin	404	No function found that matches the request.	150.35 ms
+17:25:27.998	127.0.0.1:41802	admin	404	No function found that matches the request.	237.6 ms
+17:25:28.009	127.0.0.1:41800	admin	404	No function found that matches the request.	269.0 ms
+17:43:06.571	SERVER	admin	OK	Server was stopped (port: 1984).
+17:43:06.571	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:43:08.229	SERVER	admin	OK	Server was started (port: 1984).
+17:43:08.277	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:43:16.327	127.0.0.1:42168	admin	REQUEST	[GET] http://localhost:8984/showgame
+17:43:18.171	127.0.0.1:42168	admin	200		1845.23 ms
+17:43:18.294	127.0.0.1:42168	admin	REQUEST	[GET] http://localhost:8984/test.svg
+17:43:18.386	127.0.0.1:42168	admin	404	No function found that matches the request.	93.03 ms
+17:49:03.513	SERVER	admin	OK	Server was stopped (port: 1984).
+17:49:03.514	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:49:04.818	SERVER	admin	OK	Server was started (port: 1984).
+17:49:04.877	SERVER	admin	OK	HTTP Server was started (port: 8984).

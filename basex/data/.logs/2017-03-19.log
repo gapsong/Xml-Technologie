@@ -1,0 +1,606 @@
+10:00:55.192	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:00:55.255	127.0.0.1:50802	admin	200		63.09 ms
+10:00:55.361	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:00:55.434	127.0.0.1:50804	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+10:00:55.440	127.0.0.1:50802	admin	200		79.26 ms
+10:00:55.458	127.0.0.1:50804	admin	404	No function found that matches the request.	24.52 ms
+10:00:55.473	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:00:55.487	127.0.0.1:50804	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:00:55.503	127.0.0.1:50806	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:00:55.508	127.0.0.1:50802	admin	404	No function found that matches the request.	34.93 ms
+10:00:55.522	127.0.0.1:50808	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:00:55.538	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+10:00:55.549	127.0.0.1:50810	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+10:00:55.551	127.0.0.1:50812	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+10:00:55.556	127.0.0.1:50808	admin	404	No function found that matches the request.	33.78 ms
+10:00:55.557	127.0.0.1:50804	admin	404	No function found that matches the request.	70.07 ms
+10:00:55.576	127.0.0.1:50808	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+10:00:55.586	127.0.0.1:50806	admin	404	No function found that matches the request.	82.57 ms
+10:00:55.597	127.0.0.1:50804	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:00:55.601	127.0.0.1:50812	admin	404	No function found that matches the request.	49.89 ms
+10:00:55.635	127.0.0.1:50810	admin	404	No function found that matches the request.	86.22 ms
+10:00:55.647	127.0.0.1:50806	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+10:00:55.659	127.0.0.1:50812	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:00:55.682	127.0.0.1:50802	admin	404	No function found that matches the request.	145.04 ms
+10:00:55.723	127.0.0.1:50812	admin	404	No function found that matches the request.	64.22 ms
+10:00:55.732	127.0.0.1:50806	admin	404	No function found that matches the request.	84.58 ms
+10:00:55.754	127.0.0.1:50804	admin	404	No function found that matches the request.	156.98 ms
+10:00:55.763	127.0.0.1:50808	admin	404	No function found that matches the request.	186.78 ms
+10:01:20.249	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:01:20.340	127.0.0.1:50802	admin	200		90.67 ms
+10:01:20.411	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:01:20.458	127.0.0.1:50802	admin	200		47.78 ms
+10:01:20.514	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+10:01:20.527	127.0.0.1:50812	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:01:20.529	127.0.0.1:50802	admin	404	No function found that matches the request.	15.02 ms
+10:01:20.549	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:01:20.558	127.0.0.1:50812	admin	404	No function found that matches the request.	30.9 ms
+10:01:20.570	127.0.0.1:50802	admin	404	No function found that matches the request.	21.14 ms
+10:01:20.579	127.0.0.1:50806	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:01:20.605	127.0.0.1:50806	admin	404	No function found that matches the request.	26.75 ms
+10:01:20.611	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:01:20.630	127.0.0.1:50804	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+10:01:20.636	127.0.0.1:50802	admin	404	No function found that matches the request.	26.01 ms
+10:01:20.644	127.0.0.1:50804	admin	404	No function found that matches the request.	14.42 ms
+10:01:20.655	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+10:01:20.671	127.0.0.1:50812	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+10:01:20.678	127.0.0.1:50802	admin	404	No function found that matches the request.	22.4 ms
+10:01:20.689	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+10:01:20.695	127.0.0.1:50812	admin	404	No function found that matches the request.	24.58 ms
+10:01:20.723	127.0.0.1:50806	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:01:20.733	127.0.0.1:50802	admin	404	No function found that matches the request.	43.85 ms
+10:01:20.748	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+10:01:20.750	127.0.0.1:50806	admin	404	No function found that matches the request.	27.29 ms
+10:01:20.771	127.0.0.1:50804	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:01:20.788	127.0.0.1:50802	admin	404	No function found that matches the request.	40.27 ms
+10:01:20.803	127.0.0.1:50804	admin	404	No function found that matches the request.	32.34 ms
+10:01:21.289	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+10:01:21.298	127.0.0.1:50812	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:01:21.299	127.0.0.1:50802	admin	404	No function found that matches the request.	9.87 ms
+10:01:21.310	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:01:21.314	127.0.0.1:50812	admin	404	No function found that matches the request.	15.69 ms
+10:01:21.342	127.0.0.1:50802	admin	404	No function found that matches the request.	32.02 ms
+10:01:21.345	127.0.0.1:50806	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:01:21.364	127.0.0.1:50806	admin	404	No function found that matches the request.	19.0 ms
+10:01:21.380	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:01:21.399	127.0.0.1:50804	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:01:21.401	127.0.0.1:50802	admin	404	No function found that matches the request.	20.5 ms
+10:01:21.415	127.0.0.1:50804	admin	404	No function found that matches the request.	17.09 ms
+10:01:21.451	127.0.0.1:50802	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:01:21.464	127.0.0.1:50802	admin	404	No function found that matches the request.	12.74 ms
+10:04:09.711	127.0.0.1:50826	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:04:09.779	127.0.0.1:50826	admin	200		67.85 ms
+10:04:09.810	127.0.0.1:50826	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:04:09.868	127.0.0.1:50826	admin	200		58.09 ms
+10:04:09.910	127.0.0.1:50826	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+10:04:09.925	127.0.0.1:50826	admin	404	No function found that matches the request.	15.15 ms
+10:04:09.926	127.0.0.1:50828	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:04:09.941	127.0.0.1:50826	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:04:09.948	127.0.0.1:50828	admin	404	No function found that matches the request.	21.86 ms
+10:04:09.959	127.0.0.1:50828	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:04:09.971	127.0.0.1:50826	admin	404	No function found that matches the request.	29.39 ms
+10:04:09.982	127.0.0.1:50826	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:04:09.994	127.0.0.1:50830	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+10:04:10.006	127.0.0.1:50832	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+10:04:10.015	127.0.0.1:50828	admin	404	No function found that matches the request.	55.91 ms
+10:04:10.024	127.0.0.1:50830	admin	404	No function found that matches the request.	30.51 ms
+10:04:10.035	127.0.0.1:50834	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+10:04:10.036	127.0.0.1:50828	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+10:04:10.057	127.0.0.1:50830	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:04:10.071	127.0.0.1:50836	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+10:04:10.071	127.0.0.1:50826	admin	404	No function found that matches the request.	89.4 ms
+10:04:10.074	127.0.0.1:50826	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:04:10.090	127.0.0.1:50828	admin	404	No function found that matches the request.	54.56 ms
+10:04:10.119	127.0.0.1:50834	admin	404	No function found that matches the request.	84.6 ms
+10:04:10.128	127.0.0.1:50832	admin	404	No function found that matches the request.	122.92 ms
+10:04:10.154	127.0.0.1:50826	admin	404	No function found that matches the request.	80.17 ms
+10:04:10.175	127.0.0.1:50836	admin	404	No function found that matches the request.	108.46 ms
+10:04:10.217	127.0.0.1:50830	admin	404	No function found that matches the request.	161.8 ms
+10:04:10.607	127.0.0.1:50826	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+10:04:10.625	127.0.0.1:50828	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:04:10.625	127.0.0.1:50830	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:04:10.626	127.0.0.1:50826	admin	404	No function found that matches the request.	18.84 ms
+10:04:10.627	127.0.0.1:50836	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:04:10.639	127.0.0.1:50826	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:04:10.647	127.0.0.1:50834	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:04:10.650	127.0.0.1:50828	admin	404	No function found that matches the request.	25.11 ms
+10:04:10.679	127.0.0.1:50832	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:04:10.680	127.0.0.1:50826	admin	404	No function found that matches the request.	40.63 ms
+10:04:10.687	127.0.0.1:50836	admin	404	No function found that matches the request.	59.56 ms
+10:04:10.700	127.0.0.1:50830	admin	404	No function found that matches the request.	75.33 ms
+10:04:10.731	127.0.0.1:50832	admin	404	No function found that matches the request.	53.08 ms
+10:04:10.750	127.0.0.1:50834	admin	404	No function found that matches the request.	103.24 ms
+10:16:57.336	127.0.0.1:50994	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:16:57.389	127.0.0.1:50994	admin	200		53.19 ms
+10:16:57.448	127.0.0.1:50994	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:16:57.500	127.0.0.1:50994	admin	200		52.29 ms
+10:16:57.530	127.0.0.1:50994	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:16:57.539	127.0.0.1:50996	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:16:57.542	127.0.0.1:50994	admin	404	No function found that matches the request.	11.73 ms
+10:16:57.554	127.0.0.1:50994	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:16:57.556	127.0.0.1:50996	admin	404	No function found that matches the request.	17.1 ms
+10:16:57.568	127.0.0.1:50996	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:16:57.572	127.0.0.1:50994	admin	404	No function found that matches the request.	18.79 ms
+10:16:57.586	127.0.0.1:50994	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+10:16:57.591	127.0.0.1:50996	admin	404	No function found that matches the request.	23.24 ms
+10:16:57.601	127.0.0.1:50996	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+10:16:57.603	127.0.0.1:50994	admin	404	No function found that matches the request.	17.46 ms
+10:16:57.614	127.0.0.1:50994	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+10:16:57.626	127.0.0.1:50996	admin	404	No function found that matches the request.	24.72 ms
+10:16:57.627	127.0.0.1:50998	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+10:16:57.633	127.0.0.1:51000	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:16:57.647	127.0.0.1:50996	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+10:16:57.655	127.0.0.1:50994	admin	404	No function found that matches the request.	41.44 ms
+10:16:57.669	127.0.0.1:50994	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:16:57.672	127.0.0.1:51000	admin	404	No function found that matches the request.	39.15 ms
+10:16:57.681	127.0.0.1:50998	admin	404	No function found that matches the request.	54.39 ms
+10:16:57.697	127.0.0.1:50994	admin	404	No function found that matches the request.	28.35 ms
+10:16:57.710	127.0.0.1:50996	admin	404	No function found that matches the request.	63.55 ms
+10:16:57.984	127.0.0.1:50994	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:16:57.997	127.0.0.1:51000	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:16:58.000	127.0.0.1:50994	admin	404	No function found that matches the request.	15.88 ms
+10:16:58.004	127.0.0.1:50996	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:16:58.022	127.0.0.1:50994	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:16:58.031	127.0.0.1:51000	admin	404	No function found that matches the request.	33.95 ms
+10:16:58.041	127.0.0.1:51000	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:16:58.046	127.0.0.1:50996	admin	404	No function found that matches the request.	42.27 ms
+10:16:58.056	127.0.0.1:51000	admin	404	No function found that matches the request.	16.1 ms
+10:16:58.071	127.0.0.1:50994	admin	404	No function found that matches the request.	49.02 ms
+10:16:58.077	127.0.0.1:50994	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:16:58.089	127.0.0.1:50994	admin	404	No function found that matches the request.	12.1 ms
+10:19:49.721	127.0.0.1:51012	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:19:49.754	127.0.0.1:51012	admin	200		33.13 ms
+10:19:49.835	127.0.0.1:51012	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:19:49.887	127.0.0.1:51012	admin	200		52.06 ms
+10:19:49.926	127.0.0.1:51012	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+10:19:49.945	127.0.0.1:51014	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:19:49.950	127.0.0.1:51012	admin	404	No function found that matches the request.	24.09 ms
+10:19:49.962	127.0.0.1:51014	admin	404	No function found that matches the request.	17.04 ms
+10:19:49.963	127.0.0.1:51012	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:19:49.977	127.0.0.1:51014	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:19:49.999	127.0.0.1:51016	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:19:50.012	127.0.0.1:51018	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+10:19:50.015	127.0.0.1:51012	admin	404	No function found that matches the request.	51.28 ms
+10:19:50.027	127.0.0.1:51014	admin	404	No function found that matches the request.	49.92 ms
+10:19:50.052	127.0.0.1:51012	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+10:19:50.075	127.0.0.1:51014	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+10:19:50.095	127.0.0.1:51018	admin	404	No function found that matches the request.	83.17 ms
+10:19:50.112	127.0.0.1:51018	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+10:19:50.115	127.0.0.1:51016	admin	404	No function found that matches the request.	116.19 ms
+10:19:50.138	127.0.0.1:51016	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:19:50.149	127.0.0.1:51020	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+10:19:50.168	127.0.0.1:51022	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:19:50.175	127.0.0.1:51014	admin	404	No function found that matches the request.	100.19 ms
+10:19:50.182	127.0.0.1:51012	admin	404	No function found that matches the request.	130.37 ms
+10:19:50.230	127.0.0.1:51022	admin	404	No function found that matches the request.	61.91 ms
+10:19:50.248	127.0.0.1:51020	admin	404	No function found that matches the request.	98.39 ms
+10:19:50.263	127.0.0.1:51016	admin	404	No function found that matches the request.	125.78 ms
+10:19:50.279	127.0.0.1:51018	admin	404	No function found that matches the request.	167.81 ms
+10:19:50.559	127.0.0.1:51012	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+10:19:50.569	127.0.0.1:51012	admin	404	No function found that matches the request.	9.76 ms
+10:19:50.587	127.0.0.1:51012	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:19:50.595	127.0.0.1:51022	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:19:50.602	127.0.0.1:51012	admin	404	No function found that matches the request.	14.84 ms
+10:19:50.612	127.0.0.1:51022	admin	404	No function found that matches the request.	17.1 ms
+10:19:50.613	127.0.0.1:51012	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:19:50.623	127.0.0.1:51020	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:19:50.639	127.0.0.1:51016	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:19:50.643	127.0.0.1:51012	admin	404	No function found that matches the request.	29.64 ms
+10:19:50.647	127.0.0.1:51020	admin	404	No function found that matches the request.	24.4 ms
+10:19:50.660	127.0.0.1:51016	admin	404	No function found that matches the request.	21.22 ms
+10:19:50.675	127.0.0.1:51012	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:19:50.691	127.0.0.1:51012	admin	404	No function found that matches the request.	15.78 ms
+10:54:48.159	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:54:48.194	127.0.0.1:51202	admin	200		35.64 ms
+10:54:48.321	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/showgame
+10:54:48.366	127.0.0.1:51202	admin	200		44.46 ms
+10:54:48.412	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+10:54:48.427	127.0.0.1:51202	admin	404	No function found that matches the request.	14.7 ms
+10:54:48.427	127.0.0.1:51204	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:54:48.444	127.0.0.1:51204	admin	404	No function found that matches the request.	17.68 ms
+10:54:48.454	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:54:48.468	127.0.0.1:51202	admin	404	No function found that matches the request.	13.52 ms
+10:54:48.475	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:54:48.483	127.0.0.1:51204	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:54:48.491	127.0.0.1:51206	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+10:54:48.502	127.0.0.1:51202	admin	404	No function found that matches the request.	26.45 ms
+10:54:48.511	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+10:54:48.515	127.0.0.1:51206	admin	404	No function found that matches the request.	24.95 ms
+10:54:48.525	127.0.0.1:51206	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+10:54:48.531	127.0.0.1:51204	admin	404	No function found that matches the request.	48.21 ms
+10:54:48.540	127.0.0.1:51206	admin	404	No function found that matches the request.	14.74 ms
+10:54:48.543	127.0.0.1:51204	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+10:54:48.552	127.0.0.1:51202	admin	404	No function found that matches the request.	41.53 ms
+10:54:48.561	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:54:48.564	127.0.0.1:51204	admin	404	No function found that matches the request.	21.48 ms
+10:54:48.574	127.0.0.1:51206	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+10:54:48.583	127.0.0.1:51202	admin	404	No function found that matches the request.	21.63 ms
+10:54:48.591	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:54:48.594	127.0.0.1:51206	admin	404	No function found that matches the request.	20.67 ms
+10:54:48.615	127.0.0.1:51202	admin	404	No function found that matches the request.	23.69 ms
+10:54:49.115	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+10:54:49.127	127.0.0.1:51202	admin	404	No function found that matches the request.	11.9 ms
+10:54:49.132	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+10:54:49.145	127.0.0.1:51206	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+10:54:49.146	127.0.0.1:51202	admin	404	No function found that matches the request.	14.61 ms
+10:54:49.160	127.0.0.1:51206	admin	404	No function found that matches the request.	15.22 ms
+10:54:49.162	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+10:54:49.175	127.0.0.1:51206	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+10:54:49.180	127.0.0.1:51202	admin	404	No function found that matches the request.	18.12 ms
+10:54:49.195	127.0.0.1:51206	admin	404	No function found that matches the request.	20.42 ms
+10:54:49.198	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+10:54:49.211	127.0.0.1:51202	admin	404	No function found that matches the request.	13.15 ms
+10:54:49.236	127.0.0.1:51202	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+10:54:49.251	127.0.0.1:51202	admin	404	No function found that matches the request.	15.96 ms
+11:00:34.292	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/showgame
+11:00:34.337	127.0.0.1:51460	admin	200		45.04 ms
+11:00:34.428	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/showgame
+11:00:34.494	127.0.0.1:51460	admin	200		66.81 ms
+11:00:34.518	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+11:00:34.530	127.0.0.1:51460	admin	404	No function found that matches the request.	12.43 ms
+11:00:34.533	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+11:00:34.550	127.0.0.1:51462	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+11:00:34.554	127.0.0.1:51460	admin	404	No function found that matches the request.	21.83 ms
+11:00:34.567	127.0.0.1:51462	admin	404	No function found that matches the request.	16.36 ms
+11:00:34.568	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+11:00:34.583	127.0.0.1:51460	admin	404	No function found that matches the request.	14.71 ms
+11:00:34.597	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+11:00:34.616	127.0.0.1:51460	admin	404	No function found that matches the request.	18.52 ms
+11:00:34.623	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/6-steine.svg
+11:00:34.633	127.0.0.1:51460	admin	404	No function found that matches the request.	10.38 ms
+11:00:34.642	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/7-steine.svg
+11:00:34.649	127.0.0.1:51462	admin	REQUEST	[GET] http://localhost:8984/steine/8-steine.svg
+11:00:34.658	127.0.0.1:51460	admin	404	No function found that matches the request.	15.58 ms
+11:00:34.665	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/9-steine.svg
+11:00:34.674	127.0.0.1:51462	admin	404	No function found that matches the request.	25.18 ms
+11:00:34.687	127.0.0.1:51462	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+11:00:34.691	127.0.0.1:51460	admin	404	No function found that matches the request.	25.58 ms
+11:00:34.696	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/11-steine.svg
+11:00:34.721	127.0.0.1:51462	admin	404	No function found that matches the request.	34.28 ms
+11:00:34.726	127.0.0.1:51464	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+11:00:34.733	127.0.0.1:51460	admin	404	No function found that matches the request.	37.08 ms
+11:00:34.745	127.0.0.1:51464	admin	404	No function found that matches the request.	18.7 ms
+11:00:35.193	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/1-stein.svg
+11:00:35.202	127.0.0.1:51462	admin	REQUEST	[GET] http://localhost:8984/steine/2-steine.svg
+11:00:35.208	127.0.0.1:51460	admin	404	No function found that matches the request.	14.82 ms
+11:00:35.215	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/3-steine.svg
+11:00:35.222	127.0.0.1:51462	admin	404	No function found that matches the request.	20.08 ms
+11:00:35.244	127.0.0.1:51464	admin	REQUEST	[GET] http://localhost:8984/steine/4-steine.svg
+11:00:35.244	127.0.0.1:51462	admin	REQUEST	[GET] http://localhost:8984/steine/5-steine.svg
+11:00:35.247	127.0.0.1:51460	admin	404	No function found that matches the request.	32.58 ms
+11:00:35.258	127.0.0.1:51462	admin	404	No function found that matches the request.	14.97 ms
+11:00:35.269	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/12-steine.svg
+11:00:35.273	127.0.0.1:51464	admin	404	No function found that matches the request.	29.2 ms
+11:00:35.284	127.0.0.1:51460	admin	404	No function found that matches the request.	15.46 ms
+11:00:35.286	127.0.0.1:51460	admin	REQUEST	[GET] http://localhost:8984/steine/10-steine.svg
+11:00:35.299	127.0.0.1:51460	admin	404	No function found that matches the request.	13.49 ms
+11:02:09.682	127.0.0.1:51480	admin	REQUEST	[GET] http://localhost:8984/showgame
+11:02:09.742	127.0.0.1:51480	admin	200		59.41 ms
+11:02:09.861	127.0.0.1:51480	admin	REQUEST	[GET] http://localhost:8984/showgame
+11:02:09.925	127.0.0.1:51480	admin	200		64.14 ms
+11:03:41.640	127.0.0.1:51542	admin	REQUEST	[GET] http://localhost:8984/getDB
+11:03:41.659	127.0.0.1:51542	admin	404	No function found that matches the request.	19.72 ms
+11:03:54.723	127.0.0.1:51542	admin	REQUEST	[GET] http://localhost:8984/debug/getDB
+11:03:54.749	127.0.0.1:51542	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 71/19: [bxerr:BXDB0002] Database 'matchhistory' was not found.	25.99 ms
+11:04:05.699	127.0.0.1:51542	admin	REQUEST	[GET] http://localhost:8984/init
+11:04:05.767	127.0.0.1:51542	admin	200		67.4 ms
+11:04:05.801	127.0.0.1:51542	admin	REQUEST	[GET] http://localhost:8984/
+11:04:05.814	127.0.0.1:51542	admin	404	No function found that matches the request.	12.38 ms
+11:04:39.336	127.0.0.1:51542	admin	REQUEST	[GET] http://localhost:8984/
+11:04:39.393	127.0.0.1:51542	admin	200		57.86 ms
+11:04:39.511	127.0.0.1:51542	admin	REQUEST	[GET] http://localhost:8984/
+11:04:39.588	127.0.0.1:51542	admin	200		76.68 ms
+11:04:47.383	127.0.0.1:51542	admin	REQUEST	[GET] http://localhost:8984/debug/getDB
+11:04:47.414	127.0.0.1:51542	admin	200		30.57 ms
+11:07:22.756	127.0.0.1:51600	admin	REQUEST	[GET] http://localhost:8984/
+11:07:22.802	127.0.0.1:51600	admin	200		46.39 ms
+11:07:22.939	127.0.0.1:51600	admin	REQUEST	[GET] http://localhost:8984/
+11:07:22.983	127.0.0.1:51600	admin	200		43.98 ms
+11:12:25.274	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/debug/get
+11:12:25.288	127.0.0.1:51814	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 64/10: [XQST0034] Duplicate declaration of function 'page:getStatic'.	13.75 ms
+11:12:49.617	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/debug/getDB
+11:12:49.630	127.0.0.1:51814	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 64/10: [XQST0034] Duplicate declaration of function 'page:getStatic'.	13.13 ms
+11:13:09.484	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/debug/getDB
+11:13:09.497	127.0.0.1:51814	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 66/7: [XUST0001] StaticFunc expression: no updating expression allowed.	13.05 ms
+11:13:10.528	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/debug/getDB
+11:13:10.543	127.0.0.1:51814	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 66/7: [XUST0001] StaticFunc expression: no updating expression allowed.	14.83 ms
+11:13:43.706	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/debug/getDB
+11:13:43.724	127.0.0.1:51814	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 66/7: [XUST0001] StaticFunc expression: no updating expression allowed.	17.95 ms
+11:13:44.667	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/debug/getDB
+11:13:44.681	127.0.0.1:51814	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 66/7: [XUST0001] StaticFunc expression: no updating expression allowed.	13.95 ms
+11:14:37.760	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/debug/getDB
+11:14:37.772	127.0.0.1:51814	admin	200		12.44 ms
+11:14:57.209	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/createnewgame
+11:14:57.219	127.0.0.1:51814	admin	404	No function found that matches the request.	9.58 ms
+11:15:10.716	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/creategame
+11:15:10.750	127.0.0.1:51814	admin	200		34.24 ms
+11:15:10.798	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/
+11:15:10.930	127.0.0.1:51814	admin	200		132.14 ms
+11:15:11.010	127.0.0.1:51814	admin	REQUEST	[GET] http://localhost:8984/
+11:15:11.076	127.0.0.1:51814	admin	200		66.27 ms
+11:16:17.125	127.0.0.1:52096	admin	REQUEST	[GET] http://localhost:8984/debug/getgame
+11:16:17.142	127.0.0.1:52096	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 89/10: [XQST0034] Duplicate declaration of function 'page:_debugget'.	16.73 ms
+11:17:09.670	127.0.0.1:52096	admin	REQUEST	[GET] http://localhost:8984/debug/getgame
+11:17:09.682	127.0.0.1:52096	admin	200		11.8 ms
+11:18:10.194	127.0.0.1:52324	admin	REQUEST	[GET] http://localhost:8984/debug/getgame
+11:18:10.207	127.0.0.1:52324	admin	200		13.18 ms
+11:18:22.018	127.0.0.1:52324	admin	REQUEST	[GET] http://localhost:8984/debug/getdb
+11:18:22.031	127.0.0.1:52324	admin	200		13.3 ms
+11:23:19.435	127.0.0.1:52942	admin	REQUEST	[GET] http://localhost:8984/
+11:23:19.482	127.0.0.1:52942	admin	200		47.15 ms
+11:23:19.569	127.0.0.1:52942	admin	REQUEST	[GET] http://localhost:8984/
+11:23:19.609	127.0.0.1:52942	admin	200		40.35 ms
+11:29:44.237	127.0.0.1:52996	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:29:44.250	127.0.0.1:52996	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 26/10: [bxerr:BASX0003] Variable $gameID is not specified as argument.	13.07 ms
+11:29:44.507	127.0.0.1:52996	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+11:29:44.526	127.0.0.1:52996	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 26/10: [bxerr:BASX0003] Variable $gameID is not specified as argument.	19.25 ms
+11:30:17.002	127.0.0.1:52996	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:30:17.073	127.0.0.1:52996	admin	200		71.23 ms
+11:30:17.132	127.0.0.1:52996	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+11:30:17.154	127.0.0.1:52996	admin	404	No function found that matches the request.	22.33 ms
+11:30:18.504	127.0.0.1:52996	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:30:18.544	127.0.0.1:52996	admin	200		40.42 ms
+11:30:22.621	127.0.0.1:52996	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:30:22.672	127.0.0.1:52996	admin	200		51.12 ms
+11:31:43.147	127.0.0.1:53744	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:31:43.192	127.0.0.1:53744	admin	200		45.48 ms
+11:33:24.384	127.0.0.1:54726	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:33:24.393	127.0.0.1:54726	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Expecting 'modify', found 'l'.	10.03 ms
+11:33:40.467	127.0.0.1:54726	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:33:40.502	127.0.0.1:54726	admin	200		35.05 ms
+11:33:40.553	127.0.0.1:54726	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:33:40.606	127.0.0.1:54726	admin	200		53.31 ms
+11:36:37.827	127.0.0.1:54964	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:36:37.837	127.0.0.1:54964	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 50/19: [XQST0034] Duplicate declaration of function 'page:createGame'.	9.37 ms
+11:37:06.516	127.0.0.1:54964	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:37:06.549	127.0.0.1:54964	admin	200		32.95 ms
+11:37:06.583	127.0.0.1:54964	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:37:06.619	127.0.0.1:54964	admin	200		36.15 ms
+11:37:20.489	127.0.0.1:54964	admin	REQUEST	[GET] http://localhost:8984/getspielzustand
+11:37:20.504	127.0.0.1:54964	admin	200		14.7 ms
+11:40:34.363	127.0.0.1:55058	admin	REQUEST	[GET] http://localhost:8984/creategame
+11:40:34.387	127.0.0.1:55058	admin	200		23.46 ms
+11:40:34.404	127.0.0.1:55058	admin	REQUEST	[GET] http://localhost:8984/
+11:40:34.412	127.0.0.1:55058	admin	404	No function found that matches the request.	8.76 ms
+11:40:59.616	127.0.0.1:55058	admin	REQUEST	[GET] http://localhost:8984/creategame
+11:40:59.649	127.0.0.1:55058	admin	200		33.03 ms
+11:40:59.663	127.0.0.1:55058	admin	REQUEST	[GET] http://localhost:8984/
+11:40:59.677	127.0.0.1:55058	admin	404	No function found that matches the request.	14.51 ms
+11:41:55.410	127.0.0.1:55058	admin	REQUEST	[GET] http://localhost:8984/
+11:41:55.419	127.0.0.1:55058	admin	404	No function found that matches the request.	8.95 ms
+11:42:01.409	127.0.0.1:55058	admin	REQUEST	[GET] http://localhost:8984/creategame
+11:42:01.452	127.0.0.1:55058	admin	200		42.96 ms
+11:42:01.459	127.0.0.1:55058	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:42:01.496	127.0.0.1:55058	admin	200		36.81 ms
+11:42:01.539	127.0.0.1:55058	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:42:01.586	127.0.0.1:55058	admin	200		47.3 ms
+11:43:20.142	127.0.0.1:55154	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:43:20.177	127.0.0.1:55154	admin	200		34.57 ms
+11:43:20.227	127.0.0.1:55154	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:43:20.273	127.0.0.1:55154	admin	200		46.35 ms
+11:43:22.185	127.0.0.1:55154	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:43:22.215	127.0.0.1:55154	admin	200		29.98 ms
+11:43:22.254	127.0.0.1:55154	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:43:22.283	127.0.0.1:55154	admin	200		28.51 ms
+11:58:48.754	127.0.0.1:55958	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:58:48.769	127.0.0.1:55958	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 84/33: [XPST0017] Unknown function: Q{http://basex.org/modules/web-page}_gamesDB.	14.17 ms
+11:59:36.867	127.0.0.1:55958	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:59:36.898	127.0.0.1:55958	admin	200		30.78 ms
+11:59:36.933	127.0.0.1:55958	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:59:36.963	127.0.0.1:55958	admin	200		30.02 ms
+11:59:59.822	127.0.0.1:55958	admin	REQUEST	[GET] http://localhost:8984/creategame
+11:59:59.867	127.0.0.1:55958	admin	200		44.5 ms
+11:59:59.872	127.0.0.1:55958	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:59:59.904	127.0.0.1:55958	admin	200		32.11 ms
+11:59:59.933	127.0.0.1:55958	admin	REQUEST	[GET] http://localhost:8984/game/1
+11:59:59.963	127.0.0.1:55958	admin	200		30.3 ms
+12:00:11.820	127.0.0.1:55958	admin	REQUEST	[GET] http://localhost:8984/creategame
+12:00:11.845	127.0.0.1:55958	admin	200		24.48 ms
+12:00:11.857	127.0.0.1:55958	admin	REQUEST	[GET] http://localhost:8984/game/1
+12:00:11.901	127.0.0.1:55958	admin	200		43.78 ms
+12:00:11.944	127.0.0.1:55958	admin	REQUEST	[GET] http://localhost:8984/game/1
+12:00:11.970	127.0.0.1:55958	admin	200		25.74 ms
+12:16:51.123	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/creategame
+12:16:51.136	127.0.0.1:57308	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 58/15: [XPST0003] Expecting ':=', found '='.	12.49 ms
+12:17:07.353	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/creategame
+12:17:07.370	127.0.0.1:57308	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 59/5: [XPST0003] Expecting ')', found 'l'.	16.73 ms
+12:17:39.069	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/creategame
+12:17:39.079	127.0.0.1:57308	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 65/9: [XPST0003] Expecting ')', found 'd'.	10.73 ms
+12:18:26.200	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/creategame
+12:18:26.210	127.0.0.1:57308	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 91/7: [XPST0003] Expecting '{', found 'c'.	10.22 ms
+12:19:24.056	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/creategame
+12:19:24.076	127.0.0.1:57308	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 54/38: [XPST0017] Unknown function: Q{http://basex.org/modules/web-page}_currentID.	20.54 ms
+12:20:00.141	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/creategame
+12:20:00.152	127.0.0.1:57308	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 59/34: [XPST0017] Unknown function: Q{http://basex.org/modules/web-page}_newGameState (similar: Q{http://basex.org/modules/web-page}getGameState).	11.13 ms
+12:20:21.468	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/creategame
+12:20:21.542	127.0.0.1:57308	admin	200		74.0 ms
+12:20:21.558	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/game/1
+12:20:21.594	127.0.0.1:57308	admin	200		36.51 ms
+12:20:21.639	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/game/1
+12:20:21.673	127.0.0.1:57308	admin	200		34.19 ms
+12:20:46.037	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/debug/getdb
+12:20:46.058	127.0.0.1:57308	admin	200		21.39 ms
+12:21:09.099	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/creategame
+12:21:09.127	127.0.0.1:57308	admin	200		28.31 ms
+12:21:09.152	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/game/2
+12:21:09.210	127.0.0.1:57308	admin	200		58.78 ms
+12:21:09.247	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/game/2
+12:21:09.311	127.0.0.1:57308	admin	200		64.39 ms
+12:21:11.471	127.0.0.1:57308	admin	REQUEST	[GET] http://localhost:8984/debug/getdb
+12:21:11.483	127.0.0.1:57308	admin	200		12.26 ms
+12:45:22.212	SERVER	admin	OK	Server was stopped (port: 1984).
+12:45:22.212	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+12:45:23.521	SERVER	admin	OK	Server was started (port: 1984).
+12:45:23.572	SERVER	admin	OK	HTTP Server was started (port: 8984).
+12:45:36.783	127.0.0.1:57952	admin	REQUEST	[GET] http://localhost:8984/game/1
+12:45:38.122	127.0.0.1:57952	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	1341.27 ms
+12:47:06.237	127.0.0.1:57992	admin	REQUEST	[GET] http://localhost:8984/game/1
+12:47:06.682	127.0.0.1:57992	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	444.71 ms
+12:48:33.393	127.0.0.1:58078	admin	REQUEST	[GET] http://localhost:8984/game/1
+12:48:33.786	127.0.0.1:58078	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Expecting 'modify', found 'c'.	393.69 ms
+12:48:46.334	127.0.0.1:58078	admin	REQUEST	[GET] http://localhost:8984/game/1
+12:48:46.629	127.0.0.1:58078	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 30/5: [XPST0003] Expecting 'return', found 'c'.	295.57 ms
+13:02:55.628	127.0.0.1:58266	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:02:55.900	127.0.0.1:58266	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	272.32 ms
+13:03:01.485	127.0.0.1:58266	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:03:01.776	127.0.0.1:58266	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	290.87 ms
+13:06:03.085	127.0.0.1:58370	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:06:03.306	127.0.0.1:58370	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	220.64 ms
+13:06:08.746	127.0.0.1:58370	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:06:09.007	127.0.0.1:58370	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	261.27 ms
+13:10:38.591	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:10:38.800	127.0.0.1:58710	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Expecting 'modify', found 'c'.	208.43 ms
+13:10:57.173	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:10:57.387	127.0.0.1:58710	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 30/5: [XPST0003] Expecting 'return', found 'c'.	213.68 ms
+13:11:12.313	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:11:12.516	127.0.0.1:58710	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 30/5: [XPST0003] Expecting 'return', found 'c'.	203.18 ms
+13:11:40.381	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:11:40.579	127.0.0.1:58710	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 103/9: [XPST0003] Expecting 'modify', found 'r'.	198.45 ms
+13:12:16.885	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:12:17.343	127.0.0.1:58710	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 101/29: [bxerr:BXDB0002] Database 'game-game-1' was not found.	458.45 ms
+13:12:34.521	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:12:34.762	127.0.0.1:58710	admin	200		241.85 ms
+13:12:34.776	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:12:34.905	127.0.0.1:58710	admin	200		129.97 ms
+13:13:30.992	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/debug/1
+13:13:31.011	127.0.0.1:58710	admin	404	No function found that matches the request.	19.06 ms
+13:14:21.586	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/debug/1
+13:14:21.602	127.0.0.1:58710	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 115/34: [XPST0017] fn:concat(atom1,atom2[,...]): 1 argument supplied.	16.56 ms
+13:14:36.936	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/debug/1
+13:14:36.957	127.0.0.1:58710	admin	404	No function found that matches the request.	21.25 ms
+13:14:47.857	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/debug/1
+13:14:47.879	127.0.0.1:58710	admin	404	No function found that matches the request.	22.21 ms
+13:15:10.802	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/debug/getgame/1
+13:15:10.823	127.0.0.1:58710	admin	200		21.81 ms
+13:15:19.719	127.0.0.1:58710	admin	REQUEST	[GET] http://localhost:8984/debug/getgame/2
+13:15:19.743	127.0.0.1:58710	admin	200		25.0 ms
+13:16:24.641	127.0.0.1:59190	admin	REQUEST	[GET] http://localhost:8984/debug/getgame/2
+13:16:24.656	127.0.0.1:59190	admin	200		15.43 ms
+13:16:34.952	127.0.0.1:59190	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:16:35.003	127.0.0.1:59190	admin	200		51.16 ms
+13:16:35.088	127.0.0.1:59190	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:16:35.182	127.0.0.1:59190	admin	200		95.28 ms
+13:17:42.800	127.0.0.1:59228	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:17:42.888	127.0.0.1:59228	admin	200		88.25 ms
+13:17:42.944	127.0.0.1:59228	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:17:43.054	127.0.0.1:59228	admin	200		110.86 ms
+13:17:49.426	127.0.0.1:59228	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:17:49.487	127.0.0.1:59228	admin	200		60.66 ms
+13:17:49.584	127.0.0.1:59228	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:17:49.673	127.0.0.1:59228	admin	200		89.57 ms
+13:21:18.358	127.0.0.1:59336	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:21:18.451	127.0.0.1:59336	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 31/5: [XUDY0027] Replace target is an empty sequence.	93.81 ms
+13:22:50.964	127.0.0.1:59480	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:22:51.030	127.0.0.1:59480	admin	200		66.37 ms
+13:22:51.119	127.0.0.1:59480	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:22:51.203	127.0.0.1:59480	admin	200		84.67 ms
+13:25:08.421	127.0.0.1:59654	admin	REQUEST	[GET] http://localhost:8984/game/2
+13:25:08.434	127.0.0.1:59654	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Expecting 'modify', found 'l'.	13.07 ms
+13:25:21.568	127.0.0.1:59654	admin	REQUEST	[GET] http://localhost:8984/game/2
+13:25:21.579	127.0.0.1:59654	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	11.08 ms
+13:34:35.861	127.0.0.1:59846	admin	REQUEST	[GET] http://localhost:8984/game/2
+13:34:35.926	127.0.0.1:59846	admin	200		65.46 ms
+13:34:35.985	127.0.0.1:59846	admin	REQUEST	[GET] http://localhost:8984/game/2
+13:34:36.068	127.0.0.1:59846	admin	200		83.82 ms
+13:38:20.662	127.0.0.1:60038	admin	REQUEST	[GET] http://localhost:8984/game/2
+13:38:20.742	127.0.0.1:60038	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	80.28 ms
+13:39:10.134	127.0.0.1:60038	admin	REQUEST	[GET] http://localhost:8984/game/2
+13:39:10.190	127.0.0.1:60038	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	56.14 ms
+13:39:58.064	127.0.0.1:60038	admin	REQUEST	[GET] http://localhost:8984/game/2
+13:39:58.114	127.0.0.1:60038	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	51.08 ms
+13:40:12.614	127.0.0.1:60038	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:40:12.667	127.0.0.1:60038	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	53.31 ms
+13:41:37.205	127.0.0.1:60168	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:41:37.242	127.0.0.1:60168	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	37.55 ms
+13:42:00.596	127.0.0.1:60168	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:42:00.643	127.0.0.1:60168	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	46.39 ms
+13:42:07.053	127.0.0.1:60168	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:42:07.090	127.0.0.1:60168	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	36.68 ms
+13:42:15.268	127.0.0.1:60168	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:42:15.320	127.0.0.1:60168	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	52.43 ms
+13:48:04.383	127.0.0.1:60636	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:48:04.402	127.0.0.1:60636	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 35/4: [XPST0003] Expecting '}', found ';'.	19.15 ms
+13:49:38.509	127.0.0.1:60656	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:49:38.529	127.0.0.1:60656	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 77/34: [XPST0008] Undefined variable $redirect.	20.24 ms
+13:50:19.980	127.0.0.1:60656	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:50:20.008	127.0.0.1:60656	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 38/4: [XPST0003] Expecting '}', found ';'.	28.94 ms
+13:51:54.146	127.0.0.1:60734	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:51:54.205	127.0.0.1:60734	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	59.14 ms
+13:52:11.841	127.0.0.1:60734	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:52:11.887	127.0.0.1:60734	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	45.69 ms
+13:52:13.852	127.0.0.1:60734	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:52:13.895	127.0.0.1:60734	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	43.87 ms
+13:52:22.110	SERVER	admin	OK	Server was stopped (port: 1984).
+13:52:22.111	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+13:52:24.565	SERVER	admin	OK	Server was started (port: 1984).
+13:52:24.610	SERVER	admin	OK	HTTP Server was started (port: 8984).
+13:52:43.110	127.0.0.1:60758	admin	REQUEST	[GET] http://localhost:8984/creategame
+13:52:44.632	127.0.0.1:60758	admin	200		1524.4 ms
+13:52:44.695	127.0.0.1:60758	admin	REQUEST	[GET] http://localhost:8984/game/3
+13:52:44.929	127.0.0.1:60758	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUDY0027] Replace target is an empty sequence.	235.04 ms
+13:54:00.752	127.0.0.1:60798	admin	REQUEST	[GET] http://localhost:8984/game/3
+13:54:00.928	127.0.0.1:60798	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/5: [XUTY0008] Target must be element, text, attribute, comment or pi: "$doc/doc/spielfeld/haus[besitze....	175.24 ms
+13:54:24.368	127.0.0.1:60798	admin	REQUEST	[GET] http://localhost:8984/game/3
+13:54:24.398	127.0.0.1:60798	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 30/64: [XPST0003] Expecting 'with', found '1'.	29.9 ms
+13:55:24.968	127.0.0.1:60882	admin	REQUEST	[GET] http://localhost:8984/game/3
+13:55:25.184	127.0.0.1:60882	admin	200		216.44 ms
+13:55:25.259	127.0.0.1:60882	admin	REQUEST	[GET] http://localhost:8984/game/3
+13:55:25.519	127.0.0.1:60882	admin	200		259.98 ms
+15:16:01.923	127.0.0.1:32954	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:16:01.956	127.0.0.1:32954	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Expecting 'modify', found 'p'.	33.19 ms
+15:16:11.509	127.0.0.1:32954	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:16:11.538	127.0.0.1:32954	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	28.94 ms
+15:16:23.907	127.0.0.1:32954	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:16:23.957	127.0.0.1:32954	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 28/9: [XUST0001] StaticFunc expression: no updating expression allowed.	50.64 ms
+15:17:48.754	127.0.0.1:33052	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:17:48.791	127.0.0.1:33052	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 30/53: [XPST0008] Undefined variable $dbID.	37.14 ms
+15:18:04.544	127.0.0.1:33052	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:18:04.571	127.0.0.1:33052	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 28/9: [XUST0001] StaticFunc expression: no updating expression allowed.	26.85 ms
+15:18:22.167	127.0.0.1:33052	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:18:22.187	127.0.0.1:33052	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/11: [XUST0001] Transform expression: no updating expression allowed.	20.04 ms
+15:18:49.042	127.0.0.1:33052	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:18:49.067	127.0.0.1:33052	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/11: [XUST0001] Transform expression: no updating expression allowed.	25.3 ms
+15:19:04.351	127.0.0.1:33052	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:19:04.441	127.0.0.1:33052	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 108/7: [XUTY0008] Target must be element, text, attribute, comment or pi: document-node {"mancala2.xml"}.	90.78 ms
+15:19:40.306	127.0.0.1:33052	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:19:40.392	127.0.0.1:33052	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 108/7: [XUDY0027] Replace target is an empty sequence.	86.87 ms
+15:21:35.977	127.0.0.1:33322	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:21:36.079	127.0.0.1:33322	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 108/7: [XUDY0027] Replace target is an empty sequence.	103.0 ms
+15:29:20.048	127.0.0.1:33460	admin	REQUEST	[GET] http://localhost:8984/game/3
+15:29:20.077	127.0.0.1:33460	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 30/37: [XPST0081] No namespace declared for 'xsl:stylesheet'.	28.8 ms
+15:30:02.285	127.0.0.1:33460	admin	REQUEST	[GET] http://localhost:8984/init
+15:30:02.314	127.0.0.1:33460	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 30/37: [XPST0081] No namespace declared for 'xsl:stylesheet'.	28.94 ms
+15:30:05.482	127.0.0.1:33460	admin	REQUEST	[GET] http://localhost:8984/init
+15:30:05.511	127.0.0.1:33460	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 30/37: [XPST0081] No namespace declared for 'xsl:stylesheet'.	29.32 ms
+15:30:49.269	127.0.0.1:33460	admin	REQUEST	[GET] http://localhost:8984/init
+15:30:49.308	127.0.0.1:33460	admin	200		39.32 ms
+15:30:49.350	127.0.0.1:33460	admin	REQUEST	[GET] http://localhost:8984/
+15:30:49.380	127.0.0.1:33460	admin	404	No function found that matches the request.	29.47 ms
+15:30:57.206	127.0.0.1:33460	admin	REQUEST	[GET] http://localhost:8984/creategame
+15:30:57.245	127.0.0.1:33460	admin	200		39.39 ms
+15:30:57.311	127.0.0.1:33460	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:30:57.438	127.0.0.1:33460	admin	200		126.85 ms
+15:30:57.535	127.0.0.1:33460	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:30:57.654	127.0.0.1:33460	admin	200		119.44 ms
+15:32:35.401	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:32:35.481	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 33/5: [XUDY0027] Replace target is an empty sequence.	80.56 ms
+15:33:08.554	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:33:08.575	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/11: [XUST0002] Function body must be an updating expression.	21.65 ms
+15:33:34.477	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:33:34.517	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/11: [XUST0001] Transform expression: no updating expression allowed.	39.99 ms
+15:33:45.284	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:33:45.306	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 30/5: [XPST0003] Expecting 'modify', found 'r'.	21.99 ms
+15:33:57.040	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:33:57.059	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 29/5: [XPST0003] Incomplete FLWOR expression: expecting 'return'.	19.15 ms
+15:34:11.607	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:34:11.666	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/3: [XUDY0027] Replace target is an empty sequence.	59.48 ms
+15:34:23.742	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:34:23.813	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 31/11: [XUDY0027] Replace target is an empty sequence.	71.45 ms
+15:34:26.934	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:34:26.983	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 31/11: [XUDY0027] Replace target is an empty sequence.	48.65 ms
+15:34:27.272	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:34:27.335	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 31/11: [XUDY0027] Replace target is an empty sequence.	63.35 ms
+15:34:38.176	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:34:38.224	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/3: [XUDY0027] Replace target is an empty sequence.	48.18 ms
+15:34:45.695	127.0.0.1:33746	admin	REQUEST	[GET] http://localhost:8984/game/1
+15:34:45.786	127.0.0.1:33746	admin	400	Stopped at /home/gap/Dokumente/basex/webapp/restxq.xqm, 32/3: [XUDY0027] Replace target is an empty sequence.	91.86 ms

@@ -1,0 +1,6 @@
+13:12:00.320	127.0.0.1:34052	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:12:00.428	127.0.0.1:34052	admin	200		108.55 ms
+13:12:00.514	127.0.0.1:34052	admin	REQUEST	[GET] http://localhost:8984/game/1
+13:12:00.580	127.0.0.1:34052	admin	200		65.81 ms
+13:12:14.047	SERVER	admin	OK	Server was stopped (port: 1984).
+13:12:14.047	SERVER	admin	OK	HTTP Server was stopped (port: 8984).

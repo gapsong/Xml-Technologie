@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT spielfeld (spiel, mulde+,haus+)>
+
+<!ELEMENT spiel (gewonnen, istAmZug)>
+<!ELEMENT gewonnen (#PCDATA)>
+<!ELEMENT istAmZug (#PCDATA)>
+
+<!ELEMENT mulde (anzahlSteine,posX,posY)>
+     <!ATTLIST mulde
+      besitzer CDATA #REQUIRED
+      id CDATA #REQUIRED>
+<!ELEMENT anzahlSteine (#PCDATA)>  
+<!ELEMENT posX (#PCDATA)>
+<!ELEMENT posY (#PCDATA)>
+  
+<!ELEMENT haus (anzahlSteineimHaus)>
+    <!ATTLIST haus
+      besitzer CDATA #REQUIRED>
+<!ELEMENT anzahlSteineimHaus (#PCDATA)>    
+    
+

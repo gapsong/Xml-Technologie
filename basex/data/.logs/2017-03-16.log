@@ -1,0 +1,149 @@
+14:12:50.913	SERVER	admin	ERROR	Server is running or permission was denied.
+14:13:08.323	SERVER	admin	OK	Server was started (port: 1984).
+14:13:08.367	SERVER	admin	OK	HTTP Server was started (port: 8984).
+14:13:33.745	127.0.0.1:34028	admin	REQUEST	[GET] http://localhost:8984/game/1
+14:13:35.802	127.0.0.1:34028	admin	200		2058.38 ms
+14:13:35.890	127.0.0.1:34028	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:13:35.960	127.0.0.1:34028	admin	404	No function found that matches the request.	70.18 ms
+14:13:49.810	127.0.0.1:34028	admin	REQUEST	[GET] http://localhost:8984/
+14:13:49.924	127.0.0.1:34028	admin	200		114.86 ms
+14:13:49.935	127.0.0.1:34028	admin	REQUEST	[GET] http://localhost:8984/db/create
+14:13:50.136	127.0.0.1:34028	admin	200		201.67 ms
+14:13:50.142	127.0.0.1:34028	admin	REQUEST	[GET] http://localhost:8984/game/2
+14:13:50.250	127.0.0.1:34028	admin	200		107.64 ms
+14:13:54.895	127.0.0.1:34028	admin	REQUEST	[GET] http://localhost:8984/game/
+14:13:54.954	127.0.0.1:34028	admin	404	No function found that matches the request.	58.69 ms
+14:13:58.615	127.0.0.1:34028	admin	REQUEST	[GET] http://localhost:8984/
+14:13:58.676	127.0.0.1:34028	admin	200		61.63 ms
+14:13:58.687	127.0.0.1:34028	admin	REQUEST	[GET] http://localhost:8984/db/create
+14:13:58.795	127.0.0.1:34028	admin	200		108.92 ms
+14:13:58.802	127.0.0.1:34028	admin	REQUEST	[GET] http://localhost:8984/game/3
+14:13:58.962	127.0.0.1:34028	admin	200		159.88 ms
+14:14:03.705	127.0.0.1:34224	admin	REQUEST	[GET] http://localhost:8984/game/1
+14:14:03.801	127.0.0.1:34224	admin	200		95.51 ms
+14:14:03.942	127.0.0.1:34224	admin	REQUEST	[GET] http://localhost:8984/game/1
+14:14:04.124	127.0.0.1:34224	admin	200		182.15 ms
+14:14:04.310	127.0.0.1:34224	admin	REQUEST	[GET] http://localhost:8984/gamestate/1
+14:14:04.366	127.0.0.1:34224	admin	200		56.91 ms
+14:14:07.611	127.0.0.1:34224	admin	REQUEST	[GET] http://localhost:8984/game/3
+14:14:07.705	127.0.0.1:34224	admin	200		94.31 ms
+14:14:07.812	127.0.0.1:34224	admin	REQUEST	[GET] http://localhost:8984/game/3
+14:14:07.908	127.0.0.1:34224	admin	200		96.06 ms
+14:14:08.096	127.0.0.1:34224	admin	REQUEST	[GET] http://localhost:8984/gamestate/3
+14:14:08.148	127.0.0.1:34224	admin	200		54.07 ms
+14:14:22.922	127.0.0.1:34228	admin	REQUEST	[GET] http://localhost:8984/game/1
+14:14:23.015	127.0.0.1:34228	admin	200		93.46 ms
+14:14:23.355	127.0.0.1:34228	admin	REQUEST	[GET] http://localhost:8984/game/1
+14:14:23.410	127.0.0.1:34228	admin	200		55.39 ms
+14:14:23.472	127.0.0.1:34228	admin	REQUEST	[GET] http://localhost:8984/gamestate/1
+14:14:23.546	127.0.0.1:34228	admin	200		74.63 ms
+14:14:23.679	127.0.0.1:34228	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:14:23.721	127.0.0.1:34228	admin	404	No function found that matches the request.	41.45 ms
+14:14:25.036	127.0.0.1:34228	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+14:14:25.097	127.0.0.1:34228	admin	404	No function found that matches the request.	61.16 ms
+16:01:28.661	127.0.0.1:34588	admin	REQUEST	[GET] http://localhost:8984/
+16:01:28.699	127.0.0.1:34588	admin	200		38.81 ms
+16:01:28.720	127.0.0.1:34588	admin	REQUEST	[GET] http://localhost:8984/db/create
+16:01:28.780	127.0.0.1:34588	admin	200		60.7 ms
+16:01:28.787	127.0.0.1:34588	admin	REQUEST	[GET] http://localhost:8984/game/4
+16:01:28.841	127.0.0.1:34588	admin	200		54.16 ms
+16:01:28.967	127.0.0.1:34588	admin	REQUEST	[GET] http://localhost:8984/game/4
+16:01:29.046	127.0.0.1:34588	admin	200		80.37 ms
+16:01:29.498	127.0.0.1:34588	admin	REQUEST	[GET] http://localhost:8984/gamestate/4
+16:01:29.544	127.0.0.1:34588	admin	200		46.4 ms
+17:41:37.553	127.0.0.1:35138	admin	REQUEST	[GET] http://localhost:8984/
+17:41:37.630	127.0.0.1:35138	admin	200		77.48 ms
+17:41:37.638	127.0.0.1:35138	admin	REQUEST	[GET] http://localhost:8984/db/create
+17:41:37.762	127.0.0.1:35138	admin	200		124.47 ms
+17:41:37.780	127.0.0.1:35138	admin	REQUEST	[GET] http://localhost:8984/game/5
+17:41:37.851	127.0.0.1:35138	admin	200		71.5 ms
+17:41:38.061	127.0.0.1:35138	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+17:41:38.120	127.0.0.1:35138	admin	404	No function found that matches the request.	58.66 ms
+17:42:05.763	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/
+17:42:05.816	127.0.0.1:35156	admin	200		52.8 ms
+17:42:05.833	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/db/create
+17:42:05.914	127.0.0.1:35156	admin	200		83.46 ms
+17:42:05.924	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/game/6
+17:42:05.979	127.0.0.1:35156	admin	200		54.56 ms
+17:42:06.070	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/game/6
+17:42:06.268	127.0.0.1:35156	admin	200		198.65 ms
+17:42:06.465	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/gamestate/6
+17:42:06.510	127.0.0.1:35156	admin	200		45.71 ms
+17:42:22.498	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/
+17:42:22.518	127.0.0.1:35156	admin	400	Stopped at /home/gap/Dokumente/Xml/khiemTest/basex/webapp/mancala.xqm, 70/11: [XPST0017] Unknown function: fn:return.	19.71 ms
+17:42:46.224	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/
+17:42:46.269	127.0.0.1:35156	admin	200		45.39 ms
+17:42:46.282	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/db/create
+17:42:46.362	127.0.0.1:35156	admin	200		79.45 ms
+17:42:46.378	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/game/7
+17:42:46.448	127.0.0.1:35156	admin	200		70.35 ms
+17:42:46.543	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/game/7
+17:42:46.626	127.0.0.1:35156	admin	200		82.91 ms
+17:42:46.824	127.0.0.1:35156	admin	REQUEST	[GET] http://localhost:8984/gamestate/7
+17:42:46.873	127.0.0.1:35156	admin	200		49.86 ms
+17:46:02.517	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/game/7
+17:46:02.527	127.0.0.1:35214	admin	400	Stopped at /home/gap/Dokumente/Xml/khiemTest/basex/webapp/mancala.xqm, 70/11: [XPST0017] Unknown function: fn:return.	10.41 ms
+17:46:03.649	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/game/7
+17:46:03.664	127.0.0.1:35214	admin	400	Stopped at /home/gap/Dokumente/Xml/khiemTest/basex/webapp/mancala.xqm, 70/11: [XPST0017] Unknown function: fn:return.	15.66 ms
+17:46:20.636	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/game/7
+17:46:20.652	127.0.0.1:35214	admin	400	Stopped at /home/gap/Dokumente/Xml/khiemTest/basex/webapp/mancala.xqm, 71/16: [XUST0001] StaticFunc expression: no updating expression allowed.	16.46 ms
+17:46:21.502	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/game/7
+17:46:21.516	127.0.0.1:35214	admin	400	Stopped at /home/gap/Dokumente/Xml/khiemTest/basex/webapp/mancala.xqm, 71/16: [XUST0001] StaticFunc expression: no updating expression allowed.	14.16 ms
+17:46:21.769	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/game/7
+17:46:21.777	127.0.0.1:35214	admin	400	Stopped at /home/gap/Dokumente/Xml/khiemTest/basex/webapp/mancala.xqm, 71/16: [XUST0001] StaticFunc expression: no updating expression allowed.	7.57 ms
+17:46:41.127	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/game/7
+17:46:41.172	127.0.0.1:35214	admin	200		45.25 ms
+17:46:41.220	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/game/7
+17:46:41.283	127.0.0.1:35214	admin	200		64.02 ms
+17:46:41.429	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/gamestate/7
+17:46:41.473	127.0.0.1:35214	admin	200		43.66 ms
+17:47:29.227	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/
+17:47:29.258	127.0.0.1:35214	admin	200		30.54 ms
+17:47:29.281	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/db/create
+17:47:29.334	127.0.0.1:35214	admin	200		53.86 ms
+17:47:29.348	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/game/8
+17:47:29.409	127.0.0.1:35214	admin	200		61.37 ms
+17:47:29.469	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/game/8
+17:47:29.520	127.0.0.1:35214	admin	200		51.36 ms
+17:47:29.691	127.0.0.1:35214	admin	REQUEST	[GET] http://localhost:8984/gamestate/8
+17:47:29.750	127.0.0.1:35214	admin	200		60.13 ms
+17:47:41.003	SERVER	admin	OK	Server was stopped (port: 1984).
+17:47:41.004	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:47:42.448	SERVER	admin	OK	Server was started (port: 1984).
+17:47:42.495	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:47:51.694	SERVER	admin	OK	Server was stopped (port: 1984).
+17:47:51.695	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:47:53.379	SERVER	admin	OK	Server was started (port: 1984).
+17:47:53.427	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:48:07.572	127.0.0.1:35248	admin	REQUEST	[GET] http://localhost:8984/
+17:48:09.074	127.0.0.1:35248	admin	200		1505.22 ms
+17:48:09.085	127.0.0.1:35248	admin	REQUEST	[GET] http://localhost:8984/db/create
+17:48:09.332	127.0.0.1:35248	admin	200		247.8 ms
+17:48:09.342	127.0.0.1:35248	admin	REQUEST	[GET] http://localhost:8984/game/9
+17:48:09.564	127.0.0.1:35248	admin	200		221.7 ms
+17:48:09.654	127.0.0.1:35248	admin	REQUEST	[GET] http://localhost:8984/game/9
+17:48:09.813	127.0.0.1:35248	admin	200		159.25 ms
+17:48:09.895	127.0.0.1:35248	admin	REQUEST	[GET] http://localhost:8984/gamestate/9
+17:48:10.061	127.0.0.1:35248	admin	200		166.4 ms
+17:48:28.512	SERVER	admin	OK	Server was stopped (port: 1984).
+17:48:28.513	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:48:33.316	SERVER	admin	OK	Server was started (port: 1984).
+17:48:33.373	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:48:40.965	127.0.0.1:35252	admin	REQUEST	[GET] http://localhost:8984/
+17:48:42.479	127.0.0.1:35252	admin	200		1515.89 ms
+17:48:42.487	127.0.0.1:35252	admin	REQUEST	[GET] http://localhost:8984/db/create
+17:48:42.783	127.0.0.1:35252	admin	400	Stopped at /home/gap/Dokumente/Xml/khiemTest/basex/webapp/mancala.xqm, 95/26: [bxerr:BXDB0002] Database 'games' was not found.	295.72 ms
+17:49:21.585	SERVER	admin	OK	Server was stopped (port: 1984).
+17:49:21.585	SERVER	admin	OK	HTTP Server was stopped (port: 8984).
+17:49:25.545	SERVER	admin	OK	Server was started (port: 1984).
+17:49:25.599	SERVER	admin	OK	HTTP Server was started (port: 8984).
+17:49:34.889	127.0.0.1:35254	admin	REQUEST	[GET] http://localhost:8984/
+17:49:36.359	127.0.0.1:35254	admin	200		1471.91 ms
+17:49:36.372	127.0.0.1:35254	admin	REQUEST	[GET] http://localhost:8984/db/create
+17:49:36.647	127.0.0.1:35254	admin	200		275.23 ms
+17:49:36.671	127.0.0.1:35254	admin	REQUEST	[GET] http://localhost:8984/game/10
+17:49:36.869	127.0.0.1:35254	admin	200		198.14 ms
+17:49:36.932	127.0.0.1:35254	admin	REQUEST	[GET] http://localhost:8984/game/10
+17:49:37.149	127.0.0.1:35254	admin	200		217.94 ms
+17:49:37.216	127.0.0.1:35254	admin	REQUEST	[GET] http://localhost:8984/gamestate/10
+17:49:37.374	127.0.0.1:35254	admin	200		158.16 ms

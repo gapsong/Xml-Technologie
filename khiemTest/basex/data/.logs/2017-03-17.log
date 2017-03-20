@@ -1,0 +1,52 @@
+10:22:34.196	127.0.0.1:35914	admin	REQUEST	[GET] http://localhost:8984/
+10:22:34.290	127.0.0.1:35914	admin	200		93.99 ms
+10:22:34.435	127.0.0.1:35914	admin	REQUEST	[GET] http://localhost:8984/db/create
+10:22:34.620	127.0.0.1:35914	admin	200		184.95 ms
+10:22:35.224	127.0.0.1:35914	admin	REQUEST	[GET] http://localhost:8984/game/11
+10:22:35.415	127.0.0.1:35914	admin	200		191.25 ms
+10:22:35.891	127.0.0.1:35914	admin	REQUEST	[GET] http://localhost:8984/game/11
+10:22:36.112	127.0.0.1:35914	admin	200		221.32 ms
+10:22:36.464	127.0.0.1:35914	admin	REQUEST	[GET] http://localhost:8984/gamestate/11
+10:22:36.605	127.0.0.1:35914	admin	200		141.26 ms
+11:50:16.789	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/
+11:50:16.861	127.0.0.1:36308	admin	200		72.38 ms
+11:50:16.886	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/db/create
+11:50:16.958	127.0.0.1:36308	admin	200		72.11 ms
+11:50:16.972	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/game/12
+11:50:17.052	127.0.0.1:36308	admin	200		80.55 ms
+11:50:17.168	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/game/12
+11:50:17.260	127.0.0.1:36308	admin	200		91.99 ms
+11:50:17.617	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/gamestate/12
+11:50:17.680	127.0.0.1:36308	admin	200		64.31 ms
+11:50:18.016	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+11:50:18.057	127.0.0.1:36308	admin	404	No function found that matches the request.	42.17 ms
+11:50:18.068	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/favicon.ico
+11:50:18.111	127.0.0.1:36308	admin	404	No function found that matches the request.	42.95 ms
+11:50:26.408	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/clicked/12/6
+11:50:26.506	127.0.0.1:36308	admin	200		97.98 ms
+11:50:26.531	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/updategamefinished/12
+11:50:26.619	127.0.0.1:36308	admin	200		88.03 ms
+11:50:26.646	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/game/12
+11:50:26.722	127.0.0.1:36308	admin	200		76.18 ms
+11:50:26.837	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/game/12
+11:50:26.895	127.0.0.1:36308	admin	200		58.2 ms
+11:50:27.064	127.0.0.1:36308	admin	REQUEST	[GET] http://localhost:8984/gamestate/12
+11:50:27.108	127.0.0.1:36308	admin	200		43.58 ms
+11:58:15.266	127.0.0.1:36382	admin	REQUEST	[GET] http://localhost:8984/degub/update
+11:58:15.312	127.0.0.1:36382	admin	404	No function found that matches the request.	46.46 ms
+11:58:23.408	127.0.0.1:36382	admin	REQUEST	[GET] http://localhost:8984/debug/update
+11:58:23.451	127.0.0.1:36382	admin	200		42.52 ms
+11:58:37.049	127.0.0.1:36382	admin	REQUEST	[GET] http://localhost:8984/debug/get
+11:58:37.095	127.0.0.1:36382	admin	200		46.49 ms
+12:18:08.527	127.0.0.1:36680	admin	REQUEST	[GET] http://localhost:8984/
+12:18:08.579	127.0.0.1:36680	admin	200		54.09 ms
+12:18:08.598	127.0.0.1:36680	admin	REQUEST	[GET] http://localhost:8984/db/create
+12:18:08.664	127.0.0.1:36680	admin	200		66.08 ms
+12:18:08.671	127.0.0.1:36680	admin	REQUEST	[GET] http://localhost:8984/game/13
+12:18:08.735	127.0.0.1:36680	admin	200		64.8 ms
+12:18:08.806	127.0.0.1:36680	admin	REQUEST	[GET] http://localhost:8984/game/13
+12:18:08.892	127.0.0.1:36680	admin	200		86.31 ms
+12:18:09.277	127.0.0.1:36680	admin	REQUEST	[GET] http://localhost:8984/gamestate/13
+12:18:09.327	127.0.0.1:36680	admin	200		49.75 ms
+12:18:15.842	SERVER	admin	OK	Server was stopped (port: 1984).
+12:18:15.843	SERVER	admin	OK	HTTP Server was stopped (port: 8984).

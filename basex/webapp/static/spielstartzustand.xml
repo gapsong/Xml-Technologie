@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE spielfeld SYSTEM "spielzustand.dtd">
+
+<spielfeld>
+    <spiel>
+        <ID>-1</ID>
+        <gewonnen>nein</gewonnen>
+        <istAmZug>spieler1</istAmZug>
+    </spiel>
+
+    <mulde besitzer="1" id="6">
+        <anzahlSteine>
+            1
+        </anzahlSteine>
+        <posX>20.5%</posX>
+        <posY>23%</posY>
+    </mulde>
+    <mulde besitzer="1" id="5">
+        <anzahlSteine>
+            2
+        </anzahlSteine>
+        <posX>30%</posX>
+        <posY>23%</posY>
+    </mulde>
+    <mulde besitzer="1" id="4">
+        <anzahlSteine>
+            3
+        </anzahlSteine>
+        <posX>39.5%</posX>
+        <posY>23%</posY>
+    </mulde>
+    <mulde besitzer="1" id="3">
+        <anzahlSteine>
+            4</anzahlSteine>
+        <posX>49%</posX>
+        <posY>23%</posY>
+    </mulde>
+    <mulde besitzer="1" id="2">
+        <anzahlSteine>
+            5
+        </anzahlSteine>
+        <posX>58.5%</posX>
+        <posY>23%</posY>
+    </mulde>
+    <mulde besitzer="1" id="1">
+        <anzahlSteine>
+            12
+        </anzahlSteine>
+        <posX>68%</posX>
+        <posY>23%</posY>
+    </mulde>
+
+    <mulde besitzer="2" id="6">
+        <anzahlSteine>
+            12
+        </anzahlSteine>
+        <posX>68%</posX>
+        <posY>65%</posY>
+    </mulde>
+    <mulde besitzer="2" id="5">
+        <anzahlSteine>
+            4
+        </anzahlSteine>
+        <posX>58.5%</posX>
+        <posY>65%</posY>
+    </mulde>
+    <mulde besitzer="2" id="4">
+        <anzahlSteine>
+            10
+        </anzahlSteine>
+        <posX>49%</posX>
+        <posY>65%</posY>
+    </mulde>
+    <mulde besitzer="2" id="3">
+        <anzahlSteine>
+            12
+        </anzahlSteine>
+        <posX>39.5%</posX>
+        <posY>65%</posY>
+    </mulde>
+    <mulde besitzer="2" id="2">
+        <anzahlSteine>
+            12
+        </anzahlSteine>
+        <posX>30%</posX>
+        <posY>65%</posY>
+    </mulde>
+    <mulde besitzer="2" id="1">
+        <anzahlSteine>
+            4
+        </anzahlSteine>
+        <posX>20.5%</posX>
+        <posY>65%</posY>
+    </mulde>
+
+    <haus besitzer="1">
+        <anzahlSteineimHaus>
+            1
+        </anzahlSteineimHaus>
+    </haus>
+
+    <haus besitzer="2">
+        <anzahlSteineimHaus>
+            2
+        </anzahlSteineimHaus>
+    </haus>
+</spielfeld>
