@@ -50,37 +50,37 @@ id ID #REQUIRED>
        </besitzer>
         
        <besitzer id="2">
-            <mulde id="6">
+            <mulde id="13">
                 <anzahlSteine> 12 </anzahlSteine>
                 <posX>68.5%</posX>
                 <posY>61%</posY>
             </mulde>
-            <mulde id="5">
+            <mulde id="12">
                 <anzahlSteine> 12 </anzahlSteine>
                 <posX>58.8%</posX>
                 <posY>61%</posY>
             </mulde>
-            <mulde id="4">
+            <mulde id="11">
                 <anzahlSteine> 12 </anzahlSteine>
                 <posX>49.3%</posX>
                 <posY>61%</posY>
             </mulde>
-            <mulde id="3">
+            <mulde id="10">
                 <anzahlSteine> 12 </anzahlSteine>
                 <posX>39.7%</posX>
                 <posY>61%</posY>
             </mulde>
-            <mulde id="2">
+            <mulde id="9">
                 <anzahlSteine> 12 </anzahlSteine>
                 <posX>30%</posX>
                 <posY>61%</posY>
             </mulde>
-            <mulde id="1">
+            <mulde id="8">
                 <anzahlSteine> 12 </anzahlSteine>
                 <posX>20.3%</posX>
                 <posY>61%</posY>
             </mulde>
-           <haus id="7">
+           <haus id="14">
                <anzahlSteineimHaus> 2 </anzahlSteineimHaus>
            </haus>
        </besitzer>
@@ -112,12 +112,15 @@ id ID #REQUIRED>
             <svg>
                 <text x="67.8%" y="8%" font-size="60" font-family="monospace" fill="blue" text-anchor="middle">Player 1's turn
                 </text>
+                <!-- the arrow -->
+                <polygon points="210,180 290,180 250,220" style="fill:blue"/>
             </svg>
         </xsl:if>
         <xsl:if test="istAmZug = '2'">
             <svg>
                 <text x="67.8%" y="98%" font-size="60" font-family="monospace" fill="blue" text-anchor="middle">Player 2's turn
                 </text>
+                <polygon points="1460,180 1540,180 1500,220" style="fill:blue"/>
             </svg>
         </xsl:if>
     </xsl:for-each>
