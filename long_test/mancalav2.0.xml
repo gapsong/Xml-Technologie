@@ -13,7 +13,7 @@ id ID #REQUIRED>
         </spiel>
         
         <mulde besitzer="1" id="6">
-            <anzahlSteine> 1 </anzahlSteine>
+            <anzahlSteine> 12 </anzahlSteine>
             <posX>20.5%</posX>
             <posY>23%</posY>
         </mulde>
@@ -85,8 +85,8 @@ id ID #REQUIRED>
     <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         xmlns="http://www.w3.org/2000/svg">
         
-        <!--<xsl:output method="xml" indent="yes" standalone="no" doctype-public="-//W3C//DTD SVG 1.1//EN"
-        doctype-system="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" media-type="image/svg"/>-->
+        <xsl:output method="xml" indent="yes" standalone="no" doctype-public="-//W3C//DTD SVG 1.1//EN"
+        doctype-system="http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" media-type="image/svg"/>
         <!-- avoid the stylesheet running on itself -->
         <xsl:template match="xsl:stylesheet"/>
         <xsl:template match="doc">
@@ -117,7 +117,7 @@ id ID #REQUIRED>
     </xsl:for-each>
 <!--  change the display of the stones in each player's "mulde" (using template "steineInMulde"    -->
     <xsl:call-template name="steineInMulde"/>
-    
+ 
     </svg>
         </xsl:template>
 <!--define the template "steineInMulde"     -->   
@@ -140,6 +140,11 @@ id ID #REQUIRED>
                 </defs>
             </svg>
             <xsl:for-each select="spielfeld/mulde">
+<!-- display the counter for each Mulde -->
+                <text x="{self::node()/posX}" y="{self::node()/posY}" transform="translate(80 -20)" font-size="20" font-family="monospace" fill="red" >
+                    <xsl:value-of select="anzahlSteine"/>
+                </text>
+<!-- display the stones for each Mulde  -->
                 <xsl:choose>
                     <xsl:when test="anzahlSteine = 0"> </xsl:when>
                     <xsl:when test="anzahlSteine = 1">
@@ -183,6 +188,7 @@ id ID #REQUIRED>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:for-each>
+   
         </xsl:template>
         
     </xsl:stylesheet>
