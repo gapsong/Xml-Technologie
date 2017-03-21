@@ -6,11 +6,12 @@
 id ID #REQUIRED>
 ]>
 <doc>
+<!--the gamestate -->
     <spielfeld>
         <spiel>
             <spielID>-1</spielID>
             <gewonnen>nein</gewonnen>
-            <istAmZug>1</istAmZug>
+            <istAmZug>2</istAmZug>
         </spiel>
 
         <besitzer id="1">
@@ -89,6 +90,7 @@ id ID #REQUIRED>
 
 
     </spielfeld>
+<!--    xslt part   -->
     <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
         xmlns="http://www.w3.org/2000/svg">
 
@@ -104,13 +106,13 @@ id ID #REQUIRED>
         <text x="14.5%" y="55%" font-size="130" font-family="monospace" fill="white" text-anchor="middle"> <xsl:value-of select="spielfeld/besitzer[1]/haus/anzahlSteineimHaus"/> </text>
     </svg>
     <svg id="store-p2-score">
-        <text x="86.5%" y="55%" font-size="130" font-family="monospace" fill="white" text-anchor="middle"><xsl:value-of select="spielfeld/besitzer[2]/haus/anzahlSteineimHaus"/></text>
+        <text x="86.5%" y="55%" font-size="130" font-family="monospace" fill="white" text-anchor="middle"> <xsl:value-of select="spielfeld/besitzer[2]/haus/anzahlSteineimHaus"/> </text>
     </svg>
 <!--  change the text and the arrow which player is on turn-->
     <xsl:for-each select="spielfeld/spiel">
         <xsl:if test="istAmZug = '1'">
             <svg>
-                <text x="67.8%" y="8%" font-size="60" font-family="monospace" fill="blue" text-anchor="middle">Player 1's turn
+                <text x="35%" y="8%" font-size="60" font-family="monospace" fill="blue" >Player 1's turn
                 </text>
                 <!-- the arrow -->
                 <polygon points="210,180 290,180 250,220" style="fill:blue"/>
@@ -118,7 +120,7 @@ id ID #REQUIRED>
         </xsl:if>
         <xsl:if test="istAmZug = '2'">
             <svg>
-                <text x="67.8%" y="98%" font-size="60" font-family="monospace" fill="blue" text-anchor="middle">Player 2's turn
+                <text x="35%" y="98%" font-size="60" font-family="monospace" fill="blue" >Player 2's turn
                 </text>
                 <polygon points="1460,180 1540,180 1500,220" style="fill:blue"/>
             </svg>
@@ -148,8 +150,8 @@ id ID #REQUIRED>
                     <svg id="12-steine" width="100%" height="100%" viewBox="0 0 79 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;"><g><circle cx="40.5" cy="65.6" r="9.3" style="fill:#f55a1b;"/><path d="M38.516,60.105c1.216,-0.863 2.332,-1.38 2.492,-1.155c0.159,0.225 -0.698,1.108 -1.913,1.97c-1.215,0.863 -2.331,1.38 -2.491,1.155c-0.16,-0.225 0.697,-1.108 1.912,-1.97Z" style="fill:#fff;"/><circle cx="35.2" cy="63.5" r="0.5" style="fill:#fff;"/></g><g><circle cx="69.3" cy="43" r="9.3" style="fill:#f55a1b;"/><path d="M67.298,37.413c1.215,-0.862 2.332,-1.379 2.491,-1.154c0.16,0.225 -0.697,1.108 -1.912,1.97c-1.215,0.862 -2.332,1.38 -2.491,1.155c-0.16,-0.225 0.697,-1.108 1.912,-1.971Z" style="fill:#fff;"/><circle cx="64" cy="40.8" r="0.5" style="fill:#fff;"/></g><g><circle cx="59.6" cy="60.6" r="9.3" style="fill:#f55a1b;"/><path d="M57.708,55.065c1.215,-0.862 2.332,-1.379 2.491,-1.154c0.16,0.225 -0.697,1.107 -1.912,1.97c-1.215,0.862 -2.332,1.38 -2.491,1.155c-0.16,-0.225 0.697,-1.108 1.912,-1.971Z" style="fill:#fff;"/><circle cx="54.4" cy="58.4" r="0.5" style="fill:#fff;"/></g><g><circle cx="21.3" cy="62.1" r="9.3" style="fill:#f55a1b;"/><path d="M19.409,56.586c1.215,-0.863 2.332,-1.38 2.491,-1.155c0.16,0.225 -0.697,1.108 -1.912,1.97c-1.215,0.863 -2.332,1.38 -2.491,1.155c-0.16,-0.225 0.697,-1.108 1.912,-1.97Z" style="fill:#fff;"/><circle cx="16.1" cy="60" r="0.5" style="fill:#fff;"/></g><g><circle cx="9.3" cy="45.7" r="9.3" style="fill:#f55a1b;"/><path d="M7.296,40.117c1.215,-0.863 2.331,-1.38 2.491,-1.155c0.16,0.225 -0.697,1.108 -1.913,1.97c-1.215,0.863 -2.331,1.38 -2.491,1.155c-0.16,-0.225 0.697,-1.108 1.913,-1.97Z" style="fill:#fff;"/><circle cx="4" cy="43.5" r="0.5" style="fill:#fff;"/></g><g><circle cx="28.8" cy="44" r="9.3" style="fill:#f55a1b;"/><path d="M26.792,38.412c1.216,-0.862 2.332,-1.38 2.492,-1.155c0.159,0.226 -0.698,1.108 -1.913,1.971c-1.215,0.862 -2.332,1.38 -2.491,1.154c-0.16,-0.225 0.697,-1.107 1.912,-1.97Z" style="fill:#fff;"/><circle cx="23.5" cy="41.8" r="0.5" style="fill:#fff;"/></g><g><circle cx="48.3" cy="44.4" r="9.3" style="fill:#f55a1b;"/><path d="M46.321,38.897c1.215,-0.862 2.331,-1.379 2.491,-1.154c0.16,0.225 -0.697,1.108 -1.913,1.97c-1.215,0.862 -2.331,1.38 -2.491,1.155c-0.159,-0.225 0.697,-1.108 1.913,-1.971Z" style="fill:#fff;"/><circle cx="43" cy="42.2" r="0.5" style="fill:#fff;"/></g><g><circle cx="57.9" cy="26.5" r="9.3" style="fill:#f55a1b;"/><path d="M55.961,20.909c1.216,-0.863 2.332,-1.38 2.492,-1.155c0.159,0.225 -0.698,1.108 -1.913,1.97c-1.215,0.863 -2.331,1.38 -2.491,1.155c-0.16,-0.225 0.697,-1.108 1.912,-1.97Z" style="fill:#fff;"/><circle cx="52.7" cy="24.3" r="0.5" style="fill:#fff;"/></g><g><circle cx="16.6" cy="26.5" r="9.3" style="fill:#f55a1b;"/><path d="M14.654,20.88c1.215,-0.862 2.332,-1.379 2.491,-1.154c0.16,0.225 -0.697,1.107 -1.912,1.97c-1.215,0.862 -2.332,1.38 -2.491,1.155c-0.16,-0.225 0.697,-1.108 1.912,-1.971Z" style="fill:#fff;"/><circle cx="11.4" cy="24.3" r="0.5" style="fill:#fff;"/></g><g><circle cx="38.1" cy="26.5" r="9.3" style="fill:#f55a1b;"/><path d="M36.153,20.881c1.216,-0.862 2.332,-1.38 2.492,-1.155c0.159,0.225 -0.698,1.108 -1.913,1.971c-1.215,0.862 -2.331,1.379 -2.491,1.154c-0.16,-0.225 0.697,-1.108 1.912,-1.97Z" style="fill:#fff;"/><circle cx="32.9" cy="24.3" r="0.5" style="fill:#fff;"/></g><g><circle cx="27.1" cy="10.4" r="9.3" style="fill:#f55a1b;"/><path d="M25.2,4.793c1.215,-0.862 2.332,-1.38 2.491,-1.155c0.16,0.225 -0.697,1.108 -1.912,1.971c-1.215,0.862 -2.332,1.379 -2.491,1.154c-0.16,-0.225 0.697,-1.107 1.912,-1.97Z" style="fill:#fff;"/><circle cx="21.9" cy="8.2" r="0.5" style="fill:#fff;"/></g><g><circle cx="47.4" cy="9.3" r="9.3" style="fill:#f55a1b;"/><path d="M45.476,3.694c1.216,-0.863 2.332,-1.38 2.492,-1.155c0.159,0.225 -0.698,1.108 -1.913,1.97c-1.215,0.863 -2.331,1.38 -2.491,1.155c-0.16,-0.225 0.697,-1.108 1.912,-1.97Z" style="fill:#fff;"/><circle cx="42.2" cy="7.1" r="0.5" style="fill:#fff;"/></g></svg>
                 </defs>
             </svg>
+            <!-- display the stones for each Mulde  -->
             <xsl:for-each select="spielfeld/besitzer/mulde">
-                <!-- display the stones for each Mulde  -->
                 <xsl:choose>
                     <xsl:when test="anzahlSteine = 0"> </xsl:when>
                     <xsl:when test="anzahlSteine = 1">
@@ -208,15 +210,15 @@ id ID #REQUIRED>
             </xsl:for-each>
             <!-- display the counter for each Mulde from player 1-->
             <xsl:for-each select="spielfeld/besitzer[1]/mulde">
-                <text x="{self::node()/posX}" y="{self::node()/posY}" transform="translate(80 -35)"
-                    font-size="20" font-family="monospace" fill="red">
+                <text x="{self::node()/posX}" y="{self::node()/posY}" transform="translate(102 -35)"
+                    font-size="20" font-family="monospace" fill="red" text-anchor="middle">
                     <xsl:value-of select="anzahlSteine"/>
                 </text>
             </xsl:for-each>
             <!-- display the counter for each Mulde from player 2-->
             <xsl:for-each select="spielfeld/besitzer[2]/mulde">
-                <text x="{self::node()/posX}" y="{self::node()/posY}" transform="translate(80 111)"
-                    font-size="20" font-family="monospace" fill="red">
+                <text x="{self::node()/posX}" y="{self::node()/posY}" transform="translate(102 111)"
+                    font-size="20" font-family="monospace" fill="red" text-anchor="middle">
                     <xsl:value-of select="anzahlSteine"/>
                 </text>
             </xsl:for-each>
