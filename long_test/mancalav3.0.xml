@@ -213,7 +213,7 @@ id ID #REQUIRED>
                <xsl:for-each select="spielfeld/besitzer[1]/mulde">
                    <xsl:if test="not(anzahlSteine = 0)">
                        <a xlink:href="werf einen scheiß Link hier rein" >
-                           <circle style="fill-opacity:0" stroke="red" stroke-width="5" transform="translate(102 33)" cx="{self::node()/posX}" cy="{self::node()/posY}" r="50" />
+                           <circle style="fill-opacity:0" stroke="orange" stroke-width="5" transform="translate(102 33)" cx="{self::node()/posX}" cy="{self::node()/posY}" r="50" />
                        </a>
                    </xsl:if>
                </xsl:for-each>
