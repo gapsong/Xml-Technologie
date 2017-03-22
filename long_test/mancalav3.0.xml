@@ -230,7 +230,7 @@ id ID #REQUIRED>
             <xsl:if test="spielfeld/spiel/istAmZug = 1">
                 <xsl:for-each select="spielfeld/besitzer[1]/mulde">
                     <xsl:if test="not(anzahlSteine = 0)">
-                        <a xlink:href="werf einen scheiß Link hier rein">
+                        <a xlink:href="localhost:8984/clicked/{//spielID}/{self::node()/@id}">
                             <circle style="fill-opacity:0" stroke="red" stroke-width="5"
                                 transform="translate(102 33)" cx="{self::node()/posX}"
                                 cy="{self::node()/posY}" r="50"/>
@@ -242,7 +242,7 @@ id ID #REQUIRED>
             <xsl:if test="spielfeld/spiel/istAmZug = 2">
                 <xsl:for-each select="spielfeld/besitzer[2]/mulde">
                     <xsl:if test="not(anzahlSteine = 0)">
-                        <a xlink:href="werf einen scheiß Link hier rein">
+                        <a xlink:href="localhost:8984/clicked/{//spielID}/{self::node()/@id}">
                             <circle style="fill-opacity:0" stroke="red" stroke-width="5"
                                 transform="translate(102 33)" cx="{self::node()/posX}"
                                 cy="{self::node()/posY}" r="50"/>
