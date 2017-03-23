@@ -130,14 +130,7 @@ id ID #REQUIRED>
                 <text x="35%" y="8%" font-size="60" font-family="monospace" fill="blue" >Player 1's turn
                 </text>
                 <!-- the arrow -->
-                <polygon points="210,180 290,180 250,220" style="{board/trianglestyleWinner}" >
-                     <animate
-            attributeType="XML"
-            attributeName="fill"
-            values="{board/triangleAnimateWinner}"
-            dur="0.8s"
-            repeatCount="indefinite"/>
-                </polygon>
+                <polygon points="210,180 290,180 250,220" style="fill:blue"/>
             </svg>
         </xsl:if>
         <xsl:if test="istAmZug = '2'">
